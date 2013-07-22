@@ -1,0 +1,210 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SimpleEvent 6.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-22 23:01+0900\n"
+"PO-Revision-Date: 2013-07-22 23:01+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+# Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
+#: ../../../controller.php:3 ../../../blocks/add_event/add.php:2
+#: ../../../blocks/add_event/controller.php:2
+#: ../../../blocks/add_event/edit.php:2
+#: ../../../blocks/add_event/editor_init.php:1
+#: ../../../blocks/add_event/event_form.php:2
+#: ../../../blocks/add_event/view.php:2 ../../../blocks/event_list/add.php:2
+#: ../../../blocks/event_list/edit.php:2 ../../../blocks/event_list/form.php:2
+#: ../../../blocks/event_list/view.php:2
+#: ../../../blocks/event_list/templates/cEvents/view.php:2
+#: ../../../blocks/event_list/templates/page/view.php:2
+#: ../../../blocks/event_list/tools/iCal.php:2
+msgid "Access Denied."
+msgstr "アクセス拒否"
+
+#: ../../../controller.php:12
+msgid "A simple Event and Event list block"
+msgstr "シンプルなイベントとイベント一覧のブロック"
+
+#: ../../../controller.php:16
+msgid "SimpleEvent"
+msgstr "シンプルイベント"
+
+#: ../../../blocks/add_event/controller.php:12
+msgid "A simple block to add  Events."
+msgstr "イベントを追加するシンプルなブロック。"
+
+#: ../../../blocks/add_event/controller.php:16
+msgid "Simple Event"
+msgstr "シンプルイベント"
+
+#: ../../../blocks/add_event/event_form.php:20
+msgid "Event title"
+msgstr "イベントタイトル"
+
+#: ../../../blocks/add_event/event_form.php:56
+msgid "Event Category"
+msgstr "イベントカテゴリー"
+
+#: ../../../blocks/add_event/event_form.php:77
+msgid "or add new Category"
+msgstr "または新規カテゴリーを追加"
+
+#: ../../../blocks/add_event/event_form.php:85
+msgid "Date"
+msgstr "日付"
+
+#: ../../../blocks/add_event/event_form.php:92
+msgid "To"
+msgstr ""
+
+#: ../../../blocks/add_event/event_form.php:97
+msgid "Start Time  "
+msgstr "開始時間"
+
+#: ../../../blocks/add_event/event_form.php:102
+msgid "End Time  "
+msgstr "終了時間"
+
+#: ../../../blocks/add_event/event_form.php:107
+msgid "Display time as European"
+msgstr "ヨーロッパ表記で時間を表示"
+
+#: ../../../blocks/add_event/event_form.php:108
+#: ../../../blocks/event_list/form.php:88
+msgid "yes"
+msgstr "はい"
+
+#: ../../../blocks/add_event/event_form.php:117
+msgid "All Day Event?"
+msgstr "終日イベント？"
+
+#: ../../../blocks/add_event/event_form.php:118
+msgid "Yes"
+msgstr ""
+
+#: ../../../blocks/add_event/event_form.php:119
+msgid "No"
+msgstr ""
+
+#: ../../../blocks/add_event/event_form.php:130
+msgid "Recurring Event?"
+msgstr "繰り返しイベント？"
+
+#: ../../../blocks/add_event/event_form.php:131
+msgid "None"
+msgstr "なし"
+
+#: ../../../blocks/add_event/event_form.php:132
+msgid "Day"
+msgstr "日"
+
+#: ../../../blocks/add_event/event_form.php:133
+msgid "Week"
+msgstr "週"
+
+#: ../../../blocks/add_event/event_form.php:134
+msgid "Month"
+msgstr "月"
+
+#: ../../../blocks/add_event/event_form.php:143
+msgid "External URL?"
+msgstr "外部URL？"
+
+#: ../../../blocks/add_event/event_form.php:149
+msgid "Event Location"
+msgstr "イベント場所"
+
+#: ../../../blocks/add_event/event_form.php:154
+msgid "Event Address"
+msgstr "イベント住所"
+
+#: ../../../blocks/add_event/event_form.php:159
+msgid "Contact Name"
+msgstr "連絡先名"
+
+#: ../../../blocks/add_event/event_form.php:164
+msgid "Contact eMail"
+msgstr "連絡先Eメール"
+
+#: ../../../blocks/add_event/event_form.php:171
+msgid "Event Summary"
+msgstr "イベント概要"
+
+#: ../../../blocks/add_event/view.php:56
+msgid "All Day"
+msgstr "終日"
+
+#: ../../../blocks/add_event/view.php:68
+msgid "contact"
+msgstr "連絡先"
+
+#: ../../../blocks/event_list/controller.php:15
+msgid "Event List."
+msgstr "イベント一覧。"
+
+#: ../../../blocks/event_list/controller.php:19
+msgid "Event List"
+msgstr "イベント一覧"
+
+#: ../../../blocks/event_list/form.php:9
+msgid "Event List Title"
+msgstr "イベント一覧タイトル"
+
+#: ../../../blocks/event_list/form.php:13
+msgid "Choose event category"
+msgstr "イベントカテゴリーを選択"
+
+#: ../../../blocks/event_list/form.php:56
+msgid "Display message for \"no events\""
+msgstr "イベントが無いときに表示するメッセージ"
+
+#: ../../../blocks/event_list/form.php:61
+msgid "Number of Events"
+msgstr "イベント数"
+
+#: ../../../blocks/event_list/form.php:65
+msgid "show pagination?"
+msgstr "ページ送りを表示する？"
+
+#: ../../../blocks/event_list/form.php:69
+msgid "Truncate Descriptions"
+msgstr "概要の文字数を制限"
+
+#: ../../../blocks/event_list/form.php:73
+msgid "Truncate Event Descriptions after"
+msgstr "イベント概要を切り詰める"
+
+#: ../../../blocks/event_list/form.php:75
+msgid "characters"
+msgstr "文字"
+
+#: ../../../blocks/event_list/form.php:79
+msgid "Ordering"
+msgstr "並び順"
+
+#: ../../../blocks/event_list/form.php:87
+msgid "Show iCal Feed?"
+msgstr "iCalフィードを表示する？"
+
+#: ../../../blocks/event_list/view.php:48
+#: ../../../blocks/event_list/templates/cEvents/view.php:37
+#: ../../../blocks/event_list/templates/page/view.php:61
+msgid "get iCal link"
+msgstr "iCalリンクを取得"
+
+#: ../../../blocks/event_list/view.php:49
+#: ../../../blocks/event_list/templates/cEvents/view.php:38
+#: ../../../blocks/event_list/templates/page/view.php:62
+msgid "RSS"
+msgstr ""
