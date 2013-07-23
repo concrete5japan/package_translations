@@ -1,0 +1,1639 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProEvents 9.8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-23 12:18+0900\n"
+"PO-Revision-Date: 2013-07-23 13:33+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: t\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../controller.php:3
+#: ../../../blocks/content/templates/event_post/view.php:2
+#: ../../../blocks/page_list/templates/simple_view/view.php:2
+#: ../../../blocks/page_list/templates/special_events/view.php:2
+#: ../../../blocks/pro_event_list/add.php:2
+#: ../../../blocks/pro_event_list/edit.php:2
+#: ../../../blocks/pro_event_list/form.php:2
+#: ../../../blocks/pro_event_list/view.php:2
+#: ../../../blocks/pro_event_list/templates/agenda_view/view.php:2
+#: ../../../blocks/pro_event_list/templates/archive/view.php:2
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:2
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:2
+#: ../../../blocks/pro_event_list/templates/google_this_week/view.php:2
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:2
+#: ../../../blocks/pro_event_list/templates/metro/view.php:2
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:2
+#: ../../../blocks/pro_event_list/templates/show_schedule/view.php:2
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:2
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:2
+#: ../../../blocks/pro_event_list/templates/this_week/view.php:2
+#: ../../../blocks/pro_event_list/templates/today/view.php:2
+#: ../../../blocks/pro_event_list/tools/iCal.php:2
+#: ../../../blocks/pro_event_list/tools/rss.php:2
+#: ../../../controllers/dashboard/proevents/controller.php:2
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:2
+#: ../../../controllers/dashboard/proevents/generated_dates/controller.php:2
+#: ../../../controllers/dashboard/proevents/help/controller.php:2
+#: ../../../controllers/dashboard/proevents/list/controller.php:2
+#: ../../../controllers/dashboard/proevents/preview/controller.php:2
+#: ../../../controllers/dashboard/proevents/preview/monthly/controller.php:2
+#: ../../../controllers/dashboard/proevents/preview/weekly/controller.php:2
+#: ../../../controllers/dashboard/proevents/settings/controller.php:2
+#: ../../../controllers/dashboard/proevents/settings/events/controller.php:2
+#: ../../../elements/event_list_theme.php:2
+#: ../../../helpers/form/date_time_time.php:2
+#: ../../../helpers/form/time.php:21 ../../../mail/event_invite.php:2
+#: ../../../models/eventify.php:2 ../../../models/google_merge.php:2
+#: ../../../models/attribute/types/color/controller.php:2
+#: ../../../models/attribute/types/event_color/controller.php:2
+#: ../../../models/attribute/types/multi_date/controller.php:2
+#: ../../../models/attribute/types/time/controller.php:2
+#: ../../../single_pages/dashboard/proevents/view.php:2
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:2
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:2
+#: ../../../single_pages/dashboard/proevents/help/view.php:2
+#: ../../../single_pages/dashboard/proevents/list/view.php:2
+#: ../../../single_pages/dashboard/proevents/preview/view.php:2
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:2
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:52
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:2
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:43
+#: ../../../single_pages/dashboard/proevents/settings/view.php:2
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:2
+#: ../../../tools/add_event.php:2 ../../../tools/ajax_cal.php:2
+#: ../../../tools/ajax_cal_responsive.php:2
+#: ../../../tools/ajax_cal_small.php:2
+#: ../../../tools/ajax_cal_small_array.php:2 ../../../tools/ajax_jq_cal.php:2
+#: ../../../tools/ajax_list.php:2 ../../../tools/dynamic_ajax.php:2
+#: ../../../tools/edit_generated_event.php:2 ../../../tools/invite.php:2
+#: ../../../tools/post_event.php:2
+msgid "Access Denied."
+msgstr "アクセス拒否"
+
+#: ../../../controller.php:12
+msgid "A professional Event package"
+msgstr "プロフェッショナル向けのイベントパッケージ"
+
+#: ../../../controller.php:16 ../../../controller.php:38
+#: ../../../controller.php:291
+msgid "Pro Events"
+msgstr "プロ・イベント"
+
+#: ../../../controller.php:38
+msgid "Professional event management"
+msgstr "プロフェッショナル・イベント管理"
+
+#: ../../../controller.php:44
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:32
+msgid "Add/Edit"
+msgstr "追加／編集"
+
+#: ../../../controller.php:116 ../../../controller.php:307
+msgid "Multi Date"
+msgstr "複数の日付"
+
+#: ../../../controller.php:123 ../../../controller.php:326
+msgid "Event Dates"
+msgstr "イベント日付"
+
+#: ../../../controller.php:131 ../../../controller.php:292
+msgid "Pro Events Additional Attributes"
+msgstr "プロ・イベント追加属性"
+
+#: ../../../controller.php:151
+msgid "Color Picker"
+msgstr "カラーピッカー"
+
+#: ../../../controller.php:157 ../../../controller.php:388
+msgid "Category Color"
+msgstr "カテゴリーカラー"
+
+#: ../../../controller.php:164
+msgid ""
+"Attention!  You are missing key features of ProEvents v4 because you failed "
+"to upgrade your C5 core to v5.4.2 first."
+msgstr ""
+"注意！ProEventsバージョン4の重要な機能が使用できません。先にC5コアをバージョ"
+"ン5.4.2にアップグレードしてください。"
+
+#: ../../../controller.php:199 ../../../controller.php:368
+msgid "Group Dates?"
+msgstr "日付をグループ化しますか？"
+
+#: ../../../controller.php:224 ../../../controller.php:337
+msgid "Event Exclude Dates"
+msgstr "イベント除外日付"
+
+#: ../../../controller.php:248 ../../../controller.php:573
+msgid "Create Events"
+msgstr "イベントを作成"
+
+#: ../../../controller.php:248 ../../../controller.php:573
+msgid "User can use ProEvents frontend features."
+msgstr "プロ・イベントのフロントエンド機能を使うことができます。"
+
+#: ../../../controller.php:266
+msgid "EVent Color Picker"
+msgstr "イベント・カラーピッカー"
+
+#: ../../../controller.php:277 ../../../controller.php:514
+msgid "ProEvents Post"
+msgstr "プロ・イベント投稿"
+
+#: ../../../controller.php:277 ../../../controller.php:514
+#: ../../../controller.php:524
+msgid "template3.png"
+msgstr ""
+
+#: ../../../controller.php:296
+msgid "Events Package"
+msgstr "イベント・パッケージ"
+
+#: ../../../controller.php:313
+msgid "Event Color Picker"
+msgstr "イベント・カラーピッカー"
+
+#: ../../../controller.php:349
+msgid "Calender"
+msgstr "カレンダー"
+
+#: ../../../controller.php:360
+msgid "All Day Event?"
+msgstr "終日イベントですか？"
+
+#: ../../../controller.php:377
+#: ../../../single_pages/dashboard/proevents/list/view.php:110
+msgid "Event Category"
+msgstr "イベント・カテゴリー"
+
+#: ../../../controller.php:398
+msgid "Event Tags"
+msgstr "イベント・タグ"
+
+#: ../../../controller.php:411
+msgid "Thumbnail Image"
+msgstr "サムネイル画像"
+
+#: ../../../controller.php:429
+msgid "Event Location"
+msgstr "イベント開催場所"
+
+#: ../../../controller.php:437
+msgid "Address"
+msgstr "住所"
+
+#: ../../../controller.php:445
+msgid "Contact Name"
+msgstr "連絡先"
+
+#: ../../../controller.php:453
+msgid "Contact Email"
+msgstr "連絡先メールアドレス"
+
+#: ../../../controller.php:462
+msgid "End Date"
+msgstr "終了日"
+
+#: ../../../controller.php:497
+#: ../../../blocks/page_list/templates/special_events/view.php:187
+#: ../../../single_pages/dashboard/proevents/list/view.php:109
+msgid "Recurring"
+msgstr "繰り返し"
+
+#: ../../../controller.php:502 ../../../models/event_item.php:228
+msgid "daily"
+msgstr "毎日"
+
+#: ../../../controller.php:503 ../../../models/event_item.php:228
+msgid "weekly"
+msgstr "毎週"
+
+#: ../../../controller.php:504 ../../../models/event_item.php:228
+msgid "every other week"
+msgstr "1週間おきに"
+
+#: ../../../controller.php:505 ../../../models/event_item.php:228
+msgid "monthly"
+msgstr "毎月"
+
+#: ../../../controller.php:524
+msgid "Event Page"
+msgstr "イベントページ"
+
+#: ../../../controller.php:630
+msgid "Edit"
+msgstr "編集"
+
+#: ../../../controller.php:632
+msgid "Create"
+msgstr "作成"
+
+#: ../../../controller.php:635
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:41
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:480
+msgid " Event"
+msgstr " イベント"
+
+#: ../../../controller.php:636
+msgid "Create Event"
+msgstr "イベント作成"
+
+#: ../../../blocks/content/templates/event_post/view.php:13
+msgid "Invite Others"
+msgstr "招待する"
+
+#: ../../../blocks/content/templates/event_post/view.php:50
+#: ../../../blocks/page_list/templates/simple_view/view.php:146
+#: ../../../blocks/page_list/templates/special_events/view.php:184
+#: ../../../blocks/pro_event_list/view.php:83
+#: ../../../blocks/pro_event_list/templates/archive/view.php:54
+#: ../../../blocks/pro_event_list/templates/metro/view.php:71
+#: ../../../blocks/pro_event_list/templates/metro/view.php:103
+#: ../../../blocks/pro_event_list/templates/show_schedule/view.php:53
+#: ../../../blocks/pro_event_list/templates/super_clean/view.php:24
+#: ../../../blocks/pro_event_list/templates/this_week/view.php:74
+#: ../../../blocks/pro_event_list/templates/today/view.php:71
+#: ../../../elements/event_list_theme.php:102
+msgid "g:i a"
+msgstr ""
+
+#: ../../../blocks/content/templates/event_post/view.php:52
+#: ../../../blocks/page_list/templates/simple_view/view.php:148
+#: ../../../blocks/pro_event_list/view.php:85
+#: ../../../blocks/pro_event_list/templates/agenda_view/view.php:63
+#: ../../../blocks/pro_event_list/templates/agenda_view/view.php:107
+#: ../../../blocks/pro_event_list/templates/archive/view.php:56
+#: ../../../blocks/pro_event_list/templates/metro/view.php:73
+#: ../../../blocks/pro_event_list/templates/metro/view.php:105
+#: ../../../blocks/pro_event_list/templates/show_schedule/view.php:55
+#: ../../../blocks/pro_event_list/templates/super_clean/view.php:26
+#: ../../../blocks/pro_event_list/templates/this_week/view.php:76
+#: ../../../blocks/pro_event_list/templates/today/view.php:73
+#: ../../../elements/event_list_theme.php:104
+#: ../../../elements/event_list_theme.php:162
+#: ../../../single_pages/dashboard/proevents/list/view.php:170
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:285
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:234
+#: ../../../tools/ajax_cal.php:214 ../../../tools/ajax_cal_responsive.php:204
+#: ../../../tools/ajax_cal_small.php:166
+#: ../../../tools/ajax_cal_small_array.php:177
+msgid "All Day"
+msgstr "終日"
+
+#: ../../../blocks/content/templates/event_post/view.php:70
+#: ../../../blocks/page_list/templates/simple_view/view.php:201
+#: ../../../blocks/pro_event_list/view.php:112
+#: ../../../blocks/pro_event_list/templates/metro/view.php:115
+#: ../../../blocks/pro_event_list/templates/super_clean/view.php:34
+#: ../../../elements/event_list_theme.php:131
+#: ../../../elements/event_list_theme.php:187
+msgid "get directions"
+msgstr "地図を見る"
+
+#: ../../../blocks/content/templates/event_post/view.php:73
+#: ../../../blocks/page_list/templates/simple_view/view.php:173
+msgid "Tags"
+msgstr "タグ"
+
+#: ../../../blocks/content/templates/event_post/view.php:103
+msgid "Please list each email on a new line."
+msgstr "複数のメールアドレスを指定するには改行で分けてください。"
+
+#: ../../../blocks/content/templates/event_post/view.php:110
+msgid "Send Invite"
+msgstr "招待を送信する"
+
+#: ../../../blocks/content/templates/event_post/view.php:139
+msgid "Your Invites were sent successfully!"
+msgstr "招待の送信が完了しました！"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:6
+#: ../../../blocks/page_list/templates/special_events/view.php:6
+#: ../../../blocks/pro_event_list/controller.php:143
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:15
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:61
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:204
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:205
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:182
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:100
+#: ../../../elements/event_list_theme.php:45
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:155
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:128
+#: ../../../tools/dynamic_ajax.php:6
+msgid "Jan"
+msgstr "1月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:7
+#: ../../../blocks/page_list/templates/special_events/view.php:7
+#: ../../../blocks/pro_event_list/controller.php:144
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:16
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:62
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:205
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:206
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:183
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:101
+#: ../../../elements/event_list_theme.php:46
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:156
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:129
+#: ../../../tools/dynamic_ajax.php:7
+msgid "Feb"
+msgstr "2月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:8
+#: ../../../blocks/page_list/templates/special_events/view.php:8
+#: ../../../blocks/pro_event_list/controller.php:145
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:17
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:63
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:206
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:207
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:184
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:102
+#: ../../../elements/event_list_theme.php:47
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:157
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:130
+#: ../../../tools/dynamic_ajax.php:8
+msgid "Mar"
+msgstr "3月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:9
+#: ../../../blocks/page_list/templates/special_events/view.php:9
+#: ../../../blocks/pro_event_list/controller.php:146
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:18
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:64
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:207
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:208
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:185
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:103
+#: ../../../elements/event_list_theme.php:48
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:158
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:131
+#: ../../../tools/dynamic_ajax.php:9
+msgid "Apr"
+msgstr "4月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:10
+#: ../../../blocks/page_list/templates/special_events/view.php:10
+#: ../../../blocks/pro_event_list/controller.php:147
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:19
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:65
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:208
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:209
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:186
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:104
+#: ../../../elements/event_list_theme.php:49
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:159
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:132
+#: ../../../tools/dynamic_ajax.php:10
+msgid "May"
+msgstr "5月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:11
+#: ../../../blocks/page_list/templates/special_events/view.php:11
+#: ../../../blocks/pro_event_list/controller.php:148
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:20
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:66
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:209
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:210
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:187
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:105
+#: ../../../elements/event_list_theme.php:50
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:160
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:133
+#: ../../../tools/dynamic_ajax.php:11
+msgid "Jun"
+msgstr "6月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:12
+#: ../../../blocks/page_list/templates/special_events/view.php:12
+#: ../../../blocks/pro_event_list/controller.php:149
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:21
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:67
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:210
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:211
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:188
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:106
+#: ../../../elements/event_list_theme.php:51
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:161
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:134
+#: ../../../tools/dynamic_ajax.php:12
+msgid "Jul"
+msgstr "7月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:13
+#: ../../../blocks/page_list/templates/special_events/view.php:13
+#: ../../../blocks/pro_event_list/controller.php:150
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:22
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:68
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:211
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:212
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:189
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:107
+#: ../../../elements/event_list_theme.php:52
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:162
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:135
+#: ../../../tools/dynamic_ajax.php:13
+msgid "Aug"
+msgstr "8月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:14
+#: ../../../blocks/page_list/templates/special_events/view.php:14
+#: ../../../blocks/pro_event_list/controller.php:151
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:23
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:69
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:212
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:213
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:190
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:108
+#: ../../../elements/event_list_theme.php:53
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:163
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:136
+#: ../../../tools/dynamic_ajax.php:14
+msgid "Sep"
+msgstr "9月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:15
+#: ../../../blocks/page_list/templates/special_events/view.php:15
+#: ../../../blocks/pro_event_list/controller.php:152
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:24
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:70
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:213
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:214
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:191
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:109
+#: ../../../elements/event_list_theme.php:54
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:164
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:137
+#: ../../../tools/dynamic_ajax.php:15
+msgid "Oct"
+msgstr "10月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:16
+#: ../../../blocks/page_list/templates/special_events/view.php:16
+#: ../../../blocks/pro_event_list/controller.php:153
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:25
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:71
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:214
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:215
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:192
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:110
+#: ../../../elements/event_list_theme.php:55
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:165
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:138
+#: ../../../tools/dynamic_ajax.php:16
+msgid "Nov"
+msgstr "11月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:17
+#: ../../../blocks/page_list/templates/special_events/view.php:17
+#: ../../../blocks/pro_event_list/controller.php:154
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:26
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:72
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:215
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:34
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:216
+#: ../../../blocks/pro_event_list/templates/small_calendar/view.php:193
+#: ../../../blocks/pro_event_list/templates/small_calendar_array/view.php:111
+#: ../../../elements/event_list_theme.php:56
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:166
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:139
+#: ../../../tools/dynamic_ajax.php:17
+msgid "Dec"
+msgstr "12月"
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:144
+msgid " dS "
+msgstr " d "
+
+#: ../../../blocks/page_list/templates/simple_view/view.php:200
+#: ../../../blocks/pro_event_list/view.php:111
+#: ../../../blocks/pro_event_list/templates/metro/view.php:121
+#: ../../../elements/event_list_theme.php:130
+#: ../../../elements/event_list_theme.php:186
+msgid "contact: "
+msgstr "連絡先: "
+
+#: ../../../blocks/pro_event_list/controller.php:23
+msgid "Event List."
+msgstr "イベント一覧"
+
+#: ../../../blocks/pro_event_list/controller.php:27
+msgid "Event List"
+msgstr "イベント一覧"
+
+#: ../../../blocks/pro_event_list/form.php:9
+msgid "Event List Title"
+msgstr "イベント一覧タイトル"
+
+#: ../../../blocks/pro_event_list/form.php:13
+msgid "Event Filters"
+msgstr "イベントフィルター"
+
+#: ../../../blocks/pro_event_list/form.php:14
+msgid "Choose Event Category"
+msgstr "イベントカテゴリーを選択してください"
+
+#: ../../../blocks/pro_event_list/form.php:42
+msgid "Choose Event List Type"
+msgstr "イベント一覧タイプを選択してください"
+
+#: ../../../blocks/pro_event_list/form.php:43
+msgid "Use Custom View Name"
+msgstr "カスタム表示を使う"
+
+#: ../../../blocks/pro_event_list/form.php:43
+msgid "By This Month"
+msgstr "この月を表示"
+
+#: ../../../blocks/pro_event_list/form.php:43
+msgid "By Next Month"
+msgstr "翌月を表示"
+
+#: ../../../blocks/pro_event_list/form.php:43
+msgid "By This Week"
+msgstr "今週を表示"
+
+#: ../../../blocks/pro_event_list/form.php:43
+msgid "By Next Week"
+msgstr "来週を表示"
+
+#: ../../../blocks/pro_event_list/form.php:43
+msgid "By Today"
+msgstr "今日を表示"
+
+#: ../../../blocks/pro_event_list/form.php:47
+msgid "Choose Event Section"
+msgstr "イベントセクションを選択してください"
+
+#: ../../../blocks/pro_event_list/form.php:78
+#: ../../../blocks/pro_event_list/form.php:80
+msgid "All Sections"
+msgstr "全てのセクション"
+
+#: ../../../blocks/pro_event_list/form.php:88
+msgid "Event List Options"
+msgstr "イベント一覧オプション"
+
+#: ../../../blocks/pro_event_list/form.php:90
+msgid "Display message for \"no events\""
+msgstr "イベントが無いときのメッセージ"
+
+#: ../../../blocks/pro_event_list/form.php:95
+msgid "Number of Events"
+msgstr "イベント表示数"
+
+#: ../../../blocks/pro_event_list/form.php:99
+msgid "show pagination?"
+msgstr "ページ送りを表示しますか？"
+
+#: ../../../blocks/pro_event_list/form.php:104
+msgid "Truncate Descriptions"
+msgstr "概要の文字数を制限"
+
+#: ../../../blocks/pro_event_list/form.php:106
+msgid "Truncate Event Descriptions after"
+msgstr "概要の文字数を制限する："
+
+#: ../../../blocks/pro_event_list/form.php:108
+msgid "characters"
+msgstr "文字"
+
+#: ../../../blocks/pro_event_list/form.php:112
+msgid "Ordering"
+msgstr "並び順"
+
+#: ../../../blocks/pro_event_list/form.php:120
+msgid "Show iCal Feed?"
+msgstr "iCalフィードを表示しますか？"
+
+#: ../../../blocks/pro_event_list/form.php:121
+msgid "yes"
+msgstr "はい"
+
+#: ../../../blocks/pro_event_list/view.php:13
+#: ../../../blocks/pro_event_list/templates/metro/view.php:13
+msgid ""
+"Don't forget, you can quickly change this to Calendar view by clicking on "
+"this area, and selecting \"Custom Template\".<br/><br/>"
+msgstr ""
+"この領域をクリックして、「カスタムテンプレート」を選択することで、カレンダー"
+"の見た目をすぐに変更できることをお忘れなく。<br/><br/>"
+
+#: ../../../blocks/pro_event_list/view.php:128
+#: ../../../blocks/pro_event_list/templates/agenda_view/view.php:135
+#: ../../../blocks/pro_event_list/templates/archive/view.php:86
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:233
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:119
+#: ../../../blocks/pro_event_list/templates/metro/view.php:140
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:234
+#: ../../../blocks/pro_event_list/templates/show_schedule/view.php:89
+#: ../../../blocks/pro_event_list/templates/super_clean/view.php:46
+#: ../../../blocks/pro_event_list/templates/this_week/view.php:106
+#: ../../../blocks/pro_event_list/templates/today/view.php:104
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:333
+msgid "get iCal link"
+msgstr "iCalリンクを取得"
+
+#: ../../../blocks/pro_event_list/view.php:129
+#: ../../../blocks/pro_event_list/templates/agenda_view/view.php:136
+#: ../../../blocks/pro_event_list/templates/archive/view.php:87
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:234
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:120
+#: ../../../blocks/pro_event_list/templates/metro/view.php:141
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:235
+#: ../../../blocks/pro_event_list/templates/show_schedule/view.php:90
+#: ../../../blocks/pro_event_list/templates/super_clean/view.php:47
+#: ../../../blocks/pro_event_list/templates/this_week/view.php:107
+#: ../../../blocks/pro_event_list/templates/today/view.php:105
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:334
+msgid "RSS"
+msgstr ""
+
+#: ../../../blocks/pro_event_list/templates/dynamic_calendar/view.php:177
+msgid "no events for this day"
+msgstr "今日のイベントはありません。"
+
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:194
+msgid "<<"
+msgstr ""
+
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:219
+msgid ">>"
+msgstr ""
+
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:228
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:229
+msgid "built with "
+msgstr ""
+
+#: ../../../blocks/pro_event_list/templates/full_calendar/view.php:228
+#: ../../../blocks/pro_event_list/templates/responsive_calendar/view.php:229
+msgid " products."
+msgstr ""
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "January"
+msgstr "1月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "February"
+msgstr "2月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "March"
+msgstr "3月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "April"
+msgstr "4月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "June"
+msgstr "5月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "July"
+msgstr "6月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "August"
+msgstr "7月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "September"
+msgstr "8月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "October"
+msgstr "9月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "November"
+msgstr "10月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:31
+msgid "December"
+msgstr "11月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:73
+#: ../../../tools/dynamic_ajax.php:26
+msgid "Sunday"
+msgstr "日曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:74
+#: ../../../tools/dynamic_ajax.php:20
+msgid "Monday"
+msgstr "月曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:75
+#: ../../../tools/dynamic_ajax.php:21
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:76
+#: ../../../tools/dynamic_ajax.php:22
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:77
+#: ../../../tools/dynamic_ajax.php:23
+msgid "Thursday"
+msgstr "木曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:78
+#: ../../../tools/dynamic_ajax.php:24
+msgid "Friday"
+msgstr "金曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:37
+#: ../../../tools/ajax_cal_responsive.php:79
+#: ../../../tools/dynamic_ajax.php:25
+msgid "Saturday"
+msgstr "土曜日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:58 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:70
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Sun"
+msgstr "日"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:52 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:64
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Mon"
+msgstr "月"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+msgid "Tues"
+msgstr "火"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:54 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:66
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Wed"
+msgstr "水"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+msgid "Thur"
+msgstr "木"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:56 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:68
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Fri"
+msgstr "金"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:40
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:57 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:69
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Sat"
+msgstr "土"
+
+#: ../../../blocks/pro_event_list/templates/jquery_calendar/view.php:110
+msgid "loading"
+msgstr "読込中"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:9
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:17
+msgid "All"
+msgstr "すべて"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:10
+msgid "Today"
+msgstr "今日"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:11
+msgid "This Week"
+msgstr "今週"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:12
+msgid "Next Week"
+msgstr "来週"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:13
+msgid "By Month"
+msgstr "月で"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:14
+msgid "Next Month"
+msgstr "翌月"
+
+#: ../../../blocks/pro_event_list/templates/list_ajax/view.php:26
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:181
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:183
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:154
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:156
+msgid "All Categories"
+msgstr "すべてのカテゴリー"
+
+#: ../../../blocks/pro_event_list/templates/metro/view.php:82
+msgid "Event Details"
+msgstr "イベント詳細"
+
+#: ../../../blocks/pro_event_list/templates/metro/view.php:93
+msgid "Read More"
+msgstr "もっと読む"
+
+#: ../../../blocks/pro_event_list/templates/metro/view.php:97
+msgid "Event Times"
+msgstr "イベント日時"
+
+#: ../../../blocks/pro_event_list/templates/show_schedule/view.php:13
+msgid ""
+"Don't forget, you can quickly change this to Calendar view by clicking on "
+"this area, and selecting \"Custom Template\". <br/> Also, if you want to "
+"view date sets in \"blocks\" instead of a listing for each date, try using "
+"the standard Page List block and changing the Custom Template to the "
+"\"Special Events\" template."
+msgstr ""
+"この領域をクリックして、「カスタムテンプレート」を選択することで、カレンダー"
+"の見た目をすぐに変更できることをお忘れなく。<br/>また、「ブロック」内の日付の"
+"セットではなく単に日付の一覧を表示したい場合は、標準のページリストブロックを"
+"使い、カスタムテンプレートの選択で「Special Events」テンプレートに切り替える"
+"方法もお試しください。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:139
+#: ../../../tools/post_event.php:63
+msgid "You must choose a parent page for this event entry."
+msgstr "イベント投稿の親ページを選択する必要があります。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:143
+#: ../../../tools/post_event.php:67
+msgid "You must choose a page type for this event entry."
+msgstr "イベント投稿のページタイプを選択する必要があります。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:147
+#: ../../../tools/post_event.php:71
+msgid "Title is required"
+msgstr "タイトルは必須です"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:165
+#: ../../../tools/post_event.php:90
+msgid "Categories must have a value"
+msgstr "カテゴリーを選択する必要があります"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:200
+msgid "You must have at least one date."
+msgstr "少なくともひとつの日付を設定してください"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:224
+#: ../../../tools/post_event.php:149
+msgid ""
+"Your \"End Date\" value may not be earlier than or equal to your \"Start Date"
+"\" value whith the \"Recuring\" option set"
+msgstr ""
+"繰り返しオプションでは、開始日より早い終了日を設定することはできません。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:230
+#: ../../../tools/post_event.php:155
+msgid "Date Set's of more than one date may only recur by week or month."
+msgstr "週や月で繰り返すには日付セットにもう一つの日付が必要です。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:234
+#: ../../../tools/post_event.php:159
+msgid "You may not have a Date Set larger than 7 days recurring weekly."
+msgstr "週で繰り返すには7日以上長い日付セットを設定することはできません。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:238
+#: ../../../tools/post_event.php:163
+msgid "You may not have a Date Set larger than 29 days recurring Monthly."
+msgstr "月で繰り返すには29日以上長い日付セットを設定することはできません。"
+
+#: ../../../controllers/dashboard/proevents/add_event/controller.php:247
+msgid ""
+"You do not have permission to add a page of that type to that area of the "
+"site."
+msgstr ""
+"サイト内のエリアまたは選択したページタイプでページを追加する権限がありませ"
+"ん。"
+
+#: ../../../controllers/dashboard/proevents/generated_dates/controller.php:31
+msgid "Date succesfully updated!"
+msgstr "日付の更新が完了しました！"
+
+#: ../../../controllers/dashboard/proevents/generated_dates/controller.php:44
+#: ../../../controllers/dashboard/proevents/list/controller.php:71
+msgid "\""
+msgstr ""
+
+#: ../../../controllers/dashboard/proevents/list/controller.php:127
+msgid "Event added."
+msgstr "イベントが追加されました。"
+
+#: ../../../controllers/dashboard/proevents/list/controller.php:132
+msgid "Event updated."
+msgstr "イベントが更新されました。"
+
+#: ../../../mail/event_invite.php:14
+#, php-format
+msgid ""
+".\n"
+"\n"
+"===================================\n"
+"%s\n"
+"===================================\n"
+"\n"
+"See you There!\n"
+msgstr ""
+".\n"
+"\n"
+"===================================\n"
+"%s\n"
+"===================================\n"
+"\n"
+"ではそこでお会いしましょう！\n"
+
+#: ../../../models/attribute/types/color/controller.php:49
+#: ../../../models/attribute/types/event_color/controller.php:49
+msgid "choose one"
+msgstr "選択してください"
+
+#: ../../../models/attribute/types/multi_date/type_form.php:3
+msgid "Ask User For"
+msgstr "ユーザーに尋ねる"
+
+#: ../../../models/attribute/types/multi_date/type_form.php:8
+msgid "Date plus start and end Time"
+msgstr "日付と開始時間及び終了時間"
+
+#: ../../../models/attribute/types/multi_date/type_form.php:10
+msgid "Date Only"
+msgstr "日付のみ"
+
+#: ../../../models/attribute/types/multi_date/type_form.php:11
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:59
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:34
+#: ../../../tools/add_event.php:116
+msgid "Exclude Dates"
+msgstr "除外日付"
+
+#: ../../../models/attribute/types/time/controller.php:68
+msgid "to"
+msgstr "から"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:32
+msgid "Update Entry"
+msgstr "エントリーの更新"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:36
+msgid "Add Event Entry"
+msgstr "イベントエントリーの追加"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:41
+msgid "* required field"
+msgstr "* 必須フィールド"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:55
+#: ../../../tools/add_event.php:112
+msgid "Info"
+msgstr "基本情報"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:57
+#: ../../../single_pages/dashboard/proevents/list/view.php:107
+#: ../../../tools/add_event.php:114
+msgid "Dates"
+msgstr "日付"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:61
+#: ../../../tools/add_event.php:118
+msgid "Post"
+msgstr "投稿"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:63
+#: ../../../tools/add_event.php:120
+msgid "Links"
+msgstr "リンク"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:80
+#: ../../../tools/add_event.php:138
+msgid "Event Title"
+msgstr "イベントタイトル"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:88
+#: ../../../tools/add_event.php:145
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:91
+#: ../../../tools/add_event.php:148
+msgid ""
+"No sections defined. Please create a page with the attribute \"calendar\" "
+"set to true."
+msgstr ""
+"セクションが定義されていません。\"calendar\" 属性を真に設定したページを作成し"
+"てください。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:102
+#: ../../../tools/add_event.php:156
+msgid "Category"
+msgstr "カテゴリー"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:120
+#: ../../../tools/add_event.php:173
+msgid "Color"
+msgstr "カラー"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:140
+#: ../../../tools/add_event.php:191
+msgid "Exclude Link to Event Item?"
+msgstr "イベントページにリンクしない"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:154
+msgid ""
+"This option turns event titles into non-linked titles.  This is also the "
+"same attribute for excluding event pages from navigation. Thus, if this "
+"attribute is set event pages will not show up in any navigation."
+msgstr ""
+"このオプションはイベントタイトルにリンクを付けません。これはイベントページを"
+"ナビから除く属性と同じものです。そして、この属性が設定されている場合は、ナビ"
+"ゲーションにイベントページが表示されません。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:160
+#: ../../../tools/add_event.php:209
+msgid "Page Type"
+msgstr "ページタイプ"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:176
+#: ../../../tools/add_event.php:225
+msgid "Additional Attributes"
+msgstr "追加属性"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:177
+msgid ""
+"Any attribute added to the \"ProEvents Additional Attributes\" attribute set "
+"within your Pages & Themes/Attributes area will be available here."
+msgstr "\"プロ・イベント追加属性\" 属性セットに追加された属性が利用可能です。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:201
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:268
+#: ../../../single_pages/dashboard/proevents/list/view.php:194
+#: ../../../tools/add_event.php:249 ../../../tools/add_event.php:316
+#: ../../../tools/edit_generated_event.php:30
+msgid "none"
+msgstr "なし"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:214
+#: ../../../tools/add_event.php:262
+msgid "Date Info"
+msgstr "日付情報"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:214
+msgid ""
+"Add as many dates as you like here.  This grouping of dates represents all "
+"dates related to this event."
+msgstr ""
+"複数の日付を追加することができます。日付のこのグループは、このイベントに関連"
+"するすべての日付を表しています。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:241
+#: ../../../tools/add_event.php:289
+msgid "times will be ignored if this is checked"
+msgstr "チェックすると時間の設定が無視されます。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:258
+#: ../../../tools/add_event.php:306
+msgid "multi-date items will be grouped"
+msgstr "複数の日付はグループ化できます。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:269
+#: ../../../tools/add_event.php:317 ../../../tools/edit_generated_event.php:31
+msgid "Available"
+msgstr "利用可能"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:270
+#: ../../../tools/add_event.php:318 ../../../tools/edit_generated_event.php:32
+msgid "Booked"
+msgstr "予約済み"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:273
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:82
+#: ../../../tools/add_event.php:321 ../../../tools/edit_generated_event.php:25
+msgid "Status"
+msgstr "ステータス"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:275
+#: ../../../tools/add_event.php:323
+msgid "Status of all dates. \"none\" will skip any existing status data."
+msgstr ""
+"すべての日付のステータスです。「なし」の場合、存在するステータスデータをス"
+"キップします。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:285
+#: ../../../tools/add_event.php:333
+msgid "Recurring Info"
+msgstr "繰り返し情報"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:303
+msgid ""
+"This date field is used in tandem with the Recurring Option.  If recurring "
+"is set, this date marks the end of the recurring loop."
+msgstr ""
+"この日付フィールドは、繰り返しオプションと連携して使用されています。繰り返し"
+"が設定されている場合、この日付は、定期的なループの終わりを示す。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:320
+msgid ""
+"The Recurring option takes a date \"set\", and loops those dates every day/"
+"week/month until the end Recurring End Date."
+msgstr ""
+"繰り返しオプションを設定すると、日付のセットを繰り返し終了日まで、毎日/週/月"
+"繰り返します。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:321
+msgid "End date will be ignored if recurring is set to \"none\"."
+msgstr "繰り返しが「なし」に設定されている場合は終了日は無視されます。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:333
+#: ../../../tools/add_event.php:381
+msgid "Exclude Certain Dates"
+msgstr "特定の日付を除外"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:333
+#: ../../../tools/add_event.php:381
+msgid ""
+"This date field is used in tandem with the Recurring Option.  If recurring "
+"is set, any instance of recurrance falling on these dates will be excluded"
+msgstr ""
+"この日付フィールドは、繰り返しオプションと連携して使用されています。繰り返し"
+"が設定されている場合、これらの日付に該当する場合は除外される。"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:352
+#: ../../../tools/add_event.php:400
+msgid "Event Description"
+msgstr "イベント概要"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:356
+#: ../../../tools/add_event.php:405 ../../../tools/edit_generated_event.php:38
+msgid "Event Content"
+msgstr "イベント内容"
+
+#: ../../../single_pages/dashboard/proevents/add_event/view.php:481
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:57
+#: ../../../single_pages/dashboard/proevents/list/view.php:33
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:46
+msgid "Generated Dates"
+msgstr "生成された日付"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:53
+#: ../../../single_pages/dashboard/proevents/list/view.php:29
+msgid "Holy guacamole! This is a warning!"
+msgstr "警告！"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:54
+#: ../../../single_pages/dashboard/proevents/list/view.php:30
+msgid "Are you sure you want to delete "
+msgstr "本当に削除してもよろしいですか？"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:55
+#: ../../../single_pages/dashboard/proevents/list/view.php:31
+msgid "This action may not be undone!"
+msgstr "この操作は取り消しできません！"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:57
+#: ../../../single_pages/dashboard/proevents/list/view.php:33
+msgid "Yes Remove This"
+msgstr "はい、削除します"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:66
+msgid "date"
+msgstr "日付"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:67
+msgid "title"
+msgstr "タイトル"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:68
+msgid "description"
+msgstr "説明"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:70
+#: ../../../single_pages/dashboard/proevents/list/view.php:89
+msgid "Search"
+msgstr "検索"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:73
+msgid "Clear"
+msgstr "クリア"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:79
+msgid "Date"
+msgstr "日付"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:80
+#: ../../../tools/edit_generated_event.php:19
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:81
+msgid "Description"
+msgstr "説明"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:94
+#: ../../../single_pages/dashboard/proevents/list/view.php:149
+msgid "Edit this Event"
+msgstr "このイベントを編集"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:95
+#: ../../../single_pages/dashboard/proevents/list/view.php:151
+msgid "Remove this Event"
+msgstr "このイベントを削除"
+
+#: ../../../single_pages/dashboard/proevents/generated_dates/view.php:148
+msgid "Generated Date Info"
+msgstr "生成された日付情報"
+
+#: ../../../single_pages/dashboard/proevents/help/view.php:4
+msgid "ProEvents Help"
+msgstr "プロ・イベント　ヘルプ"
+
+#: ../../../single_pages/dashboard/proevents/help/view.php:6
+msgid "Get Help"
+msgstr "ヘルプを見る"
+
+#: ../../../single_pages/dashboard/proevents/help/view.php:7
+msgid ""
+"Proevents & related ProEvents products are working to improve the help and "
+"roadmap pages found on Concrete5.org.</p>\n"
+"\t\t<p>Please head over to <a href=\"http://www.concrete5.org/marketplace/"
+"addons/proevents/documentation/\" target=\"_blank\">http://www.concrete5.org/"
+"marketplace/addons/proevents/documentation/</a> for updated help and "
+"roadmaps."
+msgstr ""
+"プロ・イベントと関連するプロ・イベント製品はconcrete5.orgのヘルプページ、ロー"
+"ドマップページの改善に取り組んでいます。</p>\n"
+"\t\t<p>ヘルプとロードマップの更新はこちらのページをチェックしてください。<a "
+"href=\"http://www.concrete5.org/marketplace/addons/proevents/documentation/"
+"\" target=\"_blank\">http://www.concrete5.org/marketplace/addons/proevents/"
+"documentation/</a>"
+
+#: ../../../single_pages/dashboard/proevents/help/view.php:10
+msgid "Get Support"
+msgstr "サポートを受ける"
+
+#: ../../../single_pages/dashboard/proevents/help/view.php:11
+msgid ""
+"You can also report bugs and search previously posted bugs & solutions here: "
+"<a href=\"http://www.concrete5.org/marketplace/addons/proevents/support/\" "
+"target=\"_blank\">http://www.concrete5.org/marketplace/addons/proevents/"
+"support/</a>"
+msgstr ""
+"バグ報告やすでに投稿されたバグの解決策を見つけるにはこちら：<a href=\"http://"
+"www.concrete5.org/marketplace/addons/proevents/support/\" target=\"_blank"
+"\">http://www.concrete5.org/marketplace/addons/proevents/support/</a>"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:22
+msgid "View/Search Events"
+msgstr "イベントを検索"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:57
+msgid "Section"
+msgstr "セクション"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:58
+msgid "by Name"
+msgstr "名前で"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:59
+msgid "by Category"
+msgstr "カテゴリーで"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:60
+msgid "by Tag"
+msgstr "タグで"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:106
+msgid "Name"
+msgstr "名前"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:108
+msgid "Times"
+msgstr "時間"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:150
+msgid "Duplicate this Event"
+msgstr "このイベントを複製"
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:192
+msgid "thru "
+msgstr ""
+
+#: ../../../single_pages/dashboard/proevents/list/view.php:236
+msgid "No event entries found."
+msgstr "イベント投稿がありません。"
+
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:38
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:40
+msgid "Events Preview"
+msgstr "イベントプレビュー"
+
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:145
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:118
+msgid "PREV"
+msgstr "前へ"
+
+#: ../../../single_pages/dashboard/proevents/preview/monthly/view.php:192
+#: ../../../single_pages/dashboard/proevents/preview/weekly/view.php:165
+msgid "NEXT"
+msgstr "次へ"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:27
+msgid "ProEvent Settings"
+msgstr "プロ・イベント設定"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:31
+msgid "List"
+msgstr "一覧"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:33
+msgid "Preview"
+msgstr "プレビュー"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:35
+msgid "Settings"
+msgstr "設定"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:40
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:45
+msgid "jQuery Calendar Options"
+msgstr "jQueryカレンダー・オプション"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:50
+msgid "Show Holidays"
+msgstr "祝日を表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:53
+msgid "Show ToolTips"
+msgstr "ツールチップを表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:56
+msgid "Use jQuery Theme"
+msgstr "jQueryテーマを使用する"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:61
+msgid "ToolTip Color "
+msgstr "ツールチップの色"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:63
+msgid "light"
+msgstr "ライト"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:64
+msgid "dark"
+msgstr "ダーク"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:65
+msgid "red"
+msgstr "レッド"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:66
+msgid "blue"
+msgstr "ブルー"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:67
+msgid "green"
+msgstr "グリーン"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:68
+msgid "cream"
+msgstr "クリーム"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:72
+msgid "Time Formatting "
+msgstr "日付書式"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:74
+msgid "us"
+msgstr "アメリカ合衆国"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:75
+msgid "euro"
+msgstr "ユーロ"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:79
+msgid "Default View "
+msgstr "デフォルト表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:81
+msgid "month"
+msgstr "月"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:82
+msgid "basicWeek"
+msgstr "基本週表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:83
+msgid "basicDay"
+msgstr "基本日表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:84
+msgid "agendaWeek"
+msgstr "アジェンダ週表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:85
+msgid "agendaDay"
+msgstr "アジェンダ日表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:91
+msgid "Add Google XML feeds"
+msgstr "Google XMLフィードを追加"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:92
+msgid ""
+"Paste your Google calendar XML feed address, and replace 'basic' with 'full?"
+"1=1&singleevents=true'.  You can also designate a color for the feed by "
+"appending '&color=#cccccc' to the url."
+msgstr ""
+"GoogleカレンダーのXMLフィードアドレスをペーストし、'basic' を 'full?"
+"1=1&singleevents=true' に置き換えてください。フィードの色を指定することもでき"
+"ます。URLに '&color=#cccccc' の様に色指定を追加してください。"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:121
+msgid "Additional Settings"
+msgstr "追加設定"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:127
+msgid "iCal Timezone"
+msgstr "iCalタイムゾーン"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:139
+msgid "Search Path"
+msgstr "検索パス"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:142
+msgid "Default Page Type"
+msgstr "デフォルトページタイプ"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:157
+msgid "Show"
+msgstr "表示"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:161
+msgid "Twitter"
+msgstr "Twitter"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:164
+msgid "Google +1"
+msgstr ""
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:167
+msgid "Facebook Like"
+msgstr "Facebook いいね"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:170
+msgid "Allow Invites"
+msgstr "招待を有効にする"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:174
+msgid "ShareThis Key"
+msgstr "ShareThisキー"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:174
+msgid "required for social sharing"
+msgstr "ソーシャルシェアボタンを追加する"
+
+#: ../../../single_pages/dashboard/proevents/settings/events/view.php:184
+msgid "Save Settings"
+msgstr "設定を保存"
+
+#: ../../../tools/add_event.php:92
+msgid "Update Event"
+msgstr "イベントを更新"
+
+#: ../../../tools/add_event.php:96
+msgid "Add Event"
+msgstr "イベントを追加"
+
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:53 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:65
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Tue"
+msgstr "火"
+
+#: ../../../tools/ajax_cal.php:81 ../../../tools/ajax_cal.php:85
+#: ../../../tools/ajax_cal_small.php:55 ../../../tools/ajax_cal_small.php:71
+#: ../../../tools/ajax_cal_small.php:75
+#: ../../../tools/ajax_cal_small_array.php:67
+#: ../../../tools/ajax_cal_small_array.php:83
+#: ../../../tools/ajax_cal_small_array.php:87
+msgid "Thu"
+msgstr "木"
+
+#: ../../../tools/edit_generated_event.php:56
+msgid "Update This Date"
+msgstr "この日付を更新"
+
+#: ../../../tools/invite.php:10
+msgid "You must enter at least one email address."
+msgstr "少なくともひとつのメールアドレスを入力してください。"
+
+#: ../../../tools/invite.php:14
+msgid "Your email list is in the wrong format"
+msgstr "入力されたメールアドレスの一覧が正しいフォーマットではありません"
+
+#: ../../../tools/invite.php:21
+msgid ""
+"We're sorry.  But one or more emails entered are not valid email addresses. "
+"Please try again"
+msgstr ""
+"すみません。いずれかのメールアドレスが正しいメールアドレスではないようです。"
+"再度入力してください"
+
+#: ../../../tools/invite.php:44
+msgid "You have been invited to an Event!"
+msgstr "あなたはすでにイベントに招待されています！"
+
+#: ../../../tools/post_event.php:124
+msgid "You must have at least one date"
+msgstr "少なくともひとつの日付が必要です"
+
+#~ msgid "Add Date"
+#~ msgstr "日付を追加"
+
+#~ msgid "Social Share Lite"
+#~ msgstr "ソーシャルシェア・ライト"
+
+#~ msgid "Select to display."
+#~ msgstr "表示するものを選択してください。"
+
+#~ msgid "Google+'s plus one"
+#~ msgstr "Google+ プラス1"
+
+#~ msgid "Hatena bookmark"
+#~ msgstr "はてなブックマーク"
+
+#~ msgid "Tumblr's Share"
+#~ msgstr "Tumblr シェア"
+
+#~ msgid "Pinterest's Pin it"
+#~ msgstr "Pinterest Pin it ボタン"
+
+#~ msgid "LinkedIn's Share"
+#~ msgstr "LinkedIn シェア"
+
+#~ msgid "Pocket Button"
+#~ msgstr "Pocket ボタン"
+
+#~ msgid "Sosial share buttons disabled in edit mode."
+#~ msgstr "ソーシャルシェアボタンは編集モードでは表示されません。"
+
+#~ msgid "Tweet"
+#~ msgstr "ツイートする"
+
+#~ msgid "Add this entry to hatena bookmark"
+#~ msgstr "このエントリーをはてなブックマークに追加"
+
+#~ msgid "Share on Tumblr"
+#~ msgstr "Tumblrでシェア"
