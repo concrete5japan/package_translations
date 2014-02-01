@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Example Package 0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-02-01 12:38+0900\n"
-"PO-Revision-Date: 2014-02-01 13:03+0900\n"
+"PO-Revision-Date: 2014-02-01 17:37+0900\n"
 "Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -241,7 +241,7 @@ msgstr "デザイナー・コンテント・プロをアップグレードして
 msgid ""
 "This addon cannot be installed on its own -- you must install the Designer "
 "Content Pro addon (which will then cause this addon to be installed)."
-msgstr ""
+msgstr "このアドオンはこれ自身ではインストールできません。"
 
 #: ../../../libraries/container_package_generator.php:136
 msgid ""
@@ -249,22 +249,25 @@ msgid ""
 "Designer Content Pro addon (which will then cause this addon to be "
 "uninstalled)."
 msgstr ""
+"このアドオンはそれ自身でアンインストールすることはできません -- デザイナー・"
+"コンテント・プロ・アドオンをアンインストールしてください。デザイナー・コンテ"
+"ント・プロをアンインストールすると、このアドオンもアンインストールされます。"
 
 #: ../../../libraries/dcp_controller.php:157
 msgid "Edit Item #"
-msgstr ""
+msgstr "項目を編集 #"
 
 #: ../../../libraries/dcp_controller.php:158
 msgid "click to edit"
-msgstr ""
+msgstr "クリックして編集"
 
 #: ../../../libraries/dcp_controller.php:159
 msgid "You must provide a link"
-msgstr ""
+msgstr "リンクを入力してください"
 
 #: ../../../libraries/dcp_field_types.php:123
 msgid "File"
-msgstr ""
+msgstr "ファイル"
 
 #: ../../../libraries/dcp_field_types.php:128
 #: ../../../libraries/dcp_field_types.php:193
@@ -273,13 +276,15 @@ msgstr ""
 #: ../../../libraries/dcp_field_types.php:284
 #: ../../../libraries/dcp_field_types.php:349
 msgid "Searchable"
-msgstr ""
+msgstr "検索に含める"
 
 #: ../../../libraries/dcp_field_types.php:128
 #: ../../../libraries/dcp_field_types.php:193
 msgid ""
 "Check this box to include this field's file title in the site search index."
 msgstr ""
+"このボックスをチェックするとこのフィールドのファイルのタイトルが検索インデッ"
+"クスに含まれます。"
 
 #: ../../../libraries/dcp_field_types.php:129
 #: ../../../libraries/dcp_field_types.php:194
@@ -289,7 +294,7 @@ msgstr ""
 #: ../../../libraries/dcp_field_types.php:350
 #: ../../../libraries/dcp_field_types.php:481
 msgid "Required"
-msgstr ""
+msgstr "必須"
 
 #: ../../../libraries/dcp_field_types.php:129
 #: ../../../libraries/dcp_field_types.php:194
@@ -300,10 +305,12 @@ msgstr ""
 #: ../../../libraries/dcp_field_types.php:481
 msgid "Check this box to make this field required when adding/editing blocks."
 msgstr ""
+"このボックスをチェックすると、ブロックを追加／編集する際にこのフィールドの入"
+"力が必須になります。"
 
 #: ../../../libraries/dcp_field_types.php:130
 msgid "Editable Title"
-msgstr ""
+msgstr "編集可能なタイトル"
 
 #: ../../../libraries/dcp_field_types.php:130
 msgid ""
@@ -311,31 +318,36 @@ msgid ""
 "blocks (if provided, this title will be used instead of the file's title "
 "attribute)."
 msgstr ""
+"このボックスをチェックすると、ブロックを追加／編集する際にファイルのタイトル"
+"用のテキストボックスが表示されます（このタイトルはファイルのタイトル属性の変"
+"わりに使われます）。"
 
 #: ../../../libraries/dcp_field_types.php:131
 #: ../../../libraries/dcp_field_types.php:225
 #: ../../../libraries/dcp_field_types.php:255
 #: ../../../libraries/dcp_field_types.php:352
 msgid "Block Item Label"
-msgstr ""
+msgstr "ブロック項目ラベル"
 
 #: ../../../libraries/dcp_field_types.php:131
 msgid ""
 "Check this box to use this field's editable title as the label for repeating "
 "items when listed in the block add/edit dialog."
 msgstr ""
+"このボックスをチェックすると、このフィールドの編集可能なタイトルが、ブロック"
+"の追加／編集ダイアログの一覧で繰り返し項目のラベルとして使われます。"
 
 #: ../../../libraries/dcp_field_types.php:166
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #: ../../../libraries/dcp_field_types.php:188
 msgid "Image"
-msgstr ""
+msgstr "画像"
 
 #: ../../../libraries/dcp_field_types.php:195
 msgid "Editable Alt Text"
-msgstr ""
+msgstr "編集可能なAltテキスト"
 
 #: ../../../libraries/dcp_field_types.php:195
 msgid ""
@@ -343,29 +355,36 @@ msgid ""
 "editing blocks (if provided, this alt text will be used instead of the "
 "file's description or title attribute)."
 msgstr ""
+"このボックスをチェックすると、ブロックを追加／編集する際に画像のaltテキスト用"
+"のテキストボックスが表示されます（このaltテキストがファイルの説明やタイトル属"
+"性の代わりに使われます）。"
 
 #: ../../../libraries/dcp_field_types.php:196
 msgid "Block Item Image"
-msgstr ""
+msgstr "ブロック項目画像"
 
 #: ../../../libraries/dcp_field_types.php:196
 msgid ""
 "Check this box to use this field's image as the thumbnail for repeating "
 "items when listed in the block add/edit dialog."
 msgstr ""
+"このボックスをチェックすると、このフィールドの画像がブロックの追加／編集ダイ"
+"アログ内に表示される繰り返し項目のサムネイルとして使われます。"
 
 #: ../../../libraries/dcp_field_types.php:205
 msgid "Alt Text"
-msgstr ""
+msgstr "Altテキスト"
 
 #: ../../../libraries/dcp_field_types.php:218
 msgid "Textbox"
-msgstr ""
+msgstr "テキストボックス"
 
 #: ../../../libraries/dcp_field_types.php:223
 #: ../../../libraries/dcp_field_types.php:253
 msgid "Check this box to include this field's text in the site search index."
 msgstr ""
+"このボックスをチェックすると、このフィールドのテキストがサイトの検索インデッ"
+"クスに含まれます。"
 
 #: ../../../libraries/dcp_field_types.php:225
 #: ../../../libraries/dcp_field_types.php:255
@@ -373,55 +392,63 @@ msgid ""
 "Check this box to use this field's text as the label for repeating items "
 "when listed in the block add/edit dialog."
 msgstr ""
+"このボックスをチェックすると、このフィールドのテキストがブロックの追加／編集"
+"ダイアログの一覧で繰り返し項目のラベルとして使われます。"
 
 #: ../../../libraries/dcp_field_types.php:248
 msgid "Text Area"
-msgstr ""
+msgstr "テキストエリア"
 
 #: ../../../libraries/dcp_field_types.php:279
 msgid "WYSIWYG"
-msgstr ""
+msgstr "WYSIWYG"
 
 #: ../../../libraries/dcp_field_types.php:284
 msgid ""
 "Check this box to include this field's content in the site search index."
 msgstr ""
+"このボックスをチェックすると、このフィールドのコンテンツがサイトの検索イン"
+"デックスに含まれます。"
 
 #: ../../../libraries/dcp_field_types.php:336
 msgid "Combo"
-msgstr ""
+msgstr "コンボ"
 
 #: ../../../libraries/dcp_field_types.php:337
 msgid "Page Chooser"
-msgstr ""
+msgstr "ページ選択"
 
 #: ../../../libraries/dcp_field_types.php:338
 #: ../../../libraries/dcp_field_types.php:404
 msgid "External URL"
-msgstr ""
+msgstr "外部URL"
 
 #: ../../../libraries/dcp_field_types.php:343
 msgid "Link"
-msgstr ""
+msgstr "リンク"
 
 #: ../../../libraries/dcp_field_types.php:348
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 #: ../../../libraries/dcp_field_types.php:348
 msgid ""
 "The type of field to provide in the block add/edit dialog:<br>sitemap page "
 "chooser only,<br>external url textbox only,<br>or both (combo)."
 msgstr ""
+"ブロックの追加／編集ダイアログで表示されるフィールドのタイプ：<br>サイトマッ"
+"プ選択のみ、<br>外部URLのテキストボックスのみ、<br>または両方（コンボ）。"
 
 #: ../../../libraries/dcp_field_types.php:349
 msgid ""
 "Check this box to include this field's link text in the site search index."
 msgstr ""
+"このボックスをチェックすると、このフィールドのリンクテキストがサイトの検索イ"
+"ンデックスに含まれます。"
 
 #: ../../../libraries/dcp_field_types.php:351
 msgid "Editable Link Text"
-msgstr ""
+msgstr "編集可能なリンクテキスト"
 
 #: ../../../libraries/dcp_field_types.php:351
 msgid ""
@@ -429,24 +456,30 @@ msgid ""
 "blocks (if provided, this text will be used instead of the page title or "
 "external url)."
 msgstr ""
+"このボックスをチェックすると、ブロックの追加／編集の際にリンクテキストのため"
+"のテキストボックスが表示されます（ページのタイトルや外部URLの代わりに使われま"
+"す）。"
 
 #: ../../../libraries/dcp_field_types.php:352
 msgid ""
 "Check this box to use this field's editable link text as the label for "
 "repeating items when listed in the block add/edit dialog."
 msgstr ""
+"このボックスをチェックすると、このフィールドの編集可能なリンクテキストがブ"
+"ロックの追加／編集ダイアログで表示される繰り返し項目のラベルとして使われま"
+"す。"
 
 #: ../../../libraries/dcp_field_types.php:404
 msgid "Page in Site"
-msgstr ""
+msgstr "サイト内のページ"
 
 #: ../../../libraries/dcp_field_types.php:434
 msgid "Link Text: "
-msgstr ""
+msgstr "リンクテキスト："
 
 #: ../../../libraries/dcp_field_types.php:476
 msgid "Page"
-msgstr ""
+msgstr "ページ"
 
 #: ../../../models/dcp_block_type.php:119
 msgid ""
