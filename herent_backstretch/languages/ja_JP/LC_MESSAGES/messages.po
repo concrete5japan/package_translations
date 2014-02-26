@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BackStretch 1.2.3\n"
+"POT-Creation-Date: 2014-02-22 02:34+0900\n"
+"PO-Revision-Date: 2014-02-22 02:34+0900\n"
+"Last-Translator: Yoshihio Fujie <info@galfy.jp>\n"
+"Language-Team: Galfy <info@galfy.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/concrete5/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: packages/herent_backstretch\n"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/add.php:10
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:18
+msgid "Image"
+msgstr "画像"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/add.php:11
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:19
+msgid "Choose Image"
+msgstr "画像を選択"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/add.php:14
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:22
+msgid "Center Image Horizontally"
+msgstr "画像を水平位置の中心に配置"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/add.php:15
+#: packages/herent_backstretch/blocks/herent_backstretch/add.php:19
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:23
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:27
+msgid "Yes"
+msgstr "はい"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/add.php:18
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:26
+msgid "Center Image Vertically"
+msgstr "画像を垂直位置の中心に配置"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/controller.php:19
+#: packages/herent_backstretch/controller.php:12
+msgid ""
+"Adds an image to the background of a page that scales to the browser window."
+msgstr "ページの背景画像をブラウザのウインドウにあわせて可変にします。"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/controller.php:23
+#: packages/herent_backstretch/controller.php:16
+msgid "Backstretch"
+msgstr "Backstretch"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/controller.php:28
+msgid "You must select an image."
+msgstr "画像を必ず選んでください"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:30
+msgid "Fade In Speed"
+msgstr "フェードインの速さ"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/edit.php:31
+msgid ""
+"This is the speed at which the image will fade in, after downloading is "
+"complete. Integers are accepted, as well as standard jQuery speed strings "
+"(slow, normal, fast)."
+msgstr ""
+"画像のダウンロードが完了してからフェードインして表示される際の速度です。整数"
+"または標準的な jQuery の速度の文字列（slow, normal, fast）を指定できます。"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/view.php:8
+msgid "Backstretch Block"
+msgstr "Backstretch ブロック"
+
+#: packages/herent_backstretch/blocks/herent_backstretch/view.php:9
+msgid "Refresh or publish the page to see changes."
+msgstr "変更したらページを再読み込みするか公開してください。"
+
+#: packages/herent_backstretch/controller.php:3
+msgid "Access Denied."
+msgstr "アクセスできません"
