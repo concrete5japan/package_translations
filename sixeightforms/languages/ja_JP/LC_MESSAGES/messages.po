@@ -1,0 +1,2018 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Forms 1.11.5\n"
+"POT-Creation-Date: 2014-02-27 02:36+0900\n"
+"PO-Revision-Date: 2014-02-27 02:37+0900\n"
+"Last-Translator: Yoshihio Fujie <info@galfy.jp>\n"
+"Language-Team: Galfy <info@galfy.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/concrete5/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: packages/sixeightforms\n"
+
+#: packages/sixeightforms/blocks/sixeightforms/add.php:2
+#: packages/sixeightforms/blocks/sixeightforms/controller.php:2
+#: packages/sixeightforms/blocks/sixeightforms/edit.php:2
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:2
+#: packages/sixeightforms/blocks/sixeightforms/view.php:2
+#: packages/sixeightforms/controller.php:3
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/controller.php:2
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:3
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/help.php:2
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/import.php:2
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/styles.php:2
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/trash.php:3
+#: packages/sixeightforms/elements/payment/paypal/config.php:2
+#: packages/sixeightforms/elements/payment/paypal/form.php:2
+#: packages/sixeightforms/jobs/sixeightforms_clear_cache.php:1
+#: packages/sixeightforms/jobs/sixeightforms_index_records.php:1
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:2
+#: packages/sixeightforms/tools/alternate_options.php:2
+#: packages/sixeightforms/tools/alternate_options.php:7
+#: packages/sixeightforms/tools/answer_detail.php:2
+#: packages/sixeightforms/tools/answer_detail.php:7
+#: packages/sixeightforms/tools/approval_email.php:2
+#: packages/sixeightforms/tools/approval_email.php:7
+#: packages/sixeightforms/tools/conditionalform.php:4
+#: packages/sixeightforms/tools/conditionalform.php:9
+#: packages/sixeightforms/tools/conditionalform.php:20
+#: packages/sixeightforms/tools/css.php:2
+#: packages/sixeightforms/tools/delete_answerset.php:2
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:2
+#: packages/sixeightforms/tools/delete_form.php:2
+#: packages/sixeightforms/tools/delete_form.php:7
+#: packages/sixeightforms/tools/edit_answerset.php:1
+#: packages/sixeightforms/tools/edit_form.php:5
+#: packages/sixeightforms/tools/edit_form.php:10
+#: packages/sixeightforms/tools/export_data.php:2
+#: packages/sixeightforms/tools/export_data.php:6
+#: packages/sixeightforms/tools/export_form_definition.php:2
+#: packages/sixeightforms/tools/export_style.php:2
+#: packages/sixeightforms/tools/export_summary.php:4
+#: packages/sixeightforms/tools/export_summary.php:8
+#: packages/sixeightforms/tools/field_quick_add.php:5
+#: packages/sixeightforms/tools/field_quick_add.php:10
+#: packages/sixeightforms/tools/get_next_answer_set.php:2
+#: packages/sixeightforms/tools/get_next_answer_set.php:7
+#: packages/sixeightforms/tools/get_previous_answer_set.php:2
+#: packages/sixeightforms/tools/get_previous_answer_set.php:7
+#: packages/sixeightforms/tools/json_fields.php:2
+#: packages/sixeightforms/tools/json_fields.php:7
+#: packages/sixeightforms/tools/new_field.php:2
+#: packages/sixeightforms/tools/new_field.php:7
+#: packages/sixeightforms/tools/new_field_new.php:2
+#: packages/sixeightforms/tools/new_field_new.php:7
+#: packages/sixeightforms/tools/new_form.php:2
+#: packages/sixeightforms/tools/new_form.php:7
+#: packages/sixeightforms/tools/notifications.php:4
+#: packages/sixeightforms/tools/notifications.php:9
+#: packages/sixeightforms/tools/payment_form.php:4
+#: packages/sixeightforms/tools/payment_process.php:4
+#: packages/sixeightforms/tools/paypal_ipn.php:2
+#: packages/sixeightforms/tools/permissions.php:2
+#: packages/sixeightforms/tools/permissions.php:11
+#: packages/sixeightforms/tools/preview_form.php:4
+#: packages/sixeightforms/tools/preview_form.php:9
+#: packages/sixeightforms/tools/process_form.php:2
+#: packages/sixeightforms/tools/refresh_captcha.php:2
+#: packages/sixeightforms/tools/rules.php:2
+#: packages/sixeightforms/tools/rules.php:15
+#: packages/sixeightforms/tools/save_associated_page.php:2
+#: packages/sixeightforms/tools/save_associated_page.php:7
+#: packages/sixeightforms/tools/save_selector.php:2
+#: packages/sixeightforms/tools/save_selector.php:8
+#: packages/sixeightforms/tools/savefieldsort.php:2
+#: packages/sixeightforms/tools/savefieldsort.php:10
+#: packages/sixeightforms/tools/send_approval_notification.php:2
+#: packages/sixeightforms/tools/send_approval_notification.php:10
+#: packages/sixeightforms/tools/send_email.php:2
+#: packages/sixeightforms/tools/send_email.php:7
+#: packages/sixeightforms/tools/send_notification.php:2
+#: packages/sixeightforms/tools/send_notification.php:11
+#: packages/sixeightforms/tools/send_notification_prompt.php:2
+#: packages/sixeightforms/tools/send_notification_prompt.php:11
+#: packages/sixeightforms/tools/set_answer_set_owner.php:2
+#: packages/sixeightforms/tools/set_answer_set_owner.php:10
+#: packages/sixeightforms/tools/stats_data.php:2
+#: packages/sixeightforms/tools/stats_data.php:7
+#: packages/sixeightforms/tools/stats_data_by_field.php:2
+#: packages/sixeightforms/tools/stats_data_by_field.php:7
+#: packages/sixeightforms/tools/update_approval.php:2
+#: packages/sixeightforms/tools/update_approval.php:11
+#: packages/sixeightforms/tools/update_exclude_from_email.php:2
+#: packages/sixeightforms/tools/update_exclude_from_email.php:11
+#: packages/sixeightforms/tools/update_field_label.php:2
+#: packages/sixeightforms/tools/update_field_label.php:10
+#: packages/sixeightforms/tools/update_form_name.php:2
+#: packages/sixeightforms/tools/update_form_name.php:9
+#: packages/sixeightforms/tools/update_required.php:2
+#: packages/sixeightforms/tools/update_required.php:11
+#: packages/sixeightforms/tools/update_searchable.php:2
+#: packages/sixeightforms/tools/update_searchable.php:11
+#: packages/sixeightforms/tools/upload_file.php:2
+#: packages/sixeightforms/tools/validate_fields.php:2
+msgid "Access Denied."
+msgstr "アクセスできません。"
+
+#: packages/sixeightforms/blocks/sixeightforms/controller.php:16
+msgid "Display a form created from the backend"
+msgstr "管理画面で作ったフォームを表示します"
+
+#: packages/sixeightforms/blocks/sixeightforms/controller.php:20
+msgid "Advanced Form"
+msgstr "Advanced Form"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:46
+msgid "Require SSL?"
+msgstr "SSLを使いますか？"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:50
+#: packages/sixeightforms/tools/edit_form.php:185
+#: packages/sixeightforms/tools/edit_form.php:197
+#: packages/sixeightforms/tools/edit_form.php:327
+#: packages/sixeightforms/tools/edit_form.php:342
+#: packages/sixeightforms/tools/edit_form.php:351
+#: packages/sixeightforms/tools/edit_form.php:473
+#: packages/sixeightforms/tools/edit_form.php:482
+#: packages/sixeightforms/tools/edit_form.php:491
+#: packages/sixeightforms/tools/edit_form.php:518
+#: packages/sixeightforms/tools/edit_form.php:539
+#: packages/sixeightforms/tools/edit_form.php:650
+#: packages/sixeightforms/tools/new_field.php:679
+#: packages/sixeightforms/tools/new_field.php:792
+#: packages/sixeightforms/tools/new_field.php:851
+#: packages/sixeightforms/tools/new_field.php:889
+#: packages/sixeightforms/tools/new_field.php:899
+#: packages/sixeightforms/tools/new_field.php:910
+#: packages/sixeightforms/tools/new_field.php:960
+#: packages/sixeightforms/tools/new_field_new.php:638
+#: packages/sixeightforms/tools/new_field_new.php:751
+#: packages/sixeightforms/tools/new_field_new.php:810
+#: packages/sixeightforms/tools/new_field_new.php:848
+#: packages/sixeightforms/tools/new_field_new.php:858
+#: packages/sixeightforms/tools/new_field_new.php:869
+#: packages/sixeightforms/tools/new_field_new.php:901
+#: packages/sixeightforms/tools/new_form.php:229
+msgid "Yes"
+msgstr "はい"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:51
+#: packages/sixeightforms/tools/edit_form.php:187
+#: packages/sixeightforms/tools/edit_form.php:198
+#: packages/sixeightforms/tools/edit_form.php:326
+#: packages/sixeightforms/tools/edit_form.php:341
+#: packages/sixeightforms/tools/edit_form.php:350
+#: packages/sixeightforms/tools/edit_form.php:472
+#: packages/sixeightforms/tools/edit_form.php:481
+#: packages/sixeightforms/tools/edit_form.php:490
+#: packages/sixeightforms/tools/edit_form.php:517
+#: packages/sixeightforms/tools/edit_form.php:538
+#: packages/sixeightforms/tools/edit_form.php:649
+#: packages/sixeightforms/tools/new_field.php:680
+#: packages/sixeightforms/tools/new_field.php:793
+#: packages/sixeightforms/tools/new_field.php:852
+#: packages/sixeightforms/tools/new_field.php:888
+#: packages/sixeightforms/tools/new_field.php:898
+#: packages/sixeightforms/tools/new_field.php:909
+#: packages/sixeightforms/tools/new_field.php:959
+#: packages/sixeightforms/tools/new_field_new.php:639
+#: packages/sixeightforms/tools/new_field_new.php:752
+#: packages/sixeightforms/tools/new_field_new.php:811
+#: packages/sixeightforms/tools/new_field_new.php:847
+#: packages/sixeightforms/tools/new_field_new.php:857
+#: packages/sixeightforms/tools/new_field_new.php:868
+#: packages/sixeightforms/tools/new_field_new.php:900
+#: packages/sixeightforms/tools/new_form.php:229
+msgid "No"
+msgstr "いいえ"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:59
+msgid "Block Not Ready"
+msgstr "ブロックが準備できていません"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:60
+msgid ""
+"In order to use the Advanced Forms block, you must first create at least one "
+"form, on "
+msgstr ""
+"Advanced Formsブロックを使用するためには、まず最初に少なくとも一つのフォーム"
+"を管理画面の、"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:60
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:828
+msgid "Advanced Forms"
+msgstr "Advanced Forms"
+
+#: packages/sixeightforms/blocks/sixeightforms/edit_form.php:60
+msgid " pages in the Dashboard."
+msgstr "ページから作成してください。"
+
+#: packages/sixeightforms/blocks/sixeightforms/view.php:275
+msgid ""
+"There was an error submitting this form.  Please contact the administrator "
+"of this site."
+msgstr ""
+"フォームの送信でエラーが発生しました。サイトの管理者にお問い合わせください。"
+
+#: packages/sixeightforms/blocks/sixeightforms/view.php:532
+msgid "<strong>Please review the following fields:</strong>"
+msgstr "<strong>以下のフィールドを調べてください：</strong>"
+
+#: packages/sixeightforms/blocks/sixeightforms/view.php:597
+msgid "Processing"
+msgstr "処理中"
+
+#: packages/sixeightforms/blocks/sixeightforms/view.php:603
+msgid "The data has been submitted."
+msgstr "データが送信されました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:36
+msgid "The cache has been emptied."
+msgstr "キャッシュは空です。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:71
+msgid "The following fields have been indexed:"
+msgstr "以下のフィールドのインデックスが作成されました："
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:86
+msgid "Error: No fields are set to searchable.  Check field settings."
+msgstr ""
+"エラー：検索できるフィールドがありません。フィールド設定をクリックしてくださ"
+"い。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:192
+msgid ""
+"The form has been created. Click Settings for full configuration options."
+msgstr ""
+"フォームが作成されました。「設定」をクリックして詳細な設定を行ってください。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:264
+msgid "The form has been updated."
+msgstr "フォームが更新されました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:290
+msgid "The form has been deleted."
+msgstr "フォームが削除されました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:335
+msgid "Field added."
+msgstr "フィールドが追加されました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:428
+msgid "Rules have been saved."
+msgstr "ルールが保存されました"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/forms.php:601
+msgid "Permissions have been saved."
+msgstr "権限が保存されました"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/import.php:39
+#: packages/sixeightforms/tools/upload_file.php:19
+msgid "Invalid file extension."
+msgstr "無効なファいう拡張子です。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/import.php:42
+#: packages/sixeightforms/tools/upload_file.php:22
+msgid "Invalid file."
+msgstr "無効なファイルです。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/import.php:63
+#: packages/sixeightforms/tools/new_form.php:245
+msgid "The record has been added."
+msgstr "レコードが追加されました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/import.php:206
+msgid " row(s) imported."
+msgstr "列がインポートされました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/import.php:217
+msgid "The form has been converted."
+msgstr "フォームがコンバートされました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/styles.php:82
+msgid "The style has been deleted."
+msgstr "スタイルが削除されました。"
+
+#: packages/sixeightforms/controllers/dashboard/sixeightforms/styles.php:93
+msgid "The style has been duplicated."
+msgstr "スタイルが複製されました。"
+
+#: packages/sixeightforms/jobs/sixeightforms_clear_cache.php:10
+msgid "Clear the advanced forms records cache."
+msgstr "Advanced Formsのレコードのキャッシュをクリアする。"
+
+#: packages/sixeightforms/jobs/sixeightforms_clear_cache.php:23
+msgid "The cache was successfully cleared."
+msgstr "キャッシュのクリアに成功しました。"
+
+#: packages/sixeightforms/jobs/sixeightforms_index_records.php:10
+msgid ""
+"Index records that were created using Advanced Forms in order to make them "
+"searchable using the Data Display search."
+msgstr ""
+"Advanced Formsで作ったレコードをData Displayから検索できるようにインデックス"
+"を作成します。"
+
+#: packages/sixeightforms/jobs/sixeightforms_index_records.php:23
+msgid " forms were indexed."
+msgstr "インデックスが作成されました。"
+
+#: packages/sixeightforms/models/answer_set.php:550
+msgid "The form \""
+msgstr ""
+
+#: packages/sixeightforms/models/field.php:888
+msgid "Select File"
+msgstr "ファイルの選択"
+
+#: packages/sixeightforms/models/field.php:900
+#: packages/sixeightforms/models/field.php:905
+msgid "Select file"
+msgstr "ファイルの選択"
+
+#: packages/sixeightforms/models/field.php:909
+msgid "Choose File"
+msgstr "ファイルの選択"
+
+#: packages/sixeightforms/models/form.php:12
+msgid "Please review the highlighted fields."
+msgstr "強調表示された項目の再入力をお願いします（未入力または無効な値です）"
+
+#: packages/sixeightforms/models/form.php:13
+msgid "This form is no longer receiving submissions."
+msgstr "このフォームは送信を受け付けていません。"
+
+#: packages/sixeightforms/models/form.php:14
+msgid "Incorrect validation code.  Please try again."
+msgstr "CAPTCHAコードが間違っています。もう一度入力してください。"
+
+#: packages/sixeightforms/models/form.php:15
+msgid "There was an error processing the transaction."
+msgstr "トランザクション処理中にエラーが発生しました。"
+
+#: packages/sixeightforms/models/form.php:16
+msgid "You do not have access to submit this form."
+msgstr "このフォームを送信する権限がありません。"
+
+#: packages/sixeightforms/models/form_upgrade.php:35
+msgid " Form Submission"
+msgstr "フォームの送信"
+
+#: packages/sixeightforms/models/form_upgrade.php:45
+msgid "Submit"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:48
+msgid "Are you sure you want to delete this form and all of its responses?"
+msgstr "フォームとその回答を本当に削除しますか？"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:56
+msgid "Are you sure you want to delete this field?"
+msgstr "このフィールドを削除してよろしいですか？"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:64
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:15
+msgid "Are you sure you want to delete this record?"
+msgstr "このレコードを削除してよろしいですか？"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:77
+msgid "New Form"
+msgstr "新しいフォーム"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:87
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:888
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:889
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:890
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:891
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:892
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:894
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:895
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:896
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:897
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:898
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:899
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:901
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:902
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:903
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:905
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:906
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:907
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:908
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:909
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:910
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:911
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:912
+msgid "Add Field"
+msgstr "フィールドの追加"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:97
+msgid "Edit Field"
+msgstr "フィールドの編集"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:108
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:864
+msgid "Notifications"
+msgstr "通知"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:119
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:865
+msgid "Permissions"
+msgstr "権限"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:130
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:866
+msgid "Rules"
+msgstr "ルール"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:156
+#: packages/sixeightforms/tools/answer_detail.php:80
+#: packages/sixeightforms/tools/answer_detail.php:100
+msgid "Answer Details"
+msgstr "回答の詳細"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:168
+msgid "Send Notification"
+msgstr "通知を送る"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:180
+msgid "Edit Record"
+msgstr "レコードの編集"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:192
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:410
+msgid "Edit Form"
+msgstr "フォームの編集"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:219
+msgid "Send Approval Email"
+msgstr "承認のメールを送る"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:320
+#: packages/sixeightforms/tools/rules.php:53
+#: packages/sixeightforms/tools/rules.php:97
+msgid "Alternate Options"
+msgstr "代替オプション"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:356
+#: packages/sixeightforms/tools/answer_detail.php:56
+msgid "Select Owner"
+msgstr "所有者の選択"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:388
+msgid "Form "
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:576
+msgid "Statistics"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:578
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:607
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:770
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:919
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:9
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:37
+msgid "Return to Form List"
+msgstr "フォームリストへ戻る"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:592
+msgid "Day"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:593
+msgid "Week"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:594
+msgid "Month"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:602
+msgid "Results"
+msgstr "結果"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:604
+msgid "Add a Record"
+msgstr "レコードの追加"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:605
+msgid "Update Search Index"
+msgstr "検索インデックスの更新"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:606
+msgid "Clear Cache"
+msgstr "キャッシュのクリア"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:613
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:619
+msgid "Search"
+msgstr "検索"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:615
+msgid "Records last indexed on "
+msgstr "レコードのインデックスが最後に作成されたのは"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:624
+msgid "You must update the search index before you can search these records."
+msgstr "レコードの検索をする前には検索インデックスを更新してください。"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:635
+#: packages/sixeightforms/tools/answer_detail.php:113
+msgid "Date Submitted"
+msgstr "送信日時"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:645
+msgid "Status"
+msgstr "ステータス"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:646
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:699
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:938
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:982
+#: packages/sixeightforms/tools/permissions.php:34
+msgid "Edit"
+msgstr "編集"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:647
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:702
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:714
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:939
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:985
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:994
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:23
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:29
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:45
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:51
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:68
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:74
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:18
+#: packages/sixeightforms/tools/permissions.php:35
+msgid "Delete"
+msgstr "削除"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:715
+#: packages/sixeightforms/tools/permissions.php:36
+msgid "Approve"
+msgstr "承認"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:716
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:769
+msgid "Export Results"
+msgstr "結果のエクスポート"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:717
+msgid "Export Summary"
+msgstr "エクスポートの概要"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:720
+msgid "selected answers"
+msgstr "選択された回答"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:721
+msgid "all answers"
+msgstr "すべての回答"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:745
+msgid "results per page"
+msgstr "ページごとの結果"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:774
+msgid "Date range"
+msgstr "日付範囲"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:775
+msgid "All records"
+msgstr "すべてのレコード"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:777
+msgid "Records submitted since last export on"
+msgstr "前回エクスポートされた後に送信されたレコード"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:777
+msgid "at"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:779
+msgid "Records submitted between"
+msgstr "次の期間送信されたレコード"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:787
+msgid "Approval status"
+msgstr "承認のステータス"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:788
+msgid "All"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:789
+msgid "Approved Only"
+msgstr "承認済みのみ"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:790
+msgid "Fields to include"
+msgstr "含めるフィールド"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:797
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:855
+msgid "Export"
+msgstr "エクスポート"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:830
+msgid "Create a New Form"
+msgstr "新規フォームの作成"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:831
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:36
+msgid "Styles"
+msgstr "スタイル"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:832
+msgid "Import CSV"
+msgstr "CSVからインポート"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:833
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/help.php:1
+msgid "Help"
+msgstr "ヘルプ"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:855
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:993
+msgid "Duplicate"
+msgstr "複製"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:861
+msgid "Settings"
+msgstr "設定"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:862
+#: packages/sixeightforms/tools/rules.php:47
+#: packages/sixeightforms/tools/rules.php:91
+msgid "Fields"
+msgstr "フィールド"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:863
+msgid "Records"
+msgstr "レコード"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:873
+msgid "Click \"Create a New Form\" to create your first Advanced Form!"
+msgstr "「新規フォームの作成」をクリックしてAdvanced Formを作成しましょう！"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:884
+msgid "Add New Field"
+msgstr "フィールドの追加"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:931
+msgid "Sort"
+msgstr "並べ替え"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:932
+msgid "Type"
+msgstr "タイプ"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:933
+#: packages/sixeightforms/tools/new_field.php:685
+#: packages/sixeightforms/tools/new_field_new.php:644
+msgid "Label"
+msgstr "ラベル"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:958
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:960
+msgid "Field is required?"
+msgstr "入力必須項目ですか？"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:964
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:966
+msgid "Field is searchable?"
+msgstr "検索の対象にしますか？"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:971
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:973
+msgid "Include field in email notifications?"
+msgstr "フィールドの内容を通知メールに含めますか？"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:978
+msgid "Alternate options"
+msgstr "だいたいオプション"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:995
+msgid "selected fields"
+msgstr "選択されたフィールド"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/forms.php:996
+msgid "Go"
+msgstr "実行"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:7
+msgid "Tools"
+msgstr "ツール"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:11
+msgid "Import Data from CSV"
+msgstr "CSVからデータのインポート"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:12
+msgid "Note:"
+msgstr "注意："
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:12
+msgid "If using Excel for Mac, save your file as"
+msgstr "Excel for Macをお使いの場合は、以下のデータ形式で保存してください"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:14
+msgid "Select a File"
+msgstr "ファイルを選択"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:16
+msgid "Select a Form"
+msgstr "フォームを選択"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:23
+msgid "Start Import"
+msgstr "インポート開始"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:28
+msgid "Columns Found"
+msgstr "カラムが見つかりました"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:29
+msgid "Map columns to form fields"
+msgstr "カラムをフォームのフィールドにマッピングする"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:35
+msgid "CSV Column"
+msgstr "CSVのカラム"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:36
+msgid "Form Field"
+msgstr "フォームのフィールド"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:37
+msgid "Convert new line to"
+msgstr "新しい行のコンバート先"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:38
+msgid "Is file?"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:45
+msgid "Do not import"
+msgstr "インポートしない"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:46
+msgid "Create new field - "
+msgstr "新しいフィールドを作る - "
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:47
+msgid "Timestamp"
+msgstr "タイムスタンプ"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:47
+msgid "or"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:48
+msgid "Approval Status (true/false)"
+msgstr "承認ステータス(true/false)"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:49
+msgid "Owner (Existent only)"
+msgstr "所有者（既存のみ）"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:50
+msgid "Owner (Create if non-existent)"
+msgstr "所有者（新規作成）"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:66
+msgid "Finish Import"
+msgstr "インポート終了"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:74
+msgid "Importing Complete"
+msgstr "インポート完了"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:76
+msgid "rows imported."
+msgstr "列がインポートされました。"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:81
+msgid "Form Converter"
+msgstr "フォームコンバーター"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:84
+msgid "Convert any of your core form blocks to an advanced form."
+msgstr "標準のフォームをAdvanced Formsへ変換します。"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:92
+msgid "Convert"
+msgstr "コンバート"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:98
+msgid "Import from HTML text"
+msgstr "HTMLテキストからインポート"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/import.php:99
+msgid ""
+"Copy and paste your HTML form, starting with &lt;form&gt; and ending with "
+"&lt;/form&gt;. Action and method attributes don't matter."
+msgstr ""
+"まず最初に&lt;フォーム&gt; からHTMLフォームをコピー＆ペーストし、&lt;/フォー"
+"ム&gt;の編集をしてください。 フォームのactionやmethodは重要ではありません。"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:15
+msgid ""
+"Are you sure you want to delete this style? This action cannot be undone!"
+msgstr "このスタイルを本当に削除しますか？この操作は取り消す事が出ません。"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:39
+msgid "Create a New Style"
+msgstr "新しいスタイルの作成"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:40
+msgid "Create Style"
+msgstr "スタイルの作成"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:41
+msgid "Use default form style as template"
+msgstr "テンプレートとして既定のフォームスタイルを使用する"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:44
+msgid "Existing Styles"
+msgstr "現在適用されているスタイル"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:50
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:61
+msgid "Edit Style"
+msgstr "スタイルの編集"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:51
+msgid "Duplicate Style"
+msgstr "スタイルの複製"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:52
+msgid "Delete Style"
+msgstr "スタイルの削除"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:57
+msgid "Use the form above to create a new style."
+msgstr "新規スタイル作成のため上記のフォームを使用する。"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:62
+msgid "Return to Styles"
+msgstr "スタイルに戻る"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:73
+#: packages/sixeightforms/tools/edit_form.php:658
+#: packages/sixeightforms/tools/new_field.php:968
+#: packages/sixeightforms/tools/new_field_new.php:909
+#: packages/sixeightforms/tools/notifications.php:167
+#: packages/sixeightforms/tools/permissions.php:57
+msgid "Save"
+msgstr "保存"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/styles.php:84
+msgid "Save All"
+msgstr "すべて保存"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:16
+msgid "Forms"
+msgstr "フォーム"
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:21
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:43
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:66
+#: packages/sixeightforms/tools/edit_form.php:581
+msgid "Name"
+msgstr ""
+
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:22
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:28
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:44
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:50
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:67
+#: packages/sixeightforms/single_pages/dashboard/sixeightforms/trash.php:73
+msgid "Restore"
+msgstr ""
+
+#: packages/sixeightforms/tools/alternate_options.php:25
+msgid ""
+"Alternate options allow you to specify different sets of options that can be "
+"used in coordination with rules."
+msgstr ""
+"代替オプションは、ルールを使って別のオプションセットを指定することができま"
+"す。"
+
+#: packages/sixeightforms/tools/alternate_options.php:35
+#: packages/sixeightforms/tools/alternate_options.php:55
+msgid "Option Group Description"
+msgstr "オプショングループの詳細"
+
+#: packages/sixeightforms/tools/alternate_options.php:37
+#: packages/sixeightforms/tools/alternate_options.php:57
+#: packages/sixeightforms/tools/new_field.php:720
+#: packages/sixeightforms/tools/new_field_new.php:679
+msgid "Options"
+msgstr "オプション"
+
+#: packages/sixeightforms/tools/answer_detail.php:41
+msgid "Page Saved"
+msgstr "ページが保存されました"
+
+#: packages/sixeightforms/tools/answer_detail.php:83
+msgid "No previous records."
+msgstr "これより前のレコードはありません。"
+
+#: packages/sixeightforms/tools/answer_detail.php:103
+msgid "No more records."
+msgstr "これ以上レコードがありません。"
+
+#: packages/sixeightforms/tools/answer_detail.php:117
+msgid "IP Address"
+msgstr "IPアドレス"
+
+#: packages/sixeightforms/tools/answer_detail.php:124
+msgid "Amount Charged"
+msgstr "請求額"
+
+#: packages/sixeightforms/tools/answer_detail.php:128
+msgid "Amount Paid"
+msgstr "支払額"
+
+#: packages/sixeightforms/tools/answer_detail.php:134
+msgid "Gateway Response"
+msgstr "ペイメントゲートウェイ（決済代行）からのレスポンス"
+
+#: packages/sixeightforms/tools/answer_detail.php:142
+msgid "Expiration"
+msgstr "期限切れ"
+
+#: packages/sixeightforms/tools/answer_detail.php:148
+msgid "Owner"
+msgstr ""
+
+#: packages/sixeightforms/tools/answer_detail.php:163
+msgid "Associated Page"
+msgstr "関連したページ"
+
+#: packages/sixeightforms/tools/answer_detail.php:197
+msgid "Send data to"
+msgstr "メールの送り先"
+
+#: packages/sixeightforms/tools/answer_detail.php:208
+msgid "Previous"
+msgstr "前へ"
+
+#: packages/sixeightforms/tools/answer_detail.php:209
+msgid "Next"
+msgstr "次へ"
+
+#: packages/sixeightforms/tools/approval_email.php:21
+msgid "pending"
+msgstr "未決"
+
+#: packages/sixeightforms/tools/approval_email.php:23
+msgid "approved"
+msgstr "承認"
+
+#: packages/sixeightforms/tools/approval_email.php:25
+msgid "rejected"
+msgstr "却下"
+
+#: packages/sixeightforms/tools/conditionalform.php:35
+#: packages/sixeightforms/tools/notifications.php:199
+#: packages/sixeightforms/tools/notifications.php:240
+#: packages/sixeightforms/tools/rules.php:41
+#: packages/sixeightforms/tools/rules.php:85
+msgid "is equal to"
+msgstr "一致する"
+
+#: packages/sixeightforms/tools/conditionalform.php:36
+#: packages/sixeightforms/tools/notifications.php:200
+#: packages/sixeightforms/tools/notifications.php:241
+#: packages/sixeightforms/tools/rules.php:42
+#: packages/sixeightforms/tools/rules.php:86
+msgid "is not equal to"
+msgstr "一致しない"
+
+#: packages/sixeightforms/tools/conditionalform.php:37
+#: packages/sixeightforms/tools/notifications.php:242
+msgid "contains"
+msgstr "含む"
+
+#: packages/sixeightforms/tools/conditionalform.php:38
+#: packages/sixeightforms/tools/notifications.php:202
+#: packages/sixeightforms/tools/notifications.php:243
+msgid "does not contain"
+msgstr "含まない"
+
+#: packages/sixeightforms/tools/conditionalform.php:43
+#: packages/sixeightforms/tools/notifications.php:205
+#: packages/sixeightforms/tools/notifications.php:246
+msgid "send an e-mail"
+msgstr "はい、メールを送ります"
+
+#: packages/sixeightforms/tools/conditionalform.php:45
+#: packages/sixeightforms/tools/notifications.php:207
+#: packages/sixeightforms/tools/notifications.php:248
+msgid "with form data"
+msgstr "フォームのデータ"
+
+#: packages/sixeightforms/tools/conditionalform.php:46
+#: packages/sixeightforms/tools/notifications.php:208
+#: packages/sixeightforms/tools/notifications.php:249
+msgid "without form data"
+msgstr "フォームのデータ以外"
+
+#: packages/sixeightforms/tools/conditionalform.php:48
+#: packages/sixeightforms/tools/notifications.php:251
+msgid "to"
+msgstr ""
+
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:16
+msgid "Click \"Delete\" to confirm or \"Close\" to cancel."
+msgstr " \"削除\" をクリックて承認または \"閉じる\" でキャンセルする。"
+
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:21
+msgid "This record has a page associated with it."
+msgstr "このレコードには関連づけられたページがあります。"
+
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:22
+msgid ""
+"What would you like to do? (Deleting the page will also delete any subpages.)"
+msgstr ""
+"本当にいいですか？（ページを削除するとその子ページもすべて削除されます）"
+
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:25
+msgid "Delete Record Only"
+msgstr "レコードの削除のみ"
+
+#: packages/sixeightforms/tools/delete_answerset_prompt.php:26
+msgid "Delete Record and Page"
+msgstr "レコードとページを削除する"
+
+#: packages/sixeightforms/tools/edit_form.php:161
+#: packages/sixeightforms/tools/new_field.php:667
+#: packages/sixeightforms/tools/new_field_new.php:626
+msgid "General"
+msgstr "一般"
+
+#: packages/sixeightforms/tools/edit_form.php:162
+msgid "Submission"
+msgstr "送信"
+
+#: packages/sixeightforms/tools/edit_form.php:163
+#: packages/sixeightforms/tools/new_field.php:669
+#: packages/sixeightforms/tools/new_field_new.php:628
+msgid "eCommerce"
+msgstr "eCommerce"
+
+#: packages/sixeightforms/tools/edit_form.php:164
+msgid "Error Messages"
+msgstr "エラーメッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:165
+#: packages/sixeightforms/tools/new_field.php:670
+#: packages/sixeightforms/tools/new_field_new.php:629
+msgid "Other Settings"
+msgstr "その他の設定"
+
+#: packages/sixeightforms/tools/edit_form.php:166
+msgid "Data Display Integration"
+msgstr "Data Displayとの統合"
+
+#: packages/sixeightforms/tools/edit_form.php:174
+#: packages/sixeightforms/tools/new_form.php:143
+msgid "Form Name"
+msgstr "フォーム名"
+
+#: packages/sixeightforms/tools/edit_form.php:181
+msgid "Send email notification?"
+msgstr "通知をメールで送付しますか？"
+
+#: packages/sixeightforms/tools/edit_form.php:186
+msgid "Yes, but not on edit."
+msgstr ""
+
+#: packages/sixeightforms/tools/edit_form.php:193
+msgid "Include form data in email?"
+msgstr "フォームのデータもメールで送りますか？"
+
+#: packages/sixeightforms/tools/edit_form.php:199
+msgid "Use Data Display template"
+msgstr "Data Displayのテンプレート使用する"
+
+#: packages/sixeightforms/tools/edit_form.php:206
+msgid "Data Display Template to use"
+msgstr "Data Displayのテンプレート使用する"
+
+#: packages/sixeightforms/tools/edit_form.php:222
+msgid "From Name Method"
+msgstr "送信者名の表示方法"
+
+#: packages/sixeightforms/tools/edit_form.php:234
+#: packages/sixeightforms/tools/notifications.php:132
+msgid "From Name"
+msgstr "送信者名"
+
+#: packages/sixeightforms/tools/edit_form.php:248
+msgid "From Address Method"
+msgstr "送信者アドレスの表示方法"
+
+#: packages/sixeightforms/tools/edit_form.php:258
+msgid "From Email Address"
+msgstr "送信者アドレス"
+
+#: packages/sixeightforms/tools/edit_form.php:272
+msgid "Send email to"
+msgstr "メールの送り先"
+
+#: packages/sixeightforms/tools/edit_form.php:279
+#: packages/sixeightforms/tools/notifications.php:117
+msgid "Subject"
+msgstr "件名"
+
+#: packages/sixeightforms/tools/edit_form.php:288
+msgid "After submitting form"
+msgstr "フォームの送信後"
+
+#: packages/sixeightforms/tools/edit_form.php:291
+#: packages/sixeightforms/tools/new_form.php:195
+msgid "Display a message"
+msgstr "メッセージの表示"
+
+#: packages/sixeightforms/tools/edit_form.php:292
+msgid "Redirect to a page within this site"
+msgstr "このサイトの別のページに移動"
+
+#: packages/sixeightforms/tools/edit_form.php:293
+msgid "Redirect to a specific URL"
+msgstr "指定したURLへ移動"
+
+#: packages/sixeightforms/tools/edit_form.php:298
+msgid "Page to redirect to"
+msgstr "移動するページ"
+
+#: packages/sixeightforms/tools/edit_form.php:307
+msgid "Thank you message"
+msgstr "表示メッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:311
+#: packages/sixeightforms/tools/edit_form.php:423
+msgid "HTML Capable"
+msgstr "HTMLが使えます"
+
+#: packages/sixeightforms/tools/edit_form.php:315
+msgid "URL"
+msgstr "URL"
+
+#: packages/sixeightforms/tools/edit_form.php:319
+msgid "Must start with"
+msgstr "最初に必要"
+
+#: packages/sixeightforms/tools/edit_form.php:323
+msgid "Pass record ID to this page?"
+msgstr "レコードのIDをページに渡しますか？"
+
+#: packages/sixeightforms/tools/edit_form.php:332
+msgid "Record ID URL parameter name"
+msgstr "レコードIDのURL文字列名"
+
+#: packages/sixeightforms/tools/edit_form.php:338
+#: packages/sixeightforms/tools/new_form.php:228
+msgid "Use"
+msgstr ""
+
+#: packages/sixeightforms/tools/edit_form.php:347
+msgid "Re-index search when form is submitted?"
+msgstr "フォーム送信後に検索インデックスを再構築する"
+
+#: packages/sixeightforms/tools/edit_form.php:358
+msgid "Submit label text"
+msgstr "送信ボタンのラベル"
+
+#: packages/sixeightforms/tools/edit_form.php:364
+msgid "Maximum submissions"
+msgstr "最大送信数"
+
+#: packages/sixeightforms/tools/edit_form.php:370
+msgid "Custom Processor"
+msgstr "カスタム処理"
+
+#: packages/sixeightforms/tools/edit_form.php:390
+msgid "Payment Gateway"
+msgstr "ペイメントゲートウェイ（決済代行）"
+
+#: packages/sixeightforms/tools/edit_form.php:407
+msgid "Currency Symbol"
+msgstr "通貨記号"
+
+#: packages/sixeightforms/tools/edit_form.php:413
+msgid "Maximum Order Price"
+msgstr "注文上限額"
+
+#: packages/sixeightforms/tools/edit_form.php:419
+msgid "Message before Processing eCommerce:"
+msgstr "eCommerce処理前のメッセージ："
+
+#: packages/sixeightforms/tools/edit_form.php:430
+msgid "Required/Validation field error message"
+msgstr "入力必須項目のエラーメッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:436
+msgid "Max submissions error message"
+msgstr "最大送信数エラーメッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:442
+msgid "Invalid CAPTCHA error message"
+msgstr "無効なCAPTCHAのエラーメッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:448
+msgid "eCommerce error message"
+msgstr "eCommerceエラーメッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:454
+msgid "Permissions error message"
+msgstr "権限エラーメッセージ"
+
+#: packages/sixeightforms/tools/edit_form.php:463
+msgid "Form Handle"
+msgstr "フォームのハンドル名"
+
+#: packages/sixeightforms/tools/edit_form.php:469
+msgid "Use HTML5 field types?"
+msgstr "HTML5の入力フィールドを使いますか？"
+
+#: packages/sixeightforms/tools/edit_form.php:478
+msgid "Allow processing of custom HTML fields?"
+msgstr "カスタムHTMLフィールドの処理を許可しますか？"
+
+#: packages/sixeightforms/tools/edit_form.php:487
+msgid "Notify user upon approval?"
+msgstr "ユーザーに承認を通知します？"
+
+#: packages/sixeightforms/tools/edit_form.php:496
+#: packages/sixeightforms/tools/new_form.php:234
+msgid "Required field indicator"
+msgstr "入力必須項目の印"
+
+#: packages/sixeightforms/tools/edit_form.php:502
+msgid "Required indicator color"
+msgstr "入力必須項目の印色"
+
+#: packages/sixeightforms/tools/edit_form.php:508
+msgid "Records automatically expire after"
+msgstr "入力したレコードが自動的に期限切れになる期間"
+
+#: packages/sixeightforms/tools/edit_form.php:510
+msgid "days"
+msgstr ""
+
+#: packages/sixeightforms/tools/edit_form.php:514
+msgid "Show all form sections?"
+msgstr "フォームのすべての欄を表示しますか？"
+
+#: packages/sixeightforms/tools/edit_form.php:526
+msgid "Disable cache"
+msgstr "キャッシュを無効にする"
+
+#: packages/sixeightforms/tools/edit_form.php:535
+msgid "Create a new page when form is submitted?"
+msgstr "フォームを送信した際に新規ページを作成する"
+
+#: packages/sixeightforms/tools/edit_form.php:544
+msgid "Default Detail Template"
+msgstr "詳細表示の標準テンプレート"
+
+#: packages/sixeightforms/tools/edit_form.php:558
+msgid "Create page as child of:"
+msgstr "どのページのサブページとして作成しますか"
+
+#: packages/sixeightforms/tools/edit_form.php:567
+msgid "Page Type"
+msgstr "ページタイプ"
+
+#: packages/sixeightforms/tools/edit_form.php:591
+msgid "Alias"
+msgstr ""
+
+#: packages/sixeightforms/tools/edit_form.php:602
+msgid "Description"
+msgstr "説明"
+
+#: packages/sixeightforms/tools/edit_form.php:613
+msgid "Meta Title"
+msgstr "Metaタイトル"
+
+#: packages/sixeightforms/tools/edit_form.php:624
+msgid "Meta Keywords"
+msgstr "Metaキーワード"
+
+#: packages/sixeightforms/tools/edit_form.php:635
+msgid "Meta Description"
+msgstr "Meata説明"
+
+#: packages/sixeightforms/tools/edit_form.php:646
+msgid "Exclude from Nav?"
+msgstr "ナビゲーションから除外する？"
+
+#: packages/sixeightforms/tools/edit_form.php:657
+#: packages/sixeightforms/tools/new_field.php:967
+#: packages/sixeightforms/tools/new_field_new.php:908
+#: packages/sixeightforms/tools/notifications.php:166
+#: packages/sixeightforms/tools/permissions.php:56
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: packages/sixeightforms/tools/new_field.php:66
+#: packages/sixeightforms/tools/new_field.php:84
+#: packages/sixeightforms/tools/new_field.php:100
+#: packages/sixeightforms/tools/new_field.php:121
+#: packages/sixeightforms/tools/new_field.php:176
+#: packages/sixeightforms/tools/new_field.php:193
+#: packages/sixeightforms/tools/new_field.php:771
+#: packages/sixeightforms/tools/new_field_new.php:61
+#: packages/sixeightforms/tools/new_field_new.php:78
+#: packages/sixeightforms/tools/new_field_new.php:93
+#: packages/sixeightforms/tools/new_field_new.php:113
+#: packages/sixeightforms/tools/new_field_new.php:164
+#: packages/sixeightforms/tools/new_field_new.php:180
+#: packages/sixeightforms/tools/new_field_new.php:730
+msgid "Maximum Input"
+msgstr "最大入力値"
+
+#: packages/sixeightforms/tools/new_field.php:228
+#: packages/sixeightforms/tools/new_field.php:262
+#: packages/sixeightforms/tools/new_field_new.php:213
+#: packages/sixeightforms/tools/new_field_new.php:245
+msgid "Maximum Selectable Options"
+msgstr "選択オプション最大数"
+
+#: packages/sixeightforms/tools/new_field.php:357
+#: packages/sixeightforms/tools/new_field.php:648
+#: packages/sixeightforms/tools/new_field_new.php:320
+#: packages/sixeightforms/tools/new_field_new.php:607
+msgid "Section Divider"
+msgstr "区切り線"
+
+#: packages/sixeightforms/tools/new_field.php:405
+#: packages/sixeightforms/tools/new_field_new.php:368
+msgid "No fields to choose from"
+msgstr "選ぶフィールドがありません"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Sunday"
+msgstr "日曜日"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Monday"
+msgstr "月曜日"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Thursday"
+msgstr "木曜日"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Friday"
+msgstr "金曜日"
+
+#: packages/sixeightforms/tools/new_field.php:512
+#: packages/sixeightforms/tools/new_field_new.php:474
+msgid "Saturday"
+msgstr "土曜日"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "January"
+msgstr "1月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "February"
+msgstr "2月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "March"
+msgstr "3月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "April"
+msgstr "4月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "May"
+msgstr "5月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "June"
+msgstr "6月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "July"
+msgstr "7月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "August"
+msgstr "8月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "September"
+msgstr "9月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "October"
+msgstr "10月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "November"
+msgstr "11月"
+
+#: packages/sixeightforms/tools/new_field.php:519
+#: packages/sixeightforms/tools/new_field_new.php:481
+msgid "December"
+msgstr "12月"
+
+#: packages/sixeightforms/tools/new_field.php:566
+#: packages/sixeightforms/tools/new_field_new.php:528
+msgid ""
+"The values you have entered result in over 100 options.  This may take some "
+"time to fill, and depending on the exact range of numbers you have "
+"specified, it could potentially crash your browser.  Click OK to continue if "
+"you still want to continue."
+msgstr ""
+"入力した値は、100以上の選択肢があります。すべてが表示されるまでには時間がかか"
+"りますし、指定した選択肢の範囲によってはブラウザーをクラッシュさせる可能性も"
+"あります。続けるには「OK」をクリックしてください。"
+
+#: packages/sixeightforms/tools/new_field.php:594
+#: packages/sixeightforms/tools/new_field_new.php:556
+msgid "Text (Single-line)"
+msgstr "テキスト（単一行）"
+
+#: packages/sixeightforms/tools/new_field.php:597
+#: packages/sixeightforms/tools/new_field_new.php:559
+msgid "Text (Multi-line)"
+msgstr "テキスト（複数行）"
+
+#: packages/sixeightforms/tools/new_field.php:600
+#: packages/sixeightforms/tools/new_field_new.php:562
+msgid "Number"
+msgstr "数字"
+
+#: packages/sixeightforms/tools/new_field.php:603
+#: packages/sixeightforms/tools/new_field_new.php:565
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: packages/sixeightforms/tools/new_field.php:606
+#: packages/sixeightforms/tools/new_field_new.php:568
+msgid "Dropdown"
+msgstr "ドロップダウンリスト"
+
+#: packages/sixeightforms/tools/new_field.php:609
+#: packages/sixeightforms/tools/new_field_new.php:571
+msgid "Multi-Select"
+msgstr "複数選択リスト"
+
+#: packages/sixeightforms/tools/new_field.php:612
+#: packages/sixeightforms/tools/new_field_new.php:574
+msgid "Radio Button"
+msgstr "ラジオボタン"
+
+#: packages/sixeightforms/tools/new_field.php:615
+#: packages/sixeightforms/tools/new_field_new.php:577
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: packages/sixeightforms/tools/new_field.php:618
+#: packages/sixeightforms/tools/new_field_new.php:580
+msgid "True/False"
+msgstr "承認ステータス(true/false)"
+
+#: packages/sixeightforms/tools/new_field.php:621
+msgid "Star Rating"
+msgstr "星評価"
+
+#: packages/sixeightforms/tools/new_field.php:624
+#: packages/sixeightforms/tools/new_field_new.php:583
+msgid "Date"
+msgstr "日付"
+
+#: packages/sixeightforms/tools/new_field.php:627
+#: packages/sixeightforms/tools/new_field_new.php:586
+msgid "Time"
+msgstr "時間"
+
+#: packages/sixeightforms/tools/new_field.php:630
+#: packages/sixeightforms/tools/new_field_new.php:589
+msgid "File Upload"
+msgstr "ファイルアップロード"
+
+#: packages/sixeightforms/tools/new_field.php:633
+#: packages/sixeightforms/tools/new_field_new.php:592
+msgid "File from File Manager"
+msgstr "ファイルマネージャーから選択"
+
+#: packages/sixeightforms/tools/new_field.php:636
+#: packages/sixeightforms/tools/new_field_new.php:595
+msgid "WYSIWYG"
+msgstr "WYSIWYG"
+
+#: packages/sixeightforms/tools/new_field.php:639
+#: packages/sixeightforms/tools/new_field_new.php:598
+msgid "Sellable Item"
+msgstr "商品"
+
+#: packages/sixeightforms/tools/new_field.php:642
+#: packages/sixeightforms/tools/new_field_new.php:601
+msgid "Credit Card"
+msgstr "クレジットカード"
+
+#: packages/sixeightforms/tools/new_field.php:645
+#: packages/sixeightforms/tools/new_field_new.php:604
+msgid "Hidden"
+msgstr "表示しない"
+
+#: packages/sixeightforms/tools/new_field.php:651
+#: packages/sixeightforms/tools/new_field_new.php:610
+msgid "Next Button"
+msgstr "次へボタン"
+
+#: packages/sixeightforms/tools/new_field.php:654
+#: packages/sixeightforms/tools/new_field_new.php:613
+msgid "Previous Button"
+msgstr "戻るボタン"
+
+#: packages/sixeightforms/tools/new_field.php:657
+#: packages/sixeightforms/tools/new_field_new.php:616
+msgid "Text (no user input)"
+msgstr "テキスト（非入力）"
+
+#: packages/sixeightforms/tools/new_field.php:664
+#: packages/sixeightforms/tools/new_field_new.php:623
+msgid "Field Label"
+msgstr "フィールドラベル"
+
+#: packages/sixeightforms/tools/new_field.php:668
+#: packages/sixeightforms/tools/new_field.php:777
+#: packages/sixeightforms/tools/new_field_new.php:627
+#: packages/sixeightforms/tools/new_field_new.php:736
+msgid "Format"
+msgstr "フォーマット"
+
+#: packages/sixeightforms/tools/new_field.php:675
+#: packages/sixeightforms/tools/new_field_new.php:634
+msgid "Is required?"
+msgstr "入力必須項目"
+
+#: packages/sixeightforms/tools/new_field.php:691
+#: packages/sixeightforms/tools/new_field_new.php:650
+msgid "Text"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:697
+#: packages/sixeightforms/tools/new_field_new.php:656
+msgid "Default Value"
+msgstr "初期値"
+
+#: packages/sixeightforms/tools/new_field.php:703
+#: packages/sixeightforms/tools/new_field_new.php:662
+msgid "Auto-populate"
+msgstr "自動追加"
+
+#: packages/sixeightforms/tools/new_field.php:707
+#: packages/sixeightforms/tools/new_field_new.php:666
+msgid "Days of the Week"
+msgstr "曜日"
+
+#: packages/sixeightforms/tools/new_field.php:708
+#: packages/sixeightforms/tools/new_field_new.php:667
+msgid "Months"
+msgstr "月"
+
+#: packages/sixeightforms/tools/new_field.php:709
+#: packages/sixeightforms/tools/new_field_new.php:668
+msgid "U.S. States"
+msgstr "州（US）"
+
+#: packages/sixeightforms/tools/new_field.php:710
+#: packages/sixeightforms/tools/new_field_new.php:669
+msgid "Countries"
+msgstr "国"
+
+#: packages/sixeightforms/tools/new_field.php:711
+#: packages/sixeightforms/tools/new_field_new.php:670
+msgid "Numbers"
+msgstr "数字"
+
+#: packages/sixeightforms/tools/new_field.php:712
+#: packages/sixeightforms/tools/new_field_new.php:671
+msgid "Form Record Data"
+msgstr "フォームのレコードデータ"
+
+#: packages/sixeightforms/tools/new_field.php:715
+#: packages/sixeightforms/tools/new_field_new.php:674
+msgid "Start:"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:715
+#: packages/sixeightforms/tools/new_field_new.php:674
+msgid "End:"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:715
+#: packages/sixeightforms/tools/new_field_new.php:674
+msgid "Fill"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:759
+#: packages/sixeightforms/tools/new_field_new.php:718
+msgid "Field Width"
+msgstr "フィールドの幅"
+
+#: packages/sixeightforms/tools/new_field.php:765
+#: packages/sixeightforms/tools/new_field_new.php:724
+msgid "Field Height"
+msgstr "フィールドの高さ"
+
+#: packages/sixeightforms/tools/new_field.php:780
+#: packages/sixeightforms/tools/new_field_new.php:739
+msgid "Basic"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:781
+#: packages/sixeightforms/tools/new_field_new.php:740
+msgid "Simple"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:782
+#: packages/sixeightforms/tools/new_field_new.php:741
+msgid "Advanced"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:783
+#: packages/sixeightforms/tools/new_field_new.php:742
+msgid "Office"
+msgstr ""
+
+#: packages/sixeightforms/tools/new_field.php:788
+#: packages/sixeightforms/tools/new_field_new.php:747
+msgid "Include C5 Toolbar?"
+msgstr "concrete5のツールバーを組み込みますか？"
+
+#: packages/sixeightforms/tools/new_field.php:798
+#: packages/sixeightforms/tools/new_field_new.php:757
+msgid "Date Format"
+msgstr "データフォーマット"
+
+#: packages/sixeightforms/tools/new_field.php:800
+#: packages/sixeightforms/tools/new_field_new.php:759
+msgid "Formatting Options"
+msgstr "日付フォーマットオプション"
+
+#: packages/sixeightforms/tools/new_field.php:804
+#: packages/sixeightforms/tools/new_field_new.php:763
+msgid "Minimum Year"
+msgstr "年度の最小値"
+
+#: packages/sixeightforms/tools/new_field.php:810
+#: packages/sixeightforms/tools/new_field_new.php:769
+msgid "Maximum Year"
+msgstr "年度の最大値"
+
+#: packages/sixeightforms/tools/new_field.php:817
+#: packages/sixeightforms/tools/new_field_new.php:776
+msgid "Field CSS Class"
+msgstr "フィールドのCSS Class"
+
+#: packages/sixeightforms/tools/new_field.php:821
+#: packages/sixeightforms/tools/new_field_new.php:780
+msgid "Container CSS Class"
+msgstr "コンテナーのCSSクラス"
+
+#: packages/sixeightforms/tools/new_field.php:831
+#: packages/sixeightforms/tools/new_field_new.php:790
+msgid "Send to payment gateway as"
+msgstr "決済情報として送る内容"
+
+#: packages/sixeightforms/tools/new_field.php:847
+#: packages/sixeightforms/tools/new_field_new.php:806
+#, fuzzy
+msgid "Group with Previous?"
+msgstr "以前のデータとグループ化しますか？"
+
+#: packages/sixeightforms/tools/new_field.php:857
+#: packages/sixeightforms/tools/new_field_new.php:816
+msgid "Price Per Item"
+msgstr "単価"
+
+#: packages/sixeightforms/tools/new_field.php:861
+#: packages/sixeightforms/tools/new_field_new.php:820
+msgid "Start Quantity"
+msgstr "最小値"
+
+#: packages/sixeightforms/tools/new_field.php:865
+#: packages/sixeightforms/tools/new_field_new.php:824
+msgid "End Quantity"
+msgstr "最大値"
+
+#: packages/sixeightforms/tools/new_field.php:869
+#: packages/sixeightforms/tools/new_field_new.php:828
+msgid "Increment By"
+msgstr "増加単位"
+
+#: packages/sixeightforms/tools/new_field.php:873
+#: packages/sixeightforms/tools/new_field_new.php:832
+msgid "Select a payment gateway in the form's settings to enable eCommerce."
+msgstr ""
+"フォーム設定でeCommerce機能を有効にするためにはペイメントゲートウェイ（決済代"
+"行手段）を選択してください。"
+
+#: packages/sixeightforms/tools/new_field.php:880
+#: packages/sixeightforms/tools/new_field_new.php:839
+msgid "Field Handle"
+msgstr "フィールドのハンドル名"
+
+#: packages/sixeightforms/tools/new_field.php:885
+#: packages/sixeightforms/tools/new_field_new.php:844
+msgid "Use as expiration?"
+msgstr "期限切れとして使用しますか？"
+
+#: packages/sixeightforms/tools/new_field.php:895
+#: packages/sixeightforms/tools/new_field_new.php:854
+msgid "Searchable?"
+msgstr "検索対象に含める"
+
+#: packages/sixeightforms/tools/new_field.php:901
+#: packages/sixeightforms/tools/new_field_new.php:860
+msgid "For Data Display integration"
+msgstr "Data Displayブロックとの統合のため"
+
+#: packages/sixeightforms/tools/new_field.php:906
+#: packages/sixeightforms/tools/new_field_new.php:865
+msgid "Validate as unique?"
+msgstr "値が一意かどうか精査する"
+
+#: packages/sixeightforms/tools/new_field.php:916
+#: packages/sixeightforms/tools/new_field_new.php:875
+msgid "URL Parameter"
+msgstr "URL パラメーター"
+
+#: packages/sixeightforms/tools/new_field.php:923
+msgid "Populate With"
+msgstr "追加する"
+
+#: packages/sixeightforms/tools/new_field.php:935
+msgid "Overrides default value"
+msgstr "標準の値を上書きします"
+
+#: packages/sixeightforms/tools/new_field.php:940
+#: packages/sixeightforms/tools/new_field_new.php:881
+msgid "Fileset"
+msgstr "ファイルセット"
+
+#: packages/sixeightforms/tools/new_field.php:956
+#: packages/sixeightforms/tools/new_field_new.php:897
+msgid "Validate section on click?"
+msgstr "クリックでこのセクションを検証しますか？"
+
+#: packages/sixeightforms/tools/new_form.php:145
+#: packages/sixeightforms/tools/new_form.php:190
+msgid "Continue"
+msgstr "続ける"
+
+#: packages/sixeightforms/tools/new_form.php:148
+msgid "Where should form data be sent?"
+msgstr "フォームのデータをどこに送信しますか？"
+
+#: packages/sixeightforms/tools/new_form.php:149
+#: packages/sixeightforms/tools/new_form.php:187
+msgid "Separate multiple addresses with a comma"
+msgstr "複数のメールアドレスの場合はカンマで区切ってください"
+
+#: packages/sixeightforms/tools/new_form.php:156
+msgid "Do not send email notifications"
+msgstr "通知のメールを送らない"
+
+#: packages/sixeightforms/tools/new_form.php:157
+#: packages/sixeightforms/tools/new_form.php:241
+#: packages/sixeightforms/tools/new_form.php:246
+msgid "Create Form!"
+msgstr "フォームを作成！"
+
+#: packages/sixeightforms/tools/new_form.php:171
+msgid "Should this form send email notifications?"
+msgstr "このフォームから通知メールを送信しますか？"
+
+#: packages/sixeightforms/tools/new_form.php:172
+msgid "Data will be stored no matter which option you choose"
+msgstr "どのオプションを選択してもデータは格納されます"
+
+#: packages/sixeightforms/tools/new_form.php:174
+msgid "Yes, send e-mail"
+msgstr "はい、メールを送ります"
+
+#: packages/sixeightforms/tools/new_form.php:175
+msgid "No, just save data"
+msgstr "いいえ、データの保存のみ行います"
+
+#: packages/sixeightforms/tools/new_form.php:180
+msgid "Send form data to:"
+msgstr "フォームデータの送り先："
+
+#: packages/sixeightforms/tools/new_form.php:188
+msgid "Email Subject"
+msgstr "メール件名"
+
+#: packages/sixeightforms/tools/new_form.php:189
+#: packages/sixeightforms/tools/new_form.php:252
+msgid "Form Submission"
+msgstr "フォーム送信"
+
+#: packages/sixeightforms/tools/new_form.php:193
+msgid "After the form is submitted:"
+msgstr "フォーム送信後："
+
+#: packages/sixeightforms/tools/new_form.php:196
+msgid "Redirect to a page"
+msgstr "ページに移動する"
+
+#: packages/sixeightforms/tools/new_form.php:200
+msgid "Thank You Message"
+msgstr "メッセージ"
+
+#: packages/sixeightforms/tools/new_form.php:202
+#: packages/sixeightforms/tools/new_form.php:221
+msgid "Continue (last step)"
+msgstr "続ける（最終段階）"
+
+#: packages/sixeightforms/tools/new_form.php:205
+msgid "Redirect to:"
+msgstr "移動先："
+
+#: packages/sixeightforms/tools/new_form.php:207
+msgid "A page within this site"
+msgstr "このサイトのページ"
+
+#: packages/sixeightforms/tools/new_form.php:208
+msgid "An external URL"
+msgstr "外部URL"
+
+#: packages/sixeightforms/tools/new_form.php:224
+msgid "Additional Options"
+msgstr "追加オプション"
+
+#: packages/sixeightforms/tools/new_form.php:230
+msgid "Submit button text"
+msgstr "送信ボタンのテキスト"
+
+#: packages/sixeightforms/tools/new_form.php:236
+msgid "Required field color"
+msgstr "入力必須項目の色"
+
+#: packages/sixeightforms/tools/new_form.php:244
+msgid "Message after adding record:"
+msgstr "レコード追加後のメッセージ："
+
+#: packages/sixeightforms/tools/new_form.php:254
+#: packages/sixeightforms/tools/process_form.php:24
+msgid "Thank you for contacting us."
+msgstr "お問い合わせありがとうございます。"
+
+#: packages/sixeightforms/tools/notifications.php:85
+msgid "User Confirmation"
+msgstr "ユーザーの確認"
+
+#: packages/sixeightforms/tools/notifications.php:86
+msgid "Conditional Notifications"
+msgstr "条件つき通知"
+
+#: packages/sixeightforms/tools/notifications.php:95
+msgid ""
+"To send a confirmation e-mail to users after they submit a form, select the "
+"field that should be used as the email address and enter a message."
+msgstr ""
+"ユーザーがフォームを送信したあと、確認のメールを送るために、メールアドレスと"
+"して使うフィールドを選んで、メッセージを入力してください。"
+
+#: packages/sixeightforms/tools/notifications.php:99
+msgid "Send confirmation to"
+msgstr "送信先として利用するフィールド"
+
+#: packages/sixeightforms/tools/notifications.php:126
+msgid "From Address"
+msgstr "送信者のアドレス"
+
+#: packages/sixeightforms/tools/notifications.php:141
+msgid "Message"
+msgstr "メッセージ"
+
+#: packages/sixeightforms/tools/notifications.php:177
+msgid ""
+"Use conditional notifications to send e-mail notifications based on values "
+"entered by the end-user."
+msgstr ""
+"エンドユーザーによって入力された値に基づいてメール通知をするためには、条件付"
+"きの通知を使ってください。"
+
+#: packages/sixeightforms/tools/notifications.php:220
+msgid "Add Notification"
+msgstr "通知を追加"
+
+#: packages/sixeightforms/tools/notifications.php:221
+msgid "Save Notifications"
+msgstr "通知を保存"
+
+#: packages/sixeightforms/tools/permissions.php:27
+msgid "Form Record Permissions"
+msgstr "フォームのレコードの権限"
+
+#: packages/sixeightforms/tools/permissions.php:33
+msgid "Add"
+msgstr "追加"
+
+#: packages/sixeightforms/tools/permissions.php:49
+msgid "Ownership Permissions"
+msgstr "所有者の権限"
+
+#: packages/sixeightforms/tools/permissions.php:50
+msgid "These permissions override permissions specified above."
+msgstr "これらの権限設定はそれぞれのレコードの権限を上書きします"
+
+#: packages/sixeightforms/tools/permissions.php:51
+msgid "Users can edit record(s) they own."
+msgstr "ユーザーはそれぞれのレコードを編集できる"
+
+#: packages/sixeightforms/tools/permissions.php:52
+msgid "Users can delete record(s) they own."
+msgstr "ユーザーはそれぞれのレコードを削除できる"
+
+#: packages/sixeightforms/tools/permissions.php:53
+msgid "Limit to one record per user."
+msgstr "一人一つのレコードのみに制限"
+
+#: packages/sixeightforms/tools/rules.php:24
+msgid ""
+"Rules allow you to display certain fields based on values specified in other "
+"fields."
+msgstr ""
+"ルールは、他のフィールドで指定されている値に基づく特定のフィールドを表示する"
+"ことができます。"
+
+#: packages/sixeightforms/tools/rules.php:34
+#: packages/sixeightforms/tools/rules.php:78
+msgid "If"
+msgstr ""
+
+#: packages/sixeightforms/tools/rules.php:69
+msgid "Add Rule"
+msgstr "ルールを追加"
+
+#: packages/sixeightforms/tools/savefieldsort.php:16
+msgid "Sort order saved"
+msgstr "並べ替え順を保存"
+
+#: packages/sixeightforms/tools/send_notification_prompt.php:21
+msgid "Email Address(es)"
+msgstr "メールアドレス"
+
+#: packages/sixeightforms/tools/send_notification_prompt.php:25
+msgid "Send Email"
+msgstr "メールを送信"
+
+#: packages/sixeightforms/tools/send_notification_prompt.php:29
+msgid "Email sent"
+msgstr "メール送信"
+
+#~ msgid "Messaging"
+#~ msgstr "メッセージ"
+
+#~ msgid "Required field error message"
+#~ msgstr "必須入力項目のエラーメッセージ"

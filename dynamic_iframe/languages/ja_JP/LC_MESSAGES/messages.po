@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Dynamic Iframe 1.61\n"
+"POT-Creation-Date: 2014-02-21 18:35+0900\n"
+"PO-Revision-Date: 2014-02-21 18:35+0900\n"
+"Last-Translator: Yoshihio Fujie <info@galfy.jp>\n"
+"Language-Team: Galfy <info@galfy.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/concrete5/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t;_\n"
+"X-Poedit-SearchPath-0: packages/dynamic_iframe\n"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/add.php:2
+#: packages/dynamic_iframe/blocks/dynamic_iframe/controller.php:2
+#: packages/dynamic_iframe/blocks/dynamic_iframe/edit.php:2
+#: packages/dynamic_iframe/controller.php:3
+msgid "Access Denied."
+msgstr "アクセスできません"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/controller.php:16
+#: packages/dynamic_iframe/controller.php:12
+msgid "iFrame which can adjust its height according to its content."
+msgstr "コンテンツに応じて高さを自動的に調整するiFrame。"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/controller.php:20
+#: packages/dynamic_iframe/controller.php:16
+msgid "Dynamic Iframe"
+msgstr "Dynamic Iframe"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/controller.php:25
+msgid "Please enter an URL."
+msgstr "URLを入力してください"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/controller.php:26
+msgid "Please enter the id."
+msgstr "IDを入力してください"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/controller.php:27
+msgid "Please enter the width."
+msgstr "幅を入力してください"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:6
+msgid "The website the dynamic iframe should display"
+msgstr ""
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:6
+msgid "URL"
+msgstr "URL"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:15
+msgid "Id"
+msgstr "Id"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:19
+msgid "Width"
+msgstr "幅"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:23
+msgid "If true the height of the iFrame is adapted to content"
+msgstr "「はい」にした場合iFrameの高さはコンテンツにあわせて順応します"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:23
+msgid "Dynamic Height"
+msgstr "高さを動的にする"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:26
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:35
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:56
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:65
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:85
+msgid "Yes"
+msgstr "はい"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:27
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:36
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:57
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:66
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:86
+msgid "No"
+msgstr "いいえ"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:32
+msgid "If true the height is the same has the bigger page element"
+msgstr "「はい」にした場合、より大きいページ要素の高さと同じになります"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:32
+msgid "Force dynamic Height"
+msgstr "高さを強制的に動的にする"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:41
+msgid "Use this height instead of show an error"
+msgstr "エラー表示の代わりにこの高さが使われます"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:41
+msgid "Error Height"
+msgstr "エラー時の高さ"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:41
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:45
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:49
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:91
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:95
+msgid "Optional"
+msgstr "オプション"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:45
+msgid "Adjust the heigth of iFrame on dynamic mode, \\\"-\\\" is accepted."
+msgstr "動的モードのiFrameの高さを調整します。\\\"-\\\"が使用できます。"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:45
+msgid "Adjust Height"
+msgstr "高さを調節する"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:49
+msgid "Height"
+msgstr "高さ"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:53
+msgid "Use GET query string from parent"
+msgstr "親ウインドウからのGETクエリー文字列を使用します"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:62
+msgid "Frame Border"
+msgstr "フレームの境界"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:71
+msgid "Align"
+msgstr "位置"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:74
+msgid "Left"
+msgstr "左"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:75
+msgid "Center"
+msgstr "中央"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:76
+msgid "Right"
+msgstr "右"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:81
+msgid "Scrolling"
+msgstr "スクロール"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:84
+msgid "Auto"
+msgstr "自動"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:91
+msgid "Margin Width"
+msgstr "幅余白"
+
+#: packages/dynamic_iframe/blocks/dynamic_iframe/form.php:95
+msgid "Margin Height"
+msgstr "高さ余白"

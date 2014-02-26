@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YouTube Channel 1.3.15\n"
+"POT-Creation-Date: 2014-02-23 16:39+0900\n"
+"PO-Revision-Date: 2014-02-23 16:39+0900\n"
+"Last-Translator: Yoshihio Fujie <info@galfy.jp>\n"
+"Language-Team: Galfy <info@galfy.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/concrete5/\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: t;_\n"
+"X-Poedit-SearchPath-0: packages/jb_youtubechannel\n"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/add.php:2
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/controller.php:2
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/edit.php:2
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:1
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/view.php:2
+#: packages/jb_youtubechannel/controller.php:2
+msgid "Access Denied."
+msgstr "アクセスできません"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/controller.php:27
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:40
+msgid "Browse Videos"
+msgstr "動画を参照する"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/controller.php:28
+msgid "Youtube ID should be filled up."
+msgstr "Youtube IDを入力してください"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/controller.php:29
+msgid "Playlist ID should be filled up."
+msgstr "プレイリストIDを入力してください"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:18
+msgid "General Options"
+msgstr "一般設定"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:21
+msgid "Advance Options"
+msgstr "詳細設定"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:24
+msgid "Help"
+msgstr "ヘルプ"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:32
+msgid "Show Initial Video"
+msgstr "最初の動画を表示する"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:38
+msgid "Choose Initial Video"
+msgstr "最初の動画を選ぶ"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:57
+msgid "Channel Type"
+msgstr "チャンネルタイプ"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:82
+msgid "Playlist ID"
+msgstr "プレイリストID"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:85
+msgid "eg. PL20981D18FB909B07"
+msgstr "例. PL20981D18FB909B07"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:88
+msgid "Youtube Channel Name (username)"
+msgstr "Youtube チャンネル名（ユーザー名）"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:91
+msgid "eg. c5extras"
+msgstr "例： c5extras"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:94
+msgid "Make display responsive?"
+msgstr "レスポンシブ表示にしますか？"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:100
+msgid "This will make the block fill the entire width of its container."
+msgstr "ブロックの幅をコンテナ幅いっぱいにします"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:104
+msgid "Video Width (px)"
+msgstr "動画の幅(px)"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:107
+msgid "numbers only. Recommended: 520"
+msgstr "数字のみ入力。推奨は：520"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:110
+msgid "Video Height (px)"
+msgstr "動画の高さ(px)"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:113
+msgid ""
+"numbers only. Note: 0 will automatically calculate the height based on the "
+"width by 16:9 proportion."
+msgstr ""
+"数字のみ入力。注意：0 の場合は動画の幅から 16:9 のアスペクト比で自動的に高さ"
+"を計算します。"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:116
+msgid "Number Of Videos To Show"
+msgstr "表示する動画の数"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:119
+msgid "numbers only"
+msgstr "数字のみ"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:122
+msgid "Color Scheme"
+msgstr "色の設定"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:127
+msgid "for custom, see custom_style_instructions.txt"
+msgstr ""
+"カスタマイズする場合は、custom_style_instructions.txtを参照してください"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:131
+msgid "Show Related Videos After Watching"
+msgstr "動画の再生が終わった後に関連動画を表示する"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:139
+msgid "Enable Autoplay"
+msgstr "自動再生を有効にする"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:147
+msgid "Display Date"
+msgstr "日付を表示する"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:154
+msgid "Date Format"
+msgstr "日付のフォーマット"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:159
+msgid "See formats"
+msgstr "フォーマットを見る"
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/form_setup_html.php:159
+msgid "here"
+msgstr ""
+
+#: packages/jb_youtubechannel/blocks/jb_youtubechannel/view.php:13
+msgid "Content disabled in edit mode."
+msgstr "編集モードでは動画は表示されません。"
+
+#: packages/jb_youtubechannel/controller.php:11
+msgid "YouTube Channel Video Player"
+msgstr "YouTubeのチャンネルをまとめて再生します"
+
+#: packages/jb_youtubechannel/controller.php:15
+msgid "YouTube Channel"
+msgstr "YouTube Channel"
+
+#~ msgid "iFrame which can adjust its height according to its content."
+#~ msgstr "コンテンツに応じて高さを自動的に調整するiFrame。"
+
+#~ msgid "Dynamic Iframe"
+#~ msgstr "Dynamic Iframe"
+
+#~ msgid "Please enter an URL."
+#~ msgstr "URLを入力してください"
+
+#~ msgid "Please enter the id."
+#~ msgstr "IDを入力してください"
+
+#~ msgid "Please enter the width."
+#~ msgstr "幅を入力してください"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid "Id"
+#~ msgstr "Id"
+
+#~ msgid "Width"
+#~ msgstr "幅"
+
+#~ msgid "If true the height of the iFrame is adapted to content"
+#~ msgstr "「はい」にした場合iFrameの高さはコンテンツにあわせて順応します"
+
+#~ msgid "Dynamic Height"
+#~ msgstr "高さを動的にする"
+
+#~ msgid "Yes"
+#~ msgstr "はい"
+
+#~ msgid "No"
+#~ msgstr "いいえ"
+
+#~ msgid "If true the height is the same has the bigger page element"
+#~ msgstr "「はい」にした場合、より大きいページ要素の高さと同じになります"
+
+#~ msgid "Force dynamic Height"
+#~ msgstr "高さを強制的に動的にする"
+
+#~ msgid "Use this height instead of show an error"
+#~ msgstr "エラー表示の代わりにこの高さが使われます"
+
+#~ msgid "Error Height"
+#~ msgstr "エラー時の高さ"
+
+#~ msgid "Optional"
+#~ msgstr "オプション"
+
+#~ msgid "Adjust the heigth of iFrame on dynamic mode, \\\"-\\\" is accepted."
+#~ msgstr "動的モードのiFrameの高さを調整します。\\\"-\\\"が使用できます。"
+
+#~ msgid "Adjust Height"
+#~ msgstr "高さを調節する"
+
+#~ msgid "Height"
+#~ msgstr "高さ"
+
+#~ msgid "Use GET query string from parent"
+#~ msgstr "親ウインドウからのGETクエリー文字列を使用します"
+
+#~ msgid "Frame Border"
+#~ msgstr "フレームの境界"
+
+#~ msgid "Align"
+#~ msgstr "位置"
+
+#~ msgid "Left"
+#~ msgstr "左"
+
+#~ msgid "Center"
+#~ msgstr "中央"
+
+#~ msgid "Right"
+#~ msgstr "右"
+
+#~ msgid "Scrolling"
+#~ msgstr "スクロール"
+
+#~ msgid "Auto"
+#~ msgstr "自動"
+
+#~ msgid "Margin Width"
+#~ msgstr "幅余白"
+
+#~ msgid "Margin Height"
+#~ msgstr "高さ余白"

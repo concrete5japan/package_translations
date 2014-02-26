@@ -1,0 +1,232 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PUG PopUp Gallery　1.5.5\n"
+"POT-Creation-Date: 2014-02-23 16:41+0900\n"
+"PO-Revision-Date: 2014-02-23 16:41+0900\n"
+"Last-Translator: Yoshihio Fujie <info@galfy.jp>\n"
+"Language-Team: Galfy <info@galfy.jp>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/concrete5/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: packages/pug_pop_up_gallery\n"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/add.php:2
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/edit.php:2
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:2
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/view.php:2
+#: packages/pug_pop_up_gallery/controller.php:2
+msgid "Access Denied."
+msgstr "アクセスできません"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:41
+msgid "Select an Image."
+msgstr "画像を選択してください"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:42
+msgid "Or Enter Alt / Text Link."
+msgstr "または代替・テキストリンクを入力する"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:43
+msgid "The Content Editor is Empty."
+msgstr "記事エディタが空です。"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:44
+msgid "Select a File Set."
+msgstr "ファイルセットを選択"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:45
+msgid "Select a Scrapbook Block Name."
+msgstr "スクラップブックのブロックを選択"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:46
+msgid "Enter an Iframe URL."
+msgstr "IframeのURLを入力してください"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:47
+msgid "Enter a YouTube URL."
+msgstr "YouTubeのURLを入力してください"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/controller.php:48
+msgid "Select a Stack Name."
+msgstr "スタックを選んでください"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:22
+msgid "Content"
+msgstr ""
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:23
+msgid "PopUp Setttings"
+msgstr "ポップアップ設定"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:28
+msgid "Block Title (Optional)"
+msgstr "ブロックタイトル（オプション）"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:31
+msgid "Block Class (Optional)"
+msgstr "ブロックのクラス（オプション）"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:36
+msgid "Select Display Type"
+msgstr "表示する種類を選択"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:70
+msgid "Select File Set"
+msgstr "ファイルセットを選択"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:76
+msgid "Columns"
+msgstr ""
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:79
+msgid "Grid Spacing"
+msgstr "余白"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:88
+msgid "Scrapbook Block Name"
+msgstr "スクラップブックのブロック名"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:102
+msgid "Stack Name"
+msgstr "スタック名"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:116
+msgid "Iframe URL"
+msgstr "Iframe URL"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:122
+msgid "YouTube URL"
+msgstr "YouTube URL"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:126
+msgid "Auto Play"
+msgstr "自動再生"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:131
+msgid "Auto Hide Controls"
+msgstr "コントロールを自動的に隠す"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:140
+msgid "YouTube Thumbnail"
+msgstr "YouTubeのサムネイル"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:145
+msgid "Select Image for Thumbnail"
+msgstr "サムネイルに画像を使う"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:146
+msgid "Choose Image"
+msgstr "画像を選択"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:150
+msgid "Alt / Text Link (Optional)"
+msgstr "画像のリンク（オプション）"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:158
+msgid "Thumbnail Width"
+msgstr "サムネイル幅"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:161
+msgid "Thumbnail Height"
+msgstr "サムネイル高さ"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:167
+msgid "Thumbnail Class (Optional)"
+msgstr "サムネイルクラス（オプション）"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:176
+msgid "PopUp Title (Optional)"
+msgstr "ポップアップウインドウのタイトル（オプション）"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:181
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:190
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:198
+msgid "PopUp Width"
+msgstr "ポップアップ表示幅"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:184
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:193
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:201
+msgid "PopUp Height"
+msgstr "ポップアップ表示高さ"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:206
+msgid "Padding"
+msgstr "余白"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:215
+msgid "Sort Order"
+msgstr "並べ替え順"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:253
+msgid "Transition In"
+msgstr "ポップアップ表示時の効果"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:265
+msgid "Speed In"
+msgstr "ポップアップスピード"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:270
+msgid "Transition Out"
+msgstr "ポップアウト時の効果"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:281
+msgid "Speed Out"
+msgstr "ポップアウトスピード"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:287
+msgid "Scrolling"
+msgstr "スクロール"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:305
+msgid "Gallery Options"
+msgstr "ギャラリーオプション"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:307
+msgid "Cyclic"
+msgstr "繰り返し"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:311
+msgid "Group (Optional)"
+msgstr "グループ（オプション）"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:315
+msgid "Fade Change"
+msgstr "切り替え時のフェード効果"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:321
+msgid "Change Speed"
+msgstr "切り替えのスピード"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:327
+msgid "Show Overlay"
+msgstr "オーバーレイを表示する"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:332
+msgid "Overlay Color"
+msgstr "オーバーレイの色"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:337
+msgid "Overlay Opacity"
+msgstr "オーバーレイ透明度"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:343
+msgid "Hide On Overlay Click"
+msgstr "オーバーレイ部分をクリックして非表示にする"
+
+#: packages/pug_pop_up_gallery/blocks/pug_pop_up_gallery/form_setup_html.php:347
+msgid "Hide On Content Click"
+msgstr "コンテンツ部分をクリックして非表示にする"
+
+#: packages/pug_pop_up_gallery/controller.php:11
+msgid "Fancy Box Gallery and PopUp Utility"
+msgstr "Fancy Box を使ったギャラリーと ポップアップユーティリティー"
+
+#: packages/pug_pop_up_gallery/controller.php:15
+msgid "PUG+ PopUp Gallery"
+msgstr "PUG+ PopUp Gallery"

@@ -1,0 +1,689 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HTML Audio Player Pro 1.1.3\n"
+"POT-Creation-Date: 2014-02-23 17:09+0900\n"
+"PO-Revision-Date: 2014-02-23 17:09+0900\n"
+"Last-Translator: Yoshihio Fujie <info@galfy.jp>\n"
+"Language-Team: Galfy <info@galfy>\n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/concrete5/\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: packages/html5_audio_player_pro\n"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:25
+msgid "Display Title"
+msgstr "タイトルを表示する"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:28
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:106
+msgid "Custom Text"
+msgstr "カスタム"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:29
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:107
+msgid "Title tag"
+msgstr "タイトルタグ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:30
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:108
+msgid "Description tag"
+msgstr "説明タグ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:35
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:112
+msgid "File Source"
+msgstr "ファイルの場所"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:37
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:114
+msgid "Local file"
+msgstr "ファイルマネージャーから選ぶ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:38
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:57
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:115
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:135
+msgid "URL"
+msgstr "URL"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:42
+msgid "Primary File"
+msgstr "楽曲のファイル"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:45
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:121
+msgid "Choose Audio"
+msgstr "オーディオファイルの選択"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:50
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:126
+msgid "Optional"
+msgstr "オプション"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:52
+msgid "Choose Secondary Audio"
+msgstr "予備のファイルを選択"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:58
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:136
+msgid "Format"
+msgstr "フォーマット"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:60
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:138
+msgid "mp3"
+msgstr "mp3"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:61
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:139
+msgid "m4a"
+msgstr "m4a"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:62
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:140
+msgid "ogg"
+msgstr "ogg"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:63
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:141
+msgid "wav"
+msgstr "wav"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/audio_row_include.php:69
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:48
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:147
+msgid "Choose Album Art"
+msgstr "アルバムアートワークの選択"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:1
+#: packages/html5_audio_player_pro/controller.php:2
+#: packages/html5_audio_player_pro/helpers/player_script_generator.php:1
+msgid "Access Denied."
+msgstr "アクセスできません。"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:13
+#: packages/html5_audio_player_pro/controller.php:14
+msgid "HTML5 Audio Player Pro"
+msgstr "HTML5 Audio Player Pro"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:17
+msgid "HTML5/flash audio player built using the jPlayer jQuery plugin"
+msgstr ""
+"HTML5/flash audio playerはjQueryのプラグインjPlayerを使って作られています"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:22
+msgid "You must select an audio file."
+msgstr "オーディオファイルを選んでください"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:23
+msgid "You must enter a url"
+msgstr "URLを必ず入力してください"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:24
+msgid "Please choose a file set."
+msgstr "ファイルセットを選んでください"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:25
+msgid "Choose Audio/File"
+msgstr "オーディオファイルを選択"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/controller.php:26
+msgid "Please choose at least two audio files."
+msgstr "少なくとも2つのオーディオファイルを選んでください"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:23
+msgid "File Set:"
+msgstr "ファイルセット："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:26
+msgid "Titles:"
+msgstr "タイトル："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:28
+msgid "File title tag"
+msgstr "ファイルタイトルタグ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:29
+msgid "File description tag"
+msgstr "ファイル説明タグ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:31
+msgid "File Order:"
+msgstr "ファイルの再生順："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:33
+msgid "File Set Order"
+msgstr "ファイルセットの再生順："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:34
+msgid "Title alphabetically ascending"
+msgstr "曲名（昇順）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:35
+msgid "Title alphabetically descending"
+msgstr "曲名（降順）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:36
+msgid "Date Added (recent first)"
+msgstr "追加日時（新しい順）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:37
+msgid "Date Added (oldest first)"
+msgstr "追加日時（古い順）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:42
+msgid " property (recent first)"
+msgstr "情報（新しい順）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/fileset_row_include.php:43
+msgid " property (oldest first)"
+msgstr "情報（古い順）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:75
+msgid "Files"
+msgstr "ファイル"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:76
+msgid "Playback Options"
+msgstr "再生設定"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:77
+msgid "Display Options"
+msgstr "表示設定"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:78
+msgid "Podcast Options"
+msgstr "Podcastオプション"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:84
+msgid "Player Type: "
+msgstr "プレーヤーの種類"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:86
+msgid "Single File"
+msgstr "単一ファイル"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:87
+msgid "Custom Playlist"
+msgstr "カスタムプレイリスト"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:88
+msgid "File Set"
+msgstr "ファイルセット"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:94
+msgid "Enable Podcast Feed (Block must be in a stack to work)"
+msgstr ""
+"Podcastフィードを有効にする（ブロックが動作するためにはスタックに入っている必"
+"要があります）"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:96
+msgid "See documentation for podcasting instructions"
+msgstr "Podcastの説明ドキュメントを見る"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:102
+msgid "Audio File:"
+msgstr "オーディオファイル："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:104
+msgid "Display Title: "
+msgstr "タイトルの表示："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:125
+msgid ""
+"Ogg format recommended to ensure HTML5 compatibility in Firefox. Flash-"
+"fallback will be used if secondary format not provided."
+msgstr "oggフォーマットはFirefoxでのHTML5互換性のために推奨されています。"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:129
+msgid "Choose Secondary Audio Format"
+msgstr "予備のファイルフォーマットのオーディオを選択"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:169
+msgid "Add Audio File"
+msgstr "オーディオファイルの追加"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:191
+msgid "Playback Options:"
+msgstr "再生設定："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:193
+msgid "Playback Order: "
+msgstr "再生順序："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:195
+msgid "In Order"
+msgstr "追加順"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:196
+msgid "Random"
+msgstr "ランダム"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:201
+msgid "Loop"
+msgstr "ループ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:204
+msgid "Autoplay"
+msgstr "自動再生"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:208
+msgid "Initial Volume: "
+msgstr "初期ボリューム："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:215
+msgid "Player Display Options:"
+msgstr "プレーヤー表示設定"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:217
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:218
+msgid "Theme"
+msgstr "テーマ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:220
+msgid "Default"
+msgstr "初期設定"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:240
+msgid "Size"
+msgstr "サイズ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:242
+msgid "Responsive"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:243
+msgid "Large"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:244
+msgid "Medium"
+msgstr "中"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:245
+msgid "Mini"
+msgstr "小"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:250
+msgid "Style"
+msgstr "スタイル"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:255
+msgid "Black Tie"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:256
+msgid "Cupertino"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:257
+msgid "Hot Sneaks"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:258
+msgid "Lightness"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:259
+msgid "South Street"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:262
+msgid "Dark Hive"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:263
+msgid "Darkness"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:264
+msgid "Dot luv"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:265
+msgid "Trontastic"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:266
+msgid "Vader"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:269
+msgid "Eggplant"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:270
+msgid "Le Frog"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:271
+msgid "Overcast"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:272
+msgid "Pepper Grinder"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:273
+msgid "Sunny"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:278
+msgid "Red"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:279
+msgid "Blue"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:280
+msgid "Green"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:281
+msgid "Orange"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:282
+msgid "Purple"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:287
+msgid "Track Information"
+msgstr "トラック情報"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:289
+msgid "Hide Title Display"
+msgstr "タイトルを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:292
+msgid "Hide Album Artwork"
+msgstr "アルバムアートワークを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:295
+msgid "Hide Current Time"
+msgstr "経過時間を表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:298
+msgid "Hide Duration"
+msgstr "オーディオの長さを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:302
+msgid "Hide Playlist Display"
+msgstr "プレイリストを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:306
+msgid "Enable Download Links"
+msgstr "ダウンロードリンクを表示する"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:309
+msgid "Player Interface Elements"
+msgstr "プレーヤーのインターフェイス"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:312
+msgid "Hide Volume"
+msgstr "音量を表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:315
+msgid "Hide Progress Bar"
+msgstr "プログレスバーを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:319
+msgid "Hide Shuffle Button"
+msgstr "シャッフルボタンを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:323
+msgid "Hide Repeat Button"
+msgstr "リピートボタンを表示しない"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:328
+msgid "Podcast Options:"
+msgstr "Podcastオプション"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:329
+msgid "Title: "
+msgstr "タイトル："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:330
+msgid "Subtitle: "
+msgstr "サブタイトル："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:331
+msgid "Author: "
+msgstr "作者："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:332
+msgid "Copyright: "
+msgstr "著作権："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:338
+msgid "Summary: "
+msgstr "概要："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:339
+msgid "Language: "
+msgstr "言語："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:341
+msgid "English"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:342
+msgid "Chinese"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:343
+msgid "French"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:344
+msgid "German"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:345
+msgid "Spanish"
+msgstr ""
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:348
+msgid "Owner Name: "
+msgstr "Podcastオーナー名："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:349
+msgid "Owner Email: "
+msgstr "Podcastオーナーメールアドレス："
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:351
+msgid "Choose Podcast Image"
+msgstr "Podcast画像の選択"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:355
+msgid "You can find more information about podcasting on "
+msgstr "Podcastについてのより詳細な情報は"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/form.php:356
+msgid "Apple's Documention Page"
+msgstr "Appleドキュメントページ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/circle/view.php:9
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:16
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:9
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/single_basic/view.php:13
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:9
+msgid "Audio player disabled in edit mode."
+msgstr "編集モードでは表示されません"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/circle/view.php:30
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:36
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:30
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/single_basic/view.php:25
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:29
+msgid "play"
+msgstr "再生"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/circle/view.php:31
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:37
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:31
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:30
+msgid "pause"
+msgstr "一時停止"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:35
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:29
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:28
+msgid "previous"
+msgstr "前へ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:38
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:33
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/single_basic/view.php:24
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:32
+msgid "stop"
+msgstr "停止"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:40
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:32
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:31
+msgid "next"
+msgstr "次へ"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:41
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:53
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:52
+msgid "shuffle"
+msgstr "シャッフル"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:42
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:54
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:53
+msgid "shuffle off"
+msgstr "シャッフルなし"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:44
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:56
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:55
+msgid "repeat"
+msgstr "リピート"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:45
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:57
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:56
+msgid "repeat off"
+msgstr "リピートなし"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:46
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:34
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:33
+msgid "mute"
+msgstr "消音"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:47
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:35
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:34
+msgid "unmute"
+msgstr "消音なし"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:48
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:36
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:35
+msgid "max volume"
+msgstr "最大音量"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:71
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:81
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:80
+msgid "Podcast Feed "
+msgstr "Podcastフィード"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:71
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:81
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:80
+msgid "Podcast RSS Icon"
+msgstr "Podcast RSS アイコン"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:71
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:81
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:80
+msgid "Podcast RSS Feed"
+msgstr "Podcast RSS フィード"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:77
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:74
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/single_basic/view.php:35
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:73
+msgid "Update Required"
+msgstr "アップデートが必要です"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:78
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:75
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/single_basic/view.php:36
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:74
+msgid ""
+"To play the media you will need to either update your browser to a recent "
+"version or update your"
+msgstr "再生するにはブラウザを最新のものにアップデートしてください"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/jquery_ui/view.php:78
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/pink_flag/view.php:75
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/templates/single_basic/view.php:36
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/view.php:74
+msgid "Flash plugin"
+msgstr "Flashプラグイン"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/tools/rss.php:119
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/tools/rss.php:125
+msgid "Permission Denied"
+msgstr "許可されていません"
+
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/tools/rss.php:119
+#: packages/html5_audio_player_pro/blocks/html5_audio_player_pro/tools/rss.php:125
+msgid "You don't have permission to access this RSS feed"
+msgstr "このRSSフィードへのアクセスが許可されていません"
+
+#: packages/html5_audio_player_pro/controller.php:11
+msgid "Installs the HTML5 Audio Player Pro block."
+msgstr "HTML5 Audio Player Pro ブロックのインストール"
+
+#: packages/html5_audio_player_pro/controller.php:24
+msgid "Audio Date"
+msgstr "曲の発表日"
+
+#: packages/html5_audio_player_pro/controller.php:25
+msgid "Audio Duration"
+msgstr "曲の長さ"
+
+#: packages/html5_audio_player_pro/controller.php:26
+msgid "Podcast Author"
+msgstr "Podcast 作者"
+
+#: packages/html5_audio_player_pro/controller.php:27
+msgid "Podcast Subtitle"
+msgstr "Podcast サブタイトル"
+
+#: packages/html5_audio_player_pro/controller.php:28
+msgid "Podcast Summary"
+msgstr "Podcast 概要"
+
+#: packages/html5_audio_player_pro/helpers/player_script_generator.php:133
+#: packages/html5_audio_player_pro/helpers/player_script_generator.php:393
+msgid "Download"
+msgstr "ダウンロード"
+
+#~ msgid "Title"
+#~ msgstr "タイトル"
+
+#~ msgid "Use File Metadata"
+#~ msgstr "ファイル情報を使用する"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "Description"
+#~ msgstr "詳細"
+
+#~ msgid "use file metadata:"
+#~ msgstr "ファイル情報を利用する："
