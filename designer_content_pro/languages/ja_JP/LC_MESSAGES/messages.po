@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Example Package 0.0\n"
+"Project-Id-Version: Designer Content Pro 1.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-02-21 12:38+0900\n"
-"PO-Revision-Date: 2014-02-21 12:44+0900\n"
+"POT-Creation-Date: 2014-03-18 20:51-0600\n"
+"PO-Revision-Date: 2014-03-19 11:40+0900\n"
 "Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
 "Language-Team: \n"
 "Language: ja_JP\n"
@@ -18,35 +18,32 @@ msgstr ""
 "X-Poedit-SearchPath-0: ../../..\n"
 
 # Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
-#: ../../../controller.php:1
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:1
-#: ../../../elements/block_edit.php:1
-#: ../../../elements/block_edit_repeating_item.php:1
-#: ../../../helpers/wysiwyg_link_replacement.php:1
-#: ../../../libraries/block_generator.php:1
-#: ../../../libraries/container_package_generator.php:1
-#: ../../../libraries/crud_controller.php:1
-#: ../../../libraries/dcp_controller.php:1
-#: ../../../libraries/dcp_field_display.php:1
-#: ../../../libraries/dcp_field_types.php:1
-#: ../../../models/dcp_block_type.php:1
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/delete.php:1
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:1
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:1
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:1
+#: ../controller.php:1
+#: ../controllers/dashboard/blocks/designer_content_pro.php:1
+#: ../elements/block_edit.php:1 ../elements/block_edit_repeating_item.php:1
+#: ../helpers/wysiwyg_link_replacement.php:1
+#: ../libraries/block_generator.php:1
+#: ../libraries/container_package_generator.php:1
+#: ../libraries/crud_controller.php:1 ../libraries/dcp_controller.php:1
+#: ../libraries/dcp_field_display.php:1 ../libraries/dcp_field_types.php:1
+#: ../models/dcp_block_type.php:1
+#: ../single_pages/dashboard/blocks/designer_content_pro/delete.php:1
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:1
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:1
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:1
 msgid "Access Denied."
 msgstr "アクセス拒否"
 
-#: ../../../controller.php:13 ../../../controller.php:30
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:14
+#: ../controller.php:13 ../controller.php:30
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:15
 msgid "Designer Content Pro"
 msgstr "デザイナー・コンテント・プロ"
 
-#: ../../../controller.php:14
+#: ../controller.php:14
 msgid "Quickly create custom blocktypes with repeating items."
 msgstr "繰り返し項目を含むカスタムブロックタイプをすぐに作れます。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:50
+#: ../controllers/dashboard/blocks/designer_content_pro.php:50
 msgid ""
 "This blocktype cannot be edited in the dashboard because it has a controller "
 "override."
@@ -54,24 +51,28 @@ msgstr ""
 "このブロックタイプはコントローラーがオーバーライドされているため、管理画面か"
 "ら編集することができません。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:150
+#: ../controllers/dashboard/blocks/designer_content_pro.php:171
 msgid "ERROR: Could not save because no data was sent"
 msgstr "エラー：データが送信されていないため保存できません"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:157
+#: ../controllers/dashboard/blocks/designer_content_pro.php:178
 msgid "ERROR: Could not save because data was invalid"
 msgstr "エラー：データが不正のため保存できません"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:164
+#: ../controllers/dashboard/blocks/designer_content_pro.php:185
 msgid "New Block Type created and installed."
 msgstr "新しいブロックタイプが作成されインストールされました。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:166
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:198
+#: ../controllers/dashboard/blocks/designer_content_pro.php:187
+#: ../controllers/dashboard/blocks/designer_content_pro.php:224
 msgid "Block Type changes have been saved."
 msgstr "ブロックタイプの変更が保存されました。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:181
+#: ../controllers/dashboard/blocks/designer_content_pro.php:200
+msgid "do something..."
+msgstr "何かする…"
+
+#: ../controllers/dashboard/blocks/designer_content_pro.php:207
 #, php-format
 msgid ""
 "Paste this code inside the <code>foreach</code> loop in <code>SITEROOT/"
@@ -80,47 +81,47 @@ msgstr ""
 "次のコードを <code>サイトルート/blocks/%s/view.php</code> の <code>foreach</"
 "code> ループの内側にペーストしてください。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:185
+#: ../controllers/dashboard/blocks/designer_content_pro.php:211
 #, php-format
 msgid "Visit %s for complete documentation."
 msgstr "詳細なドキュメントを読むには %s にアクセスしてください。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:207
+#: ../controllers/dashboard/blocks/designer_content_pro.php:233
 #, php-format
 msgid "Block type '%s' successfully installed."
 msgstr "「%s」ブロックタイプが正常にインストールされました。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:217
+#: ../controllers/dashboard/blocks/designer_content_pro.php:243
 #, php-format
 msgid "Block type '%s' has been uninstalled."
 msgstr "「%s」ブロックタイプがアンインストールされました。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:232
+#: ../controllers/dashboard/blocks/designer_content_pro.php:258
 #, php-format
 msgid "Block type '%s' has been permanently deleted."
 msgstr "「%s」ブロックタイプが完全に削除されました。"
 
-#: ../../../controllers/dashboard/blocks/designer_content_pro.php:244
+#: ../controllers/dashboard/blocks/designer_content_pro.php:270
 msgid "ERROR: Cannot identify block handle"
 msgstr "エラー：ブロックハンドルの定義に失敗しました"
 
-#: ../../../elements/block_edit.php:37
+#: ../elements/block_edit.php:37
 msgid "Add New Item..."
 msgstr "新規項目を追加..."
 
-#: ../../../elements/block_edit_repeating_item.php:25
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/delete.php:33
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:193
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:282
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:62
+#: ../elements/block_edit_repeating_item.php:25
+#: ../single_pages/dashboard/blocks/designer_content_pro/delete.php:34
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:205
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:294
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:63
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: ../../../elements/block_edit_repeating_item.php:26
+#: ../elements/block_edit_repeating_item.php:26
 msgid "Save"
 msgstr "保存"
 
-#: ../../../elements/dashboard/uninstall.php:10
+#: ../elements/dashboard/uninstall.php:10
 msgid ""
 "ALL of the custom blocktypes you created with Designer Content Pro will be "
 "uninstalled and their content will be removed from the pages of this site:"
@@ -128,20 +129,20 @@ msgstr ""
 "デザイナー・コンテント・プロで作成した全てのカスタムブロックタイプがアンイン"
 "ストールされ、次のサイトの各ページからそれらのコンテンツも削除されます："
 
-#: ../../../libraries/block_generator.php:83
+#: ../libraries/block_generator.php:83
 msgid "Don't change this!"
 msgstr "これを変更しないでください！"
 
-#: ../../../libraries/block_generator.php:168
+#: ../libraries/block_generator.php:187
 #, php-format
 msgid ""
-"This Designer Content Pro block view must be overridden in <?php  echo "
-"DIR_BASE; ?>/blocks/%s/view.php"
+"This Designer Content Pro block view must be overridden in %s/blocks/%s/view."
+"php"
 msgstr ""
-"このデザイナー・コンテント・プロ・ブロック・ビューは <?php  echo DIR_BASE; ?"
-">/blocks/%s/view.php でオーバーライドする必要があります。"
+"デザイナー・コンテント・プロのブロックのビューは %s/blocks/%s/view.php でオー"
+"バーライドする必要があります"
 
-#: ../../../libraries/block_generator.php:179
+#: ../libraries/block_generator.php:198
 #, php-format
 msgid ""
 "This block was made with Designer Content Pro. Visit %s for documentation."
@@ -149,17 +150,27 @@ msgstr ""
 "このブロックはデザイナー・コンテント・プロで作成されました。ドキュメントを読"
 "むには %s にアクセスしてください。"
 
-#: ../../../libraries/block_generator.php:184
+#: ../libraries/block_generator.php:203
 msgid "Place markup for each repeating item here."
 msgstr "ここに各繰り返し項目のマークアップを設置してください。"
 
-#: ../../../libraries/block_generator.php:185
+#: ../libraries/block_generator.php:204
 msgid "Sample code can be found in the Designer Content Pro dashboard page."
 msgstr ""
 "サンプルコードはデザイナー・コンテント・プロの管理画面ページから取得できま"
 "す。"
 
-#: ../../../libraries/block_generator.php:228
+#: ../libraries/block_generator.php:244
+msgid ""
+"DESIGNER CONTENT PRO ERROR: You must provide a btHandle when calling "
+"DesignerContentProBlockGenerator::getHeaderComments() for the controller.php "
+"file"
+msgstr ""
+"デザイナー・コンテント・プロ・エラー：controller.php ファイルで "
+"DesignerContentProBlockGenerator::getHeaderComments() を呼び出すためには、"
+"btHandle を指定する必要があります。"
+
+#: ../libraries/block_generator.php:247
 #, php-format
 msgid ""
 "/**\n"
@@ -186,7 +197,7 @@ msgstr ""
 " * ドキュメントを読む：%s\n"
 " */"
 
-#: ../../../libraries/block_generator.php:240
+#: ../libraries/block_generator.php:259
 msgid ""
 "<!--\n"
 "WARNING: This is generated code.\n"
@@ -202,7 +213,7 @@ msgstr ""
 "因になります）。\n"
 "-->"
 
-#: ../../../libraries/block_generator.php:248
+#: ../libraries/block_generator.php:267
 msgid ""
 "/**\n"
 " * WARNING: This is generated code.\n"
@@ -218,55 +229,55 @@ msgstr ""
 "原因になります）。\n"
 " */"
 
-#: ../../../libraries/container_package_generator.php:20
+#: ../libraries/container_package_generator.php:20
 msgid ""
 "Designer Content Pro Error: Could not create custom block storage package."
 msgstr ""
 "デザイナー・コンテント・プロ・エラー：カスタムブロック格納パッケージを作成す"
 "ることができません。"
 
-#: ../../../libraries/container_package_generator.php:30
+#: ../libraries/container_package_generator.php:30
 msgid ""
 "Designer Content Pro Error: Could not install custom block storage package."
 msgstr ""
 "デザイナー・コンテント・プロ・エラー：カスタムブロック格納パッケージをインス"
 "トールすることができません。"
 
-#: ../../../libraries/container_package_generator.php:72
+#: ../libraries/container_package_generator.php:72
 msgid "Designer Content Pro - Custom Block Storage"
 msgstr "デザイナー・コンテント・プロ - カスタムブロック格納"
 
-#: ../../../libraries/container_package_generator.php:73
+#: ../libraries/container_package_generator.php:73
 msgid "Stores custom blocktypes created with Designer Content Pro."
 msgstr "デザイナー・コンテント・プロで作成されたブロックタイプを格納します。"
 
-#: ../../../libraries/container_package_generator.php:82
+#: ../libraries/container_package_generator.php:82
 msgid ""
 "This package was automatically created by the Designer Content Pro addon."
 msgstr ""
 "このパッケージはデザイナー・コンテント・プロ・アドオンによって自動的に作成さ"
 "れました。"
 
-#: ../../../libraries/container_package_generator.php:84
+#: ../libraries/container_package_generator.php:84
 msgid ""
 "The custom blocktypes you create with Designer Content Pro are saved here,"
 msgstr ""
 "あなたがデザイナー・コンテント・プロで作成したカスタム・ブロックタイプはここ"
 "に作成されますので、"
 
-#: ../../../libraries/container_package_generator.php:85
+#: ../libraries/container_package_generator.php:85
 msgid ""
 "so that they won't get erased by C5 when the Designer Content Pro addon is "
 "upgraded."
 msgstr "デザイナー・コンテント・プロをアップグレードしても消えません。"
 
-#: ../../../libraries/container_package_generator.php:122
+#: ../libraries/container_package_generator.php:122
 msgid ""
 "This addon cannot be installed on its own -- you must install the Designer "
 "Content Pro addon (which will then cause this addon to be installed)."
 msgstr "このアドオンはこれ自身ではインストールできません。"
 
-#: ../../../libraries/container_package_generator.php:136
+#: ../libraries/container_package_generator.php:136
 msgid ""
 "This addon cannot be uninstalled on its own -- you must uninstall the "
 "Designer Content Pro addon (which will then cause this addon to be "
@@ -276,66 +287,105 @@ msgstr ""
 "コンテント・プロ・アドオンをアンインストールしてください。デザイナー・コンテ"
 "ント・プロをアンインストールすると、このアドオンもアンインストールされます。"
 
-#: ../../../libraries/dcp_controller.php:157
+#: ../libraries/dcp_controller.php:60
+#, php-format
+msgid ""
+"DESIGNER CONTENT PRO ERROR: Invalid field type \"%s\" declared for Block "
+"Type \"%s\""
+msgstr ""
+"デザイナー・コンテント・プロ・エラー：不正なフィールドタイプ \"%s\" がブロッ"
+"クタイプ \"%s\" のために宣言されました"
+
+#: ../libraries/dcp_controller.php:157
 msgid "Edit Item #"
 msgstr "項目を編集 #"
 
-#: ../../../libraries/dcp_controller.php:158
+#: ../libraries/dcp_controller.php:158
 msgid "click to edit"
 msgstr "クリックして編集"
 
-#: ../../../libraries/dcp_controller.php:159
+#: ../libraries/dcp_controller.php:159
 msgid "You must provide a link"
 msgstr "リンクを入力してください"
 
-#: ../../../libraries/dcp_field_types.php:123
+#: ../libraries/dcp_field_display.php:401
+msgid "yes"
+msgstr "はい"
+
+#: ../libraries/dcp_field_types.php:23
+msgid ""
+"DESIGNER CONTENT PRO ERROR: A DcpFieldType class does not have the "
+"\"getGeneratorLabel\" static method implemented!"
+msgstr ""
+"デザイナー・コンテント・プロ・エラー：DcpFieldType クラスは "
+"\"getGeneratorLabel\" を静的メソッドとして実装していません！"
+
+#: ../libraries/dcp_field_types.php:30
+msgid ""
+"DESIGNER CONTENT PRO ERROR: A DcpFieldType class does not have the "
+"\"getGeneratorOptions\" static method implemented!"
+msgstr ""
+"デザイナー・コンテント・プロ・エラー：DcpFieldType クラスは "
+"\"getGeneratorOptions\" を静的メソッドとして実装していません！"
+
+#: ../libraries/dcp_field_types.php:129
 msgid "File"
 msgstr "ファイル"
 
-#: ../../../libraries/dcp_field_types.php:128
-#: ../../../libraries/dcp_field_types.php:193
-#: ../../../libraries/dcp_field_types.php:223
-#: ../../../libraries/dcp_field_types.php:253
-#: ../../../libraries/dcp_field_types.php:284
-#: ../../../libraries/dcp_field_types.php:349
+#: ../libraries/dcp_field_types.php:134 ../libraries/dcp_field_types.php:200
+#: ../libraries/dcp_field_types.php:231 ../libraries/dcp_field_types.php:262
+#: ../libraries/dcp_field_types.php:294 ../libraries/dcp_field_types.php:359
+#: ../libraries/dcp_field_types.php:493 ../libraries/dcp_field_types.php:532
+#: ../libraries/dcp_field_types.php:599 ../libraries/dcp_field_types.php:641
+msgid "Help Text..."
+msgstr "ヘルプテキスト…"
+
+#: ../libraries/dcp_field_types.php:134 ../libraries/dcp_field_types.php:200
+#: ../libraries/dcp_field_types.php:231 ../libraries/dcp_field_types.php:262
+#: ../libraries/dcp_field_types.php:294 ../libraries/dcp_field_types.php:359
+#: ../libraries/dcp_field_types.php:493 ../libraries/dcp_field_types.php:532
+#: ../libraries/dcp_field_types.php:599 ../libraries/dcp_field_types.php:641
+msgid ""
+"Help Text will be displayed next to this field in the block add/edit dialog."
+msgstr ""
+"ヘルプテキストはブロックの追加／編集ダイアログのこのフィールドの次に表示され"
+"ます。"
+
+#: ../libraries/dcp_field_types.php:135 ../libraries/dcp_field_types.php:201
+#: ../libraries/dcp_field_types.php:232 ../libraries/dcp_field_types.php:263
+#: ../libraries/dcp_field_types.php:295 ../libraries/dcp_field_types.php:361
 msgid "Searchable"
 msgstr "検索に含める"
 
-#: ../../../libraries/dcp_field_types.php:128
-#: ../../../libraries/dcp_field_types.php:193
+#: ../libraries/dcp_field_types.php:135 ../libraries/dcp_field_types.php:201
 msgid ""
 "Check this box to include this field's file title in the site search index."
 msgstr ""
 "このボックスをチェックするとこのフィールドのファイルのタイトルが検索インデッ"
 "クスに含まれます。"
 
-#: ../../../libraries/dcp_field_types.php:129
-#: ../../../libraries/dcp_field_types.php:194
-#: ../../../libraries/dcp_field_types.php:224
-#: ../../../libraries/dcp_field_types.php:254
-#: ../../../libraries/dcp_field_types.php:285
-#: ../../../libraries/dcp_field_types.php:350
-#: ../../../libraries/dcp_field_types.php:481
+#: ../libraries/dcp_field_types.php:136 ../libraries/dcp_field_types.php:202
+#: ../libraries/dcp_field_types.php:233 ../libraries/dcp_field_types.php:264
+#: ../libraries/dcp_field_types.php:296 ../libraries/dcp_field_types.php:362
+#: ../libraries/dcp_field_types.php:494 ../libraries/dcp_field_types.php:533
+#: ../libraries/dcp_field_types.php:644
 msgid "Required"
 msgstr "必須"
 
-#: ../../../libraries/dcp_field_types.php:129
-#: ../../../libraries/dcp_field_types.php:194
-#: ../../../libraries/dcp_field_types.php:224
-#: ../../../libraries/dcp_field_types.php:254
-#: ../../../libraries/dcp_field_types.php:285
-#: ../../../libraries/dcp_field_types.php:350
-#: ../../../libraries/dcp_field_types.php:481
+#: ../libraries/dcp_field_types.php:136 ../libraries/dcp_field_types.php:202
+#: ../libraries/dcp_field_types.php:233 ../libraries/dcp_field_types.php:264
+#: ../libraries/dcp_field_types.php:296 ../libraries/dcp_field_types.php:362
+#: ../libraries/dcp_field_types.php:494 ../libraries/dcp_field_types.php:533
 msgid "Check this box to make this field required when adding/editing blocks."
 msgstr ""
 "このボックスをチェックすると、ブロックを追加／編集する際にこのフィールドの入"
 "力が必須になります。"
 
-#: ../../../libraries/dcp_field_types.php:130
+#: ../libraries/dcp_field_types.php:137
 msgid "Editable Title"
 msgstr "編集可能なタイトル"
 
-#: ../../../libraries/dcp_field_types.php:130
+#: ../libraries/dcp_field_types.php:137
 msgid ""
 "Check this box to provide a textbox for the file title when adding/editing "
 "blocks (if provided, this title will be used instead of the file's title "
@@ -345,14 +395,12 @@ msgstr ""
 "用のテキストボックスが表示されます（このタイトルはファイルのタイトル属性の変"
 "わりに使われます）。"
 
-#: ../../../libraries/dcp_field_types.php:131
-#: ../../../libraries/dcp_field_types.php:225
-#: ../../../libraries/dcp_field_types.php:255
-#: ../../../libraries/dcp_field_types.php:352
+#: ../libraries/dcp_field_types.php:138 ../libraries/dcp_field_types.php:234
+#: ../libraries/dcp_field_types.php:265 ../libraries/dcp_field_types.php:364
 msgid "Block Item Label"
 msgstr "ブロック項目ラベル"
 
-#: ../../../libraries/dcp_field_types.php:131
+#: ../libraries/dcp_field_types.php:138
 msgid ""
 "Check this box to use this field's editable title as the label for repeating "
 "items when listed in the block add/edit dialog."
@@ -360,19 +408,19 @@ msgstr ""
 "このボックスをチェックすると、このフィールドの編集可能なタイトルが、ブロック"
 "の追加／編集ダイアログの一覧で繰り返し項目のラベルとして使われます。"
 
-#: ../../../libraries/dcp_field_types.php:166
+#: ../libraries/dcp_field_types.php:173
 msgid "Title"
 msgstr "タイトル"
 
-#: ../../../libraries/dcp_field_types.php:188
+#: ../libraries/dcp_field_types.php:195
 msgid "Image"
 msgstr "画像"
 
-#: ../../../libraries/dcp_field_types.php:195
+#: ../libraries/dcp_field_types.php:203
 msgid "Editable Alt Text"
 msgstr "編集可能なAltテキスト"
 
-#: ../../../libraries/dcp_field_types.php:195
+#: ../libraries/dcp_field_types.php:203
 msgid ""
 "Check this box to provide a textbox for the image alt text when adding/"
 "editing blocks (if provided, this alt text will be used instead of the "
@@ -382,11 +430,11 @@ msgstr ""
 "のテキストボックスが表示されます（このaltテキストがファイルの説明やタイトル属"
 "性の代わりに使われます）。"
 
-#: ../../../libraries/dcp_field_types.php:196
+#: ../libraries/dcp_field_types.php:204
 msgid "Block Item Image"
 msgstr "ブロック項目画像"
 
-#: ../../../libraries/dcp_field_types.php:196
+#: ../libraries/dcp_field_types.php:204
 msgid ""
 "Check this box to use this field's image as the thumbnail for repeating "
 "items when listed in the block add/edit dialog."
@@ -394,23 +442,21 @@ msgstr ""
 "このボックスをチェックすると、このフィールドの画像がブロックの追加／編集ダイ"
 "アログ内に表示される繰り返し項目のサムネイルとして使われます。"
 
-#: ../../../libraries/dcp_field_types.php:205
+#: ../libraries/dcp_field_types.php:213
 msgid "Alt Text"
 msgstr "Altテキスト"
 
-#: ../../../libraries/dcp_field_types.php:218
+#: ../libraries/dcp_field_types.php:226
 msgid "Textbox"
 msgstr "テキストボックス"
 
-#: ../../../libraries/dcp_field_types.php:223
-#: ../../../libraries/dcp_field_types.php:253
+#: ../libraries/dcp_field_types.php:232 ../libraries/dcp_field_types.php:263
 msgid "Check this box to include this field's text in the site search index."
 msgstr ""
 "このボックスをチェックすると、このフィールドのテキストがサイトの検索インデッ"
 "クスに含まれます。"
 
-#: ../../../libraries/dcp_field_types.php:225
-#: ../../../libraries/dcp_field_types.php:255
+#: ../libraries/dcp_field_types.php:234 ../libraries/dcp_field_types.php:265
 msgid ""
 "Check this box to use this field's text as the label for repeating items "
 "when listed in the block add/edit dialog."
@@ -418,43 +464,42 @@ msgstr ""
 "このボックスをチェックすると、このフィールドのテキストがブロックの追加／編集"
 "ダイアログの一覧で繰り返し項目のラベルとして使われます。"
 
-#: ../../../libraries/dcp_field_types.php:248
+#: ../libraries/dcp_field_types.php:257
 msgid "Text Area"
 msgstr "テキストエリア"
 
-#: ../../../libraries/dcp_field_types.php:279
+#: ../libraries/dcp_field_types.php:289
 msgid "WYSIWYG"
 msgstr "WYSIWYG"
 
-#: ../../../libraries/dcp_field_types.php:284
+#: ../libraries/dcp_field_types.php:295
 msgid ""
 "Check this box to include this field's content in the site search index."
 msgstr ""
 "このボックスをチェックすると、このフィールドのコンテンツがサイトの検索イン"
 "デックスに含まれます。"
 
-#: ../../../libraries/dcp_field_types.php:336
+#: ../libraries/dcp_field_types.php:347
 msgid "Combo"
 msgstr "コンボ"
 
-#: ../../../libraries/dcp_field_types.php:337
+#: ../libraries/dcp_field_types.php:348
 msgid "Page Chooser"
 msgstr "ページ選択"
 
-#: ../../../libraries/dcp_field_types.php:338
-#: ../../../libraries/dcp_field_types.php:404
+#: ../libraries/dcp_field_types.php:349 ../libraries/dcp_field_types.php:416
 msgid "External URL"
 msgstr "外部URL"
 
-#: ../../../libraries/dcp_field_types.php:343
+#: ../libraries/dcp_field_types.php:354
 msgid "Link"
 msgstr "リンク"
 
-#: ../../../libraries/dcp_field_types.php:348
+#: ../libraries/dcp_field_types.php:360 ../libraries/dcp_field_types.php:643
 msgid "Type"
 msgstr "タイプ"
 
-#: ../../../libraries/dcp_field_types.php:348
+#: ../libraries/dcp_field_types.php:360
 msgid ""
 "The type of field to provide in the block add/edit dialog:<br>sitemap page "
 "chooser only,<br>external url textbox only,<br>or both (combo)."
@@ -462,18 +507,18 @@ msgstr ""
 "ブロックの追加／編集ダイアログで表示されるフィールドのタイプ：<br>サイトマッ"
 "プ選択のみ、<br>外部URLのテキストボックスのみ、<br>または両方（コンボ）。"
 
-#: ../../../libraries/dcp_field_types.php:349
+#: ../libraries/dcp_field_types.php:361
 msgid ""
 "Check this box to include this field's link text in the site search index."
 msgstr ""
 "このボックスをチェックすると、このフィールドのリンクテキストがサイトの検索イ"
 "ンデックスに含まれます。"
 
-#: ../../../libraries/dcp_field_types.php:351
+#: ../libraries/dcp_field_types.php:363
 msgid "Editable Link Text"
 msgstr "編集可能なリンクテキスト"
 
-#: ../../../libraries/dcp_field_types.php:351
+#: ../libraries/dcp_field_types.php:363
 msgid ""
 "Check this box to provide a textbox for the link text when adding/editing "
 "blocks (if provided, this text will be used instead of the page title or "
@@ -483,7 +528,7 @@ msgstr ""
 "のテキストボックスが表示されます（ページのタイトルや外部URLの代わりに使われま"
 "す）。"
 
-#: ../../../libraries/dcp_field_types.php:352
+#: ../libraries/dcp_field_types.php:364
 msgid ""
 "Check this box to use this field's editable link text as the label for "
 "repeating items when listed in the block add/edit dialog."
@@ -492,33 +537,105 @@ msgstr ""
 "ロックの追加／編集ダイアログで表示される繰り返し項目のラベルとして使われま"
 "す。"
 
-#: ../../../libraries/dcp_field_types.php:404
+#: ../libraries/dcp_field_types.php:416
 msgid "Page in Site"
 msgstr "サイト内のページ"
 
-#: ../../../libraries/dcp_field_types.php:434
+#: ../libraries/dcp_field_types.php:446
 msgid "Link Text: "
 msgstr "リンクテキスト："
 
-#: ../../../libraries/dcp_field_types.php:476
+#: ../libraries/dcp_field_types.php:488
 msgid "Page"
 msgstr "ページ"
 
-#: ../../../models/dcp_block_type.php:119
+#: ../libraries/dcp_field_types.php:527
+msgid "Date"
+msgstr "日付"
+
+#: ../libraries/dcp_field_types.php:534
+msgid "Default to Today"
+msgstr "今日をデフォルトにする"
+
+#: ../libraries/dcp_field_types.php:534
+msgid ""
+"Check this box to pre-populate this field with today's date when adding new "
+"blocks."
+msgstr ""
+"このボックスをチェックするとブロックの追加時にこのフィールドが今日の日付にあ"
+"らかじめ設定されます。"
+
+#: ../libraries/dcp_field_types.php:594
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#: ../libraries/dcp_field_types.php:630
+msgid "Dropdown List"
+msgstr "ドロップダウンリスト"
+
+#: ../libraries/dcp_field_types.php:631
+msgid "Checkbox List"
+msgstr "チェックボックスリスト"
+
+#: ../libraries/dcp_field_types.php:636
+msgid "Select List"
+msgstr "選択リスト"
+
+#: ../libraries/dcp_field_types.php:642
+msgid "Select Options..."
+msgstr "オプションを選択…"
+
+#: ../libraries/dcp_field_types.php:642
+msgid ""
+"List choices, one per line,<br>in 'handle: label' format.<br>For example:"
+"<br>:--Choose One--<br>first_handle: First Label<br>second_handle: Second "
+"Label<br>etc: And so on..."
+msgstr ""
+"'ハンドル: ラベル'のフォーマットで<br>選択肢を１行ごとに入力<br>例：<br>:--選"
+"択してください--<br>first_handle: 最初のラベル<br>second_handle: ２つめのラベ"
+"ル<br>etc: その他"
+
+#: ../libraries/dcp_field_types.php:643
+msgid ""
+"The type of field to provide in the block add/edit dialog:<br>dropdown list "
+"(single choice),<br>or checkbox list (multiple choice)."
+msgstr ""
+"ブロックの追加／編集ダイアログで表示されるフィールドのタイプ：<br>ドロップダ"
+"ウンリスト（単一選択）<br>またはチェックボックスリスト（複数選択）"
+
+#: ../libraries/dcp_field_types.php:644
+msgid ""
+"Check this box to make this field required when adding/editing blocks."
+"<br>(For checkbox lists, this means at least one box must be checked.)"
+msgstr ""
+"このボックスをチェックすると、ブロックを追加／編集する際にこのフィールドの入"
+"力が必須になります。<br>（チェックボックスリストの場合、少なくともひとつは選"
+"択しないといけないという意味です）"
+
+#: ../models/dcp_block_type.php:36
+#, php-format
+msgid ""
+"DESIGNER CONTENT PRO ERROR: Cannot find class definition \"%s\" for field "
+"type \"%s\""
+msgstr ""
+"デザイナー・コンテント・プロ・エラー：クラス定義 \"%s\" がフィールドタイプ "
+"\"%s\" のために必要です"
+
+#: ../models/dcp_block_type.php:122
 msgid ""
 "Designer Content Pro Error: The storage package does not exist on the server."
 msgstr ""
 "デザイナー・コンテント・プロ　エラー：格納パッケージがサーバー上にありませ"
 "ん。"
 
-#: ../../../models/dcp_block_type.php:121
+#: ../models/dcp_block_type.php:124
 msgid "Designer Content Pro Error: The storage package is not installed."
 msgstr ""
 "デザイナー・コンテント・プロ　エラー：格納パッケージがインストールされていま"
 "せん。"
 
-#: ../../../models/dcp_block_type.php:184
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:50
+#: ../models/dcp_block_type.php:187
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:51
 #, php-format
 msgid ""
 "Warning: The blocks directory in the storage package ('%s') is not "
@@ -528,7 +645,7 @@ msgstr ""
 "警告：格納パッケージ内のblocksディレクトリ（'%s'）に書き込みできません。サー"
 "バー上の権限を変更しないとブロックタイプの作成・編集はできません。"
 
-#: ../../../models/dcp_block_type.php:187
+#: ../models/dcp_block_type.php:190
 msgid ""
 "Your site's top-level /blocks/ directory is not writeable. Blocks types "
 "cannot be created or edited until permissions are changed on your server."
@@ -536,25 +653,25 @@ msgstr ""
 "サイトのトップレベルの /blocks/ ディレクトリーに書き込みできません。サーバー"
 "上の権限を変更しないとブロックタイプの作成・編集はできません。"
 
-#: ../../../models/dcp_block_type.php:194
+#: ../models/dcp_block_type.php:197
 msgid "BlockType Handle is required."
 msgstr "ブロックタイプハンドルは必須です。"
 
-#: ../../../models/dcp_block_type.php:197
+#: ../models/dcp_block_type.php:200
 msgid "BlockType Handle cannot exceed 32 characters in length."
 msgstr "ブロックタイプハンドルは32文字を超えることはできません。"
 
-#: ../../../models/dcp_block_type.php:200
+#: ../models/dcp_block_type.php:203
 msgid "BlockType Handle can only contain lowercase letters and underscores"
 msgstr ""
 "ブロックタイプハンドルは英子文字とアンダースコアのみ使用することができます。"
 
-#: ../../../models/dcp_block_type.php:203
+#: ../models/dcp_block_type.php:206
 msgid "BlockType Handle cannot be changed while the BlockType is installed."
 msgstr ""
 "ブロックタイプハンドルはインストール済みのブロックタイプでは変更できません。"
 
-#: ../../../models/dcp_block_type.php:206
+#: ../models/dcp_block_type.php:209
 msgid ""
 "BlockType Handle is already in use by another block type. Note that the "
 "other block type might be installed or uninstalled, and it might be a "
@@ -565,7 +682,7 @@ msgstr ""
 "た、そのブロックはデザイナー・コンテント・プロで作成したブロックかもしれませ"
 "んが、通常のconcrete5のブロックである可能性もありますので、ご注意ください。"
 
-#: ../../../models/dcp_block_type.php:209
+#: ../models/dcp_block_type.php:212
 #, php-format
 msgid ""
 "No changes can be made because a custom controller override exists in '%s'"
@@ -573,46 +690,46 @@ msgstr ""
 "カスタム・コントローラーが '%s' でオーバーライドされているため、変更は反映さ"
 "れません。"
 
-#: ../../../models/dcp_block_type.php:214
+#: ../models/dcp_block_type.php:217
 msgid "BlockType Name is required."
 msgstr "ブロックタイプ名は必須です。"
 
-#: ../../../models/dcp_block_type.php:217
+#: ../models/dcp_block_type.php:220
 msgid "BlockType Name cannot exceed 128 characters in length."
 msgstr "ブロックタイプ名は128文字を超えることはできません。"
 
-#: ../../../models/dcp_block_type.php:222
+#: ../models/dcp_block_type.php:225
 msgid "BlockType Name cannot contain quotation marks (\")."
 msgstr "ブロックタイプ名はクオーテーション（\"）を含めることはできません。"
 
-#: ../../../models/dcp_block_type.php:238
+#: ../models/dcp_block_type.php:241
 msgid "BlockType must have at least one repeating item field."
 msgstr ""
 "ブロックタイプは少なくともひとつの繰り返し項目フィールドを設定する必要があり"
 "ます。"
 
-#: ../../../models/dcp_block_type.php:257
+#: ../models/dcp_block_type.php:260
 msgid "1st"
 msgstr "1つめ"
 
-#: ../../../models/dcp_block_type.php:257
+#: ../models/dcp_block_type.php:260
 msgid "2nd"
 msgstr "2つめ"
 
-#: ../../../models/dcp_block_type.php:257
+#: ../models/dcp_block_type.php:260
 msgid "3rd"
 msgstr "3つめ"
 
-#: ../../../models/dcp_block_type.php:257
+#: ../models/dcp_block_type.php:260
 msgid "th"
 msgstr "つめ"
 
-#: ../../../models/dcp_block_type.php:265
+#: ../models/dcp_block_type.php:268
 #, php-format
 msgid "%s field is missing a handle."
 msgstr "%s フィールドはハンドルが設定されていません。"
 
-#: ../../../models/dcp_block_type.php:268
+#: ../models/dcp_block_type.php:271
 #, php-format
 msgid ""
 "%s field's handle contains invalid character(s) (it must start with a "
@@ -621,7 +738,7 @@ msgstr ""
 "%s フィールドのハンドルに不正な文字が含まれています（アルファベットで始まり、"
 "半角英数字、アンダースコアのみ含めることができます）。"
 
-#: ../../../models/dcp_block_type.php:271
+#: ../models/dcp_block_type.php:274
 #, php-format
 msgid ""
 "%s field's handle cannot be changed because the block type is currently "
@@ -630,18 +747,18 @@ msgstr ""
 "インストール済みのブロックタイプなので %s フィールドのハンドルは変更できませ"
 "ん。"
 
-#: ../../../models/dcp_block_type.php:276
+#: ../models/dcp_block_type.php:279
 #, php-format
 msgid "%s field is missing a type."
 msgstr "%s フィールドのタイプが指定されていません。"
 
-#: ../../../models/dcp_block_type.php:279
+#: ../models/dcp_block_type.php:282
 #, php-format
 msgid "%s field's type is invalid -- you must choose from the dropdown list."
 msgstr ""
 "%s フィールドのタイプが不正です -- ドロップダウンリストから選択してください。"
 
-#: ../../../models/dcp_block_type.php:282
+#: ../models/dcp_block_type.php:285
 #, php-format
 msgid ""
 "%s field's type cannot be changed because the block type is currently "
@@ -650,12 +767,17 @@ msgstr ""
 "インストール済みのブロックタイプなので %s フィールドのタイプは変更できませ"
 "ん。"
 
-#: ../../../models/dcp_block_type.php:287
+#: ../models/dcp_block_type.php:290
 #, php-format
 msgid "%s field is missing a label."
 msgstr "%s フィールドのラベルが指定されていません。"
 
-#: ../../../models/dcp_block_type.php:347
+#: ../models/dcp_block_type.php:297
+#, php-format
+msgid "%s field: %s"
+msgstr "%s フィールド： %s"
+
+#: ../models/dcp_block_type.php:360
 #, php-format
 msgid ""
 "Field handle '%s' is used more than once. Each field must have a unique "
@@ -664,28 +786,55 @@ msgstr ""
 "フィールドのハンドル '%s' は１回以上使用されています。それぞれのフィールドは"
 "一意なハンドルを持つ必要があります。"
 
-#: ../../../models/dcp_block_type.php:375
+#: ../models/dcp_block_type.php:372
+msgid "You must enter at least one select list option."
+msgstr "少なくともひとつの選択リストオプションを入力する必要があります。"
+
+#: ../models/dcp_block_type.php:379
+#, php-format
+msgid "Missing a colon in line #%d of select list options."
+msgstr "#%d 行目の選択肢にコロンがありません"
+
+#: ../models/dcp_block_type.php:383
+#, php-format
+msgid ""
+"Invalid handle \"%s\" in line #%d of select list options. (Only letters, "
+"numbers, and underscores are allowed.)"
+msgstr ""
+"ハンドル \"%s\" （ #%d 行目）は不正な形式です（半角英数字、アンダースコアのみ"
+"使用できます）。"
+
+#: ../models/dcp_block_type.php:385
+#, php-format
+msgid "Duplicate handle \"%s\" in line #%d of select list options."
+msgstr "ハンドル \"%s\" （ #%d 行目）は重複しています。"
+
+#: ../models/dcp_block_type.php:442
 msgid "Stack"
 msgstr "スタック"
 
-#: ../../../models/dcp_block_type.php:377
+#: ../models/dcp_block_type.php:444
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: ../models/dcp_block_type.php:446
 msgid "News Flow"
 msgstr "ニュースフロー"
 
-#: ../../../models/dcp_block_type.php:379
+#: ../models/dcp_block_type.php:448
 msgid "Page Type Defaults Template"
 msgstr "ページタイプデフォルトテンプレート"
 
-#: ../../../models/dcp_block_type.php:381
+#: ../models/dcp_block_type.php:450
 msgid "System Page"
 msgstr "システムページ"
 
-#: ../../../models/dcp_block_type.php:608
+#: ../models/dcp_block_type.php:678
 #, php-format
 msgid "Change <b>blocktype handle</b> to <code>%s</code>"
 msgstr "<b>ブロックタイプハンドル</b>を<code>%s</code>に変更"
 
-#: ../../../models/dcp_block_type.php:609
+#: ../models/dcp_block_type.php:679
 #, php-format
 msgid ""
 "The block <b>template directory</b> will be renamed<br>from <code>%s</code> "
@@ -694,29 +843,27 @@ msgstr ""
 "ブロックの<b>テンプレートディレクトリー</b>は<br><code>%s</code>から<code>"
 "%s</code>に変更されます<br>（対象：<code>%s</code>）"
 
-#: ../../../models/dcp_block_type.php:618
+#: ../models/dcp_block_type.php:688
 #, php-format
 msgid "Change <b>blocktype name</b> to <code>%s</code>"
 msgstr "<b>ブロックタイプ名</b>を<code>%s</code>に変更"
 
-#: ../../../models/dcp_block_type.php:627
-#: ../../../models/dcp_block_type.php:628
-#: ../../../models/dcp_block_type.php:738
-#: ../../../models/dcp_block_type.php:740
+#: ../models/dcp_block_type.php:697 ../models/dcp_block_type.php:698
+#: ../models/dcp_block_type.php:821 ../models/dcp_block_type.php:832
 msgid "&lt;blank&gt;"
 msgstr "&lt;ブランク&gt;"
 
-#: ../../../models/dcp_block_type.php:632
+#: ../models/dcp_block_type.php:702
 #, php-format
 msgid "Change <b>blocktype description</b> to <code>%s</code>"
 msgstr "<b>ブロックタイプ説明</b>を<code>%s</code>に変更"
 
-#: ../../../models/dcp_block_type.php:641
+#: ../models/dcp_block_type.php:711
 #, php-format
 msgid "Added new field <b>%s</b>."
 msgstr "新しいフィールド<b>%s</b>が追加されました。"
 
-#: ../../../models/dcp_block_type.php:642
+#: ../models/dcp_block_type.php:712
 msgid ""
 "Remember to update the block's view.php so this field gets displayed."
 "<br>(But keep in mind that existing blocks will be missing data for this "
@@ -726,7 +873,7 @@ msgstr ""
 "ります。<br>（設置済みのブロックは編集するまでこのフィールドにデータはありま"
 "せんのでご留意ください。）"
 
-#: ../../../models/dcp_block_type.php:648
+#: ../models/dcp_block_type.php:718
 msgid ""
 "<b>You must remove this field from the block's view.php file to prevent PHP "
 "errors!</b>"
@@ -734,35 +881,33 @@ msgstr ""
 "<b>PHPエラーを防ぐため、必ずこのフィールドをブロックのview.phpから削除してく"
 "ださい！</b>"
 
-#: ../../../models/dcp_block_type.php:651
-msgid ""
-"This will cause permanent data loss to this field if the blocktype is placed "
-"on pages!"
+#: ../models/dcp_block_type.php:721
+msgid "This will cause permanent data loss for this field in existing blocks!"
 msgstr ""
-"この操作はブロックタイプがページに設置されていたとしてもこのフィールドのデー"
-"タを削除し、取り消しはできません。"
+"この操作は既存のブロック内のフィールドのデータを削除し、取り消しはできませ"
+"ん。"
 
-#: ../../../models/dcp_block_type.php:658
+#: ../models/dcp_block_type.php:728
 #, php-format
 msgid "Removed existing field <b>%s</b>"
 msgstr "既存のフィールド<b>%s</b>を削除しました"
 
-#: ../../../models/dcp_block_type.php:669
+#: ../models/dcp_block_type.php:739
 #, php-format
 msgid "Changed <b>field handle</b> to <code>%s</code>"
 msgstr "<b>フィールドハンドル</b>を<code>%s</code>に変更しました"
 
-#: ../../../models/dcp_block_type.php:670
+#: ../models/dcp_block_type.php:740
 msgid "Remember to update the code in the block's view.php file accordingly."
 msgstr ""
 "ブロックのview.php内のコードも対応させる必要がありますのでご注意ください。"
 
-#: ../../../models/dcp_block_type.php:683
+#: ../models/dcp_block_type.php:753
 #, php-format
 msgid "<b>%s</b>: changed <b>field type</b> to <code>%s</code>"
 msgstr "<b>%s</b>：<b>フィールドタイプ</b>を<code>%s</code>に変更しました。"
 
-#: ../../../models/dcp_block_type.php:684
+#: ../models/dcp_block_type.php:754
 msgid ""
 "You may need to change code in the block's view.php file (depending on which "
 "functions you are using to display the field's data)."
@@ -770,33 +915,33 @@ msgstr ""
 "ブロックのview.phpを変更する必要があります（どの関数をフィールドのデータを表"
 "示するのに使用しているのかによります）。"
 
-#: ../../../models/dcp_block_type.php:695
+#: ../models/dcp_block_type.php:765
 #, php-format
 msgid "<b>%s</b>: changed <b>field label</b> to <code>%s</code>"
 msgstr "<b>%s</b>：<b>フィールドラベル</b>を<code>%s</code>に変更しました。"
 
-#: ../../../models/dcp_block_type.php:720
+#: ../models/dcp_block_type.php:790
 #, php-format
 msgid "<b>%s</b>: set option <code>%s</code>"
 msgstr "<b>%s</b>：オプション<code>%s</code>を設定"
 
-#: ../../../models/dcp_block_type.php:723
-#: ../../../models/dcp_block_type.php:729
+#: ../models/dcp_block_type.php:793 ../models/dcp_block_type.php:795
+#: ../models/dcp_block_type.php:803
 #, php-format
 msgid " to <code>%s</code>"
 msgstr "→<code>%s</code>"
 
-#: ../../../models/dcp_block_type.php:734
+#: ../models/dcp_block_type.php:808
 #, php-format
 msgid "<b>%s</b>: cleared option <code>%s</code>"
 msgstr "<b>%s</b>：オプションをクリア<code>%s</code>"
 
-#: ../../../models/dcp_block_type.php:742
+#: ../models/dcp_block_type.php:835
 #, php-format
 msgid "<b>%s</b>: changed option <b>%s</b> to <code>%s</code>"
 msgstr "<b>%s</b>：オプション<b>%s</b>を<code>%s</code>に変更"
 
-#: ../../../models/dcp_block_type.php:748
+#: ../models/dcp_block_type.php:841
 msgid ""
 "This field will now be required when users add/edit blocks, but blocks that "
 "existed before this change may still contain missing data."
@@ -804,7 +949,7 @@ msgstr ""
 "このフィールドはユーザーがブロックを追加／編集する際に必須になりましたが、こ"
 "の変更より前にすでにあるブロックにはデータはありません。"
 
-#: ../../../models/dcp_block_type.php:750
+#: ../models/dcp_block_type.php:843
 msgid ""
 "This field will no longer be required. You may want to update your code in "
 "the block's view.php file if it assumes this field's data will always exist "
@@ -816,11 +961,11 @@ msgstr ""
 "（例えば、このフィールドのデータを表示する前にデータが空かどうかチェックする"
 "など）。"
 
-#: ../../../models/dcp_block_type.php:774
+#: ../models/dcp_block_type.php:867
 msgid "Changed the <b>display order</b> of fields."
 msgstr "フィールドの<b>並び順</b>を変更しました。"
 
-#: ../../../models/dcp_block_type.php:775
+#: ../models/dcp_block_type.php:868
 msgid ""
 "Note that this only affects the block add/edit dialog (not the view "
 "template)."
@@ -828,11 +973,11 @@ msgstr ""
 "これはブロックの追加／編集ダイアログのみに影響し、viewテンプレートには反映さ"
 "れないことに注意してください。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/delete.php:14
+#: ../single_pages/dashboard/blocks/designer_content_pro/delete.php:15
 msgid "Delete Block Type"
 msgstr "ブロックタイプを削除"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/delete.php:23
+#: ../single_pages/dashboard/blocks/designer_content_pro/delete.php:24
 msgid ""
 "Warning: All contents of this block directory (including your view.php file "
 "and all custom templates) will be permanently deleted!"
@@ -840,20 +985,20 @@ msgstr ""
 "警告：このブロックのディレクトリー内の全てのファイル（view.phpや全てのカスタ"
 "ムテンプレートを含む）は削除され、取り消しできません。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/delete.php:32
+#: ../single_pages/dashboard/blocks/designer_content_pro/delete.php:33
 msgid "Delete Block Type (including view.php and custom templates)"
 msgstr "ブロックタイプを削除（view.phpとカスタムテンプレートを含む）"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:14
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:114
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:15
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:115
 msgid "Create New Block Type"
 msgstr "新しいブロックタイプを作成"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:14
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:15
 msgid "Edit Block Type"
 msgstr "ブロックタイプを編集"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:15
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:16
 #, php-format
 msgid ""
 "Hover over fields to see brief explanations,<br>or visit %s for complete "
@@ -862,7 +1007,7 @@ msgstr ""
 "フィールドにマウスオーバーするとかんたんな説明を見ることができます。<br>全て"
 "のドキュメントを見るには %s にアクセスしてください。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:44
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:45
 msgid ""
 "Warning: Your site's top-level /blocks/ directory is not writeable. Blocks "
 "types cannot be created or edited until permissions are changed on your "
@@ -871,30 +1016,30 @@ msgstr ""
 "警告：サイトのトップレベルの /blocks/ に書き込みできません。サーバー上の権限"
 "を変更しないとブロックタイプの作成・編集はできません。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:59
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:43
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:60
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:44
 msgid "Handle"
 msgstr "ハンドル"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:64
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:65
 msgid "Cannot be changed while<br>blocktype is installed"
 msgstr "ブロックタイプがインストール<br>されている間は変更できません。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:66
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:67
 msgid ""
 "Blocktype handle can only contain lowercase letters and underscores.<br>A "
-"&quot;dcp_&quot; prefix is recommnded (but not required)."
+"&quot;dcp_&quot; prefix is recommended (but not required)."
 msgstr ""
 "ブロックタイプハンドルには英子文字とアンダースコアのみ含めることができます。"
 "<br>接頭辞に &quot;dcp_&quot; をつけることをお勧めします（必須ではありませ"
 "ん）。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:74
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:42
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:75
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:43
 msgid "Name"
 msgstr "名前"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:76
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:77
 msgid ""
 "Blocktype Name is displayed in the &quot;Add Block&quot; list (when adding "
 "blocks to page areas)."
@@ -902,11 +1047,11 @@ msgstr ""
 "ブロックタイプ名は、ブロックをページエリアに追加する際に「ブロックを追加」一"
 "覧に表示されます。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:82
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:83
 msgid "Description"
 msgstr "説明"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:84
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:85
 msgid ""
 "Blocktype Description is optional, and is not displayed to users in Concrete "
 "5.5 and 5.6."
@@ -914,23 +1059,23 @@ msgstr ""
 "ブロックタイプ説明はオプションで、concrete5.5と5.6のユーザーには表示されませ"
 "ん。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:92
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:93
 msgid "Repeating Item Fields"
 msgstr "繰り返し項目フィールド"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:104
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:105
 msgid "Field Type"
 msgstr "フィールドタイプ"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:105
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:106
 msgid "&lt;Type&gt;"
 msgstr "&lt;タイプ&gt;"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:111
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:112
 msgid "handle"
 msgstr "ハンドル"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:111
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:112
 msgid ""
 "Field Handle (how you will refer to this field in your view.php / custom "
 "template code)"
@@ -938,56 +1083,56 @@ msgstr ""
 "フィールドハンドル（view.phpやカスタムテンプレート内のコードでこのフィールド"
 "を参照するのにつかいます）"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:124
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:125
 msgid "Field Type (cannot be changed<br>while blocktype is installed)"
 msgstr ""
 "フィールドタイプ（ブロックタ<br>イプがインストールされてい<br>る間は変更でき"
 "ません）"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:125
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:126
 msgid "Field Handle (cannot be changed<br>while blocktype is installed"
 msgstr ""
 "フィールドハンドル（ブロックタ<br>イプがインストールされている<br>間は変更で"
 "きません）"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:132
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:133
 msgid "Label"
 msgstr "ラベル"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:132
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:133
 msgid "Field Label (what users will see in the block add/edit dialog)"
 msgstr ""
 "フィールドラベル（ユーザーがブロックの追加／編集ダイアログで見る名前です）"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:183
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:195
 msgid "Add another field..."
 msgstr "他のフィールドを追加…"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:192
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:204
 msgid "Continue"
 msgstr "続ける"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:203
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:215
 msgid "Validating..."
 msgstr "検証中…"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:204
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:216
 msgid "Saving..."
 msgstr "保存中…"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:208
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:220
 msgid "Confirm Changes"
 msgstr "変更を保存する"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:216
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:228
 msgid "Change"
 msgstr "変更"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:217
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:229
 msgid "Notes"
 msgstr "注意"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:234
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:246
 msgid ""
 "It is recommended that you run the 'Index Search Engine' job after saving "
 "because you either added a field, removed a field, or changed a field's "
@@ -996,7 +1141,7 @@ msgstr ""
 "「検索可能」オプションが追加フィールドを追加・削除・編集した場合、保存したあ"
 "とに「検索エンジンインデックス」ジョブを実行することをお勧めします。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:245
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:257
 msgid ""
 "This block type is not currently installed, so no existing content will be "
 "affected."
@@ -1004,8 +1149,8 @@ msgstr ""
 "このブロックタイプは現在インストールされていないので、既存のコンテンツには影"
 "響しません。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:249
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:24
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:261
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:25
 msgid ""
 "This block type has not been added to any pages or stacks, so existing "
 "content will not be affected."
@@ -1013,7 +1158,7 @@ msgstr ""
 "このブロックタイプはまだどのページ／スタックにも追加されていないので、既存の"
 "コンテンツには影響しません。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:254
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:266
 msgid ""
 "This block type has been added to the following pages and/or stacks, so "
 "existing content may be affected..."
@@ -1021,43 +1166,43 @@ msgstr ""
 "このブロックタイプは次のページまたはスタックにすでに追加されているので、既存"
 "のコンテンツに影響します…"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:259
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:32
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:271
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:33
 msgid "cID"
 msgstr "cID"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:260
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:33
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:272
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:34
 msgid "Page Name"
 msgstr "ページ名"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:261
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:34
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:273
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:35
 msgid "Approved<br>Blocks"
 msgstr "承認された<br>ブロック"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:262
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:35
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:274
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:36
 msgid "Version/Preview<br>Blocks"
 msgstr "履歴／プレビュー<br>ブロック"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:283
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:295
 msgid "Confirm &amp; Save"
 msgstr "確認して保存する"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:286
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:298
 msgid "You did not make any changes to the blocktype."
 msgstr "ブロックタイプに対する変更が特にないようです。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/edit.php:288
+#: ../single_pages/dashboard/blocks/designer_content_pro/edit.php:300
 msgid "&lt; Go Back"
 msgstr "&lt; 戻る"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:14
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:15
 msgid "Uninstall Block Type"
 msgstr "ブロックタイプをアンインストール"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:28
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:29
 msgid ""
 "This block type has been added to pages and/or stacks.<br><b>Content will be "
 "permanently deleted!</b>"
@@ -1065,82 +1210,82 @@ msgstr ""
 "このブロックタイプはページまたはスタックに追加されています<br><b>コンテンツは"
 "削除され、取り消しできません！</b>"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:60
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:95
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:61
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:96
 msgid "Uninstall"
 msgstr "アンインストール"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:60
+#: ../single_pages/dashboard/blocks/designer_content_pro/uninstall.php:61
 msgid "Uninstall And Permanently Delete All Content"
 msgstr "アンインストールし、全てのコンテンツを削除する"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:14
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:15
 msgid "Quickly and easily create custom block types for repeating items."
 msgstr "素早くかんたんに繰り返し項目用のカスタムブロックタイプを作成できます。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:19
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:20
 msgid "Error: The storage package could not be found..."
 msgstr "エラー：格納パッケージが見つかりません…"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:23
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:24
 msgid "Click here to fix missing storage package"
 msgstr "格納パッケージを復旧"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:30
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:31
 msgid "Welcome to Designer Content Pro!"
 msgstr "デザイナー・コンテント・プロへようこそ！"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:32
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:33
 #, php-format
 msgid "Visit %s for documentation."
 msgstr "ドキュメントを読むには %s にアクセスしてください。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:34
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:35
 msgid "Or click the \"Create New Block Type\" button below to get started."
 msgstr ""
 "または「新しいブロックタイプを作成」ボタンをクリックして始めてください。"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:44
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:45
 msgid "Status"
 msgstr "ステータス"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:57
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:58
 msgid "Installed"
 msgstr "インストール済"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:60
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:61
 msgid "Not Installed"
 msgstr "未インストール"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:66
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:67
 msgid "Controller Override"
 msgstr "コントローラー・オーバーライド"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:70
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:71
 msgid "Missing View Override"
 msgstr "ビュー・オーバーライドの不足"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:74
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:75
 msgid "add.php overridden!"
 msgstr "add.phpはオーバーライドされています！"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:78
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:79
 msgid "edit.php overridden!"
 msgstr "edit.phpはオーバーライドされています！"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:84
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:126
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:85
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:127
 msgid "Sample Code"
 msgstr "サンプルコード"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:88
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:89
 msgid "Edit"
 msgstr "編集"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:95
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:96
 msgid "Install&nbsp;&nbsp;&nbsp;&nbsp;"
 msgstr "インストール&nbsp;&nbsp;&nbsp;&nbsp;"
 
-#: ../../../single_pages/dashboard/blocks/designer_content_pro/view.php:102
+#: ../single_pages/dashboard/blocks/designer_content_pro/view.php:103
 msgid "Delete"
 msgstr "削除"
