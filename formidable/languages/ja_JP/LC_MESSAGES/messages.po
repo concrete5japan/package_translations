@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: Formidable 2.0.11\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-11-12 15:36+0900\n"
-"PO-Revision-Date: 2014-11-12 15:37+0900\n"
-"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"PO-Revision-Date: 2014-11-12 19:14+0900\n"
+"Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,7 @@ msgstr ""
 "X-Poedit-KeywordsList: _;gettext;gettext_noop;t;tc;t2\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.7\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
 # Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
@@ -680,9 +680,8 @@ msgid "Rule"
 msgstr "水平線"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:500
-#, fuzzy
 msgid "Select behaviour"
-msgstr "選択"
+msgstr "動作を選択"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:501
 #, fuzzy
@@ -696,17 +695,15 @@ msgstr "有効"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:503
 msgid "Toggle classname"
-msgstr ""
+msgstr "トグル クラス名"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:506
-#, fuzzy
 msgid "Change placeholder to"
-msgstr "プレースホルダー"
+msgstr "プレースホルダーを変更"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:509
-#, fuzzy
 msgid "Change value to"
-msgstr "値"
+msgstr "値を変更"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:522
 #, fuzzy
@@ -734,9 +731,8 @@ msgid "is disabled"
 msgstr "無効"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:562
-#, fuzzy
 msgid "Select an element"
-msgstr "選択"
+msgstr "エレメント選択"
 
 #: ../../../controllers/dashboard/formidable/forms/elements.php:583
 msgid "matches"
@@ -1721,24 +1717,21 @@ msgid "Files"
 msgstr "ファイル"
 
 #: ../../../models/formidable/element/fileupload.php:168
-#, fuzzy, php-format
+#, php-format
 msgid "%s uploaded files"
-msgstr "ファイルがアップロードされました"
+msgstr "%s ファイルがアップロードされました"
 
 #: ../../../models/formidable/element/fullname.php:33
-#, fuzzy
 msgid "firstname prefix lastname"
-msgstr "名"
+msgstr "姓（敬称）名"
 
 #: ../../../models/formidable/element/fullname.php:34
-#, fuzzy
 msgid "firstname lastname"
-msgstr "名"
+msgstr "姓名"
 
 #: ../../../models/formidable/element/fullname.php:35
-#, fuzzy
 msgid "prefix lastname"
-msgstr "姓"
+msgstr "（敬称）姓"
 
 #: ../../../models/formidable/element/fullname.php:39
 #: ../../../models/formidable/element/fullname.php:53
@@ -1799,7 +1792,7 @@ msgstr ""
 #: ../../../models/formidable/element/rating.php:35
 #: ../../../models/formidable/element/rating.php:36
 msgid "stars"
-msgstr ""
+msgstr "スター"
 
 #: ../../../models/formidable/element/rating.php:83
 #, fuzzy, php-format
@@ -1807,30 +1800,28 @@ msgid "%s of %s"
 msgstr "%s: %s"
 
 #: ../../../models/formidable/element/slider.php:37
-#, fuzzy
 msgid "Horizontal - Range (default)"
-msgstr "水平"
+msgstr "水平範囲（標準）"
 
 #: ../../../models/formidable/element/slider.php:38
 msgid "Horizontal - Range with fixed minimum"
-msgstr ""
+msgstr "水平範囲（最小固定）"
 
 #: ../../../models/formidable/element/slider.php:39
 msgid "Horizontal - Range with fixed maximum"
-msgstr ""
+msgstr "水平範囲（最大固定）"
 
 #: ../../../models/formidable/element/slider.php:40
-#, fuzzy
 msgid "Vertical - Range"
-msgstr "垂直"
+msgstr "垂直範囲"
 
 #: ../../../models/formidable/element/slider.php:41
 msgid "Vertical - Range with fixed minimum"
-msgstr ""
+msgstr "垂直範囲（最小固定）"
 
 #: ../../../models/formidable/element/slider.php:42
 msgid "Vertical - Range with fixed maximum"
-msgstr ""
+msgstr "垂直範囲（最大固定）"
 
 #: ../../../models/formidable/element/slider.php:171
 #, fuzzy, php-format
@@ -2401,13 +2392,15 @@ msgstr "お問い合わせありがとうございます（%s）"
 
 #: ../../../tools/dashboard/elements/dialog.php:56
 msgid "Dependency"
-msgstr ""
+msgstr "依存性"
 
 #: ../../../tools/dashboard/elements/dialog.php:63
 msgid ""
 "Please set the properties of this element. Each element has his own "
 "behaviour and/or values."
 msgstr ""
+"このエレメントの属性をセットしてください。各属性はそれぞれ独自の動作の設定が"
+"あります。"
 
 #: ../../../tools/dashboard/elements/dialog.php:82
 msgid "Hide label / name"
@@ -2440,15 +2433,13 @@ msgstr "初期値"
 
 #: ../../../tools/dashboard/elements/dialog.php:134
 #: ../../../tools/dashboard/elements/dialog.php:546
-#, fuzzy
 msgid "User Data"
-msgstr "user attributes, user data, gather data, registration data"
+msgstr "ユーザー属性"
 
 #: ../../../tools/dashboard/elements/dialog.php:134
 #: ../../../tools/dashboard/elements/dialog.php:546
-#, fuzzy
 msgid "Collection Data"
-msgstr "データソース元"
+msgstr "ページ属性"
 
 #: ../../../tools/dashboard/elements/dialog.php:151
 #: ../../../tools/dashboard/elements/dialog.php:193
@@ -2459,15 +2450,13 @@ msgid "Select"
 msgstr "選択"
 
 #: ../../../tools/dashboard/elements/dialog.php:156
-#, fuzzy
 msgid "User ID"
-msgstr "ユーザーIDが無効です。"
+msgstr "ユーザーID"
 
 #: ../../../tools/dashboard/elements/dialog.php:157
 #: ../../../tools/dashboard/elements/dialog.php:555
-#, fuzzy
 msgid "Username"
-msgstr "ユーザーID"
+msgstr "ユーザー名"
 
 #: ../../../tools/dashboard/elements/dialog.php:158
 #: ../../../tools/dashboard/elements/dialog.php:556
@@ -2587,11 +2576,12 @@ msgid ""
 "behaviour or the value can be influenced with the behaviour or value of "
 "another element"
 msgstr ""
+"このエレメントの依存関係を使いたい場合。異なる項目の値が動作にどのような影響"
+"を与えるかを意味します。"
 
 #: ../../../tools/dashboard/elements/dialog.php:518
-#, fuzzy
 msgid "Add dependency rule"
-msgstr "水平線"
+msgstr "依存関係のルールを追加"
 
 #: ../../../tools/dashboard/elements/dialog.php:521
 #, fuzzy
@@ -2769,8 +2759,7 @@ msgid ""
 "Add an \"Email Address\" or a \"Recipient Selector\" element(s) to enable "
 "selection of recipient."
 msgstr ""
-"メールアドレスもしくは\"Recipient Selector\"要素を追加すると選択できるように"
-"なります。"
+"メールアドレスもしくは受信者選択要素を追加すると選択できるようになります。"
 
 #: ../../../tools/dashboard/mailings/dialog.php:92
 msgid "You must add custom e-mailaddress now:"
@@ -2785,13 +2774,12 @@ msgid "Comma seperate each e-mailaddress"
 msgstr "カンマ区切りで複数のメールアドレスを設定できます。"
 
 #: ../../../tools/dashboard/mailings/dialog.php:108
-#, fuzzy
 msgid "Send as CC"
-msgstr "送信"
+msgstr "CCで送信"
 
 #: ../../../tools/dashboard/mailings/dialog.php:113
 msgid "Use CC instead of BCC (default) for sending mail"
-msgstr ""
+msgstr "メール送信にBCCでなくCCを使う"
 
 #: ../../../tools/dashboard/mailings/dialog.php:124
 msgid ""
@@ -2803,22 +2791,20 @@ msgstr ""
 "ることで要素の値とラベルを指定できます。"
 
 #: ../../../tools/dashboard/mailings/dialog.php:147
-#, fuzzy
 msgid "Discard empty"
-msgstr "破棄"
+msgstr "空の項目を省く"
 
 #: ../../../tools/dashboard/mailings/dialog.php:152
 msgid "If checked empty elements will not be shown in message"
-msgstr ""
+msgstr "空の項目をメッセージ内では表示しない"
 
 #: ../../../tools/dashboard/mailings/dialog.php:159
-#, fuzzy
 msgid "Discard layout"
-msgstr "破棄"
+msgstr "レイアウト項目を省く"
 
 #: ../../../tools/dashboard/mailings/dialog.php:164
 msgid "If checked layout elements will not be shown in message"
-msgstr ""
+msgstr "レイアウトをメッセージの中で表示しない。"
 
 #: ../../../tools/dashboard/mailings/dialog.php:175
 msgid ""
