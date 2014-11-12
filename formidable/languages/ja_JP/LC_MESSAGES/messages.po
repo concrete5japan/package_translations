@@ -1,0 +1,3041 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Formidable 2.0.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-12 15:36+0900\n"
+"PO-Revision-Date: 2014-11-12 15:37+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;t;tc;t2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+# Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
+#: ../../../blocks/formidable/add.php:1
+#: ../../../blocks/formidable/controller.php:3
+#: ../../../blocks/formidable/edit.php:1
+#: ../../../blocks/formidable/form_setup_html.php:1
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:2
+#: ../../../blocks/formidable/templates/clean/view.php:2
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:2
+#: ../../../blocks/formidable/view.php:2 ../../../controller.php:3
+#: ../../../controllers/dashboard/formidable/controller.php:1
+#: ../../../controllers/dashboard/formidable/forms/controller.php:1
+#: ../../../controllers/dashboard/formidable/forms/elements.php:1
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:1
+#: ../../../controllers/dashboard/reports/formidable.php:1
+#: ../../../elements/dashboard/element/list.php:2
+#: ../../../elements/dashboard/form/edit.php:3
+#: ../../../elements/dashboard/form/elements.php:2
+#: ../../../elements/dashboard/form/list.php:3
+#: ../../../elements/dashboard/form/nav.php:2
+#: ../../../elements/dashboard/form/preview.php:3
+#: ../../../elements/dashboard/form/preview_nav.php:2
+#: ../../../elements/dashboard/mailing/elements.php:3
+#: ../../../elements/dashboard/mailing/list.php:2
+#: ../../../helpers/editor.php:8 ../../../models/formidable.php:2
+#: ../../../models/formidable/element.php:2
+#: ../../../models/formidable/element/address.php:2
+#: ../../../models/formidable/element/checkbox.php:2
+#: ../../../models/formidable/element/date.php:2
+#: ../../../models/formidable/element/emailaddress.php:2
+#: ../../../models/formidable/element/fileupload.php:2
+#: ../../../models/formidable/element/fullname.php:2
+#: ../../../models/formidable/element/heading.php:2
+#: ../../../models/formidable/element/hidden.php:2
+#: ../../../models/formidable/element/hr.php:2
+#: ../../../models/formidable/element/html_code.php:2
+#: ../../../models/formidable/element/integer.php:2
+#: ../../../models/formidable/element/line.php:2
+#: ../../../models/formidable/element/paragraph.php:2
+#: ../../../models/formidable/element/password.php:2
+#: ../../../models/formidable/element/phone.php:2
+#: ../../../models/formidable/element/radio.php:2
+#: ../../../models/formidable/element/range.php:2
+#: ../../../models/formidable/element/rating.php:2
+#: ../../../models/formidable/element/recipientselector.php:2
+#: ../../../models/formidable/element/select.php:2
+#: ../../../models/formidable/element/slider.php:2
+#: ../../../models/formidable/element/tags.php:2
+#: ../../../models/formidable/element/text.php:2
+#: ../../../models/formidable/element/textarea.php:2
+#: ../../../models/formidable/element/time.php:2
+#: ../../../models/formidable/element/tinymce.php:2
+#: ../../../models/formidable/element/website.php:2
+#: ../../../models/formidable/element/wysiwyg.php:2
+#: ../../../models/formidable/form.php:2
+#: ../../../models/formidable/layout.php:2
+#: ../../../models/formidable/mailing.php:2
+#: ../../../models/formidable/result.php:2
+#: ../../../models/formidable/validator.php:2
+#: ../../../models/system/captcha/types/calculation/controller.php:1
+#: ../../../single_pages/dashboard/formidable/forms/elements.php:2
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:2
+#: ../../../single_pages/dashboard/formidable/forms/view.php:2
+#: ../../../single_pages/dashboard/formidable/view.php:1
+#: ../../../single_pages/dashboard/reports/formidable.php:1
+#: ../../../tools/dashboard/editor.php:3
+msgid "Access Denied."
+msgstr "アクセス拒否"
+
+#: ../../../blocks/formidable/controller.php:26
+msgid "Adds a Formidable Form to you page."
+msgstr "Formidableフォームをページに追加します。"
+
+#: ../../../blocks/formidable/controller.php:30 ../../../controller.php:20
+msgid "Formidable"
+msgstr "Formidable"
+
+#: ../../../blocks/formidable/controller.php:35
+msgid "You must select a form."
+msgstr "フォームを選択してください。"
+
+#: ../../../blocks/formidable/controller.php:92
+#: ../../../tools/dashboard/forms/preview.php:29
+#, fuzzy
+msgid "File size not allowed"
+msgstr "許可されているファイルサイズ"
+
+#: ../../../blocks/formidable/controller.php:93
+#: ../../../tools/dashboard/forms/preview.php:30
+#, fuzzy
+msgid "Invalid file extension"
+msgstr "無効なファイル拡張子"
+
+#: ../../../blocks/formidable/controller.php:94
+#: ../../../tools/dashboard/forms/preview.php:31
+msgid "Max files number reached"
+msgstr "ファイルの最大数に達しました。"
+
+#: ../../../blocks/formidable/controller.php:95
+#: ../../../tools/dashboard/forms/preview.php:32
+#, fuzzy, php-format
+msgid "Extension \\\"%s\\\" not allowed"
+msgstr "%s: %s"
+
+#: ../../../blocks/formidable/controller.php:96
+#: ../../../tools/dashboard/forms/preview.php:33
+#, fuzzy
+msgid "Choose State/Province"
+msgstr "都道府県を選択してください"
+
+#: ../../../blocks/formidable/controller.php:97
+#: ../../../tools/dashboard/forms/preview.php:34
+msgid "Please wait..."
+msgstr "お待ちください…"
+
+#: ../../../blocks/formidable/controller.php:98
+#: ../../../models/formidable/validator.php:319
+#: ../../../models/formidable/validator.php:330
+#: ../../../tools/dashboard/elements/dialog.php:372
+#: ../../../tools/dashboard/forms/preview.php:35
+msgid "Allowed extensions"
+msgstr "許可された拡張子"
+
+#: ../../../blocks/formidable/controller.php:99
+#, fuzzy
+msgid "Removing tag"
+msgstr "タグで"
+
+#: ../../../blocks/formidable/controller.php:168
+msgid "Can't remove temporary data!"
+msgstr "一時データを削除できません！"
+
+#: ../../../blocks/formidable/controller.php:242
+#: ../../../blocks/formidable/controller.php:304
+msgid "Can't save data! Please try again later"
+msgstr "データを保存できません！再度お試しください"
+
+#: ../../../blocks/formidable/controller.php:276
+msgid "Can't move temporary file to filemanager"
+msgstr "一時ファイルをファイルマネージャーに移動できません"
+
+#: ../../../blocks/formidable/controller.php:285
+#: ../../../tools/dashboard/mailings/dialog.php:177
+msgid "Uploaded Files"
+msgstr "アップロードファイル"
+
+#: ../../../blocks/formidable/controller.php:291
+msgid "Can't remove temporary file"
+msgstr "一時ファイルを削除できません"
+
+#: ../../../blocks/formidable/controller.php:400
+msgid "File succesfully uploaded"
+msgstr "ファイルをアップロードしました。"
+
+#: ../../../blocks/formidable/controller.php:420
+#: ../../../blocks/formidable/controller.php:421
+#: ../../../models/formidable.php:166
+#: ../../../models/formidable/mailing.php:195
+#: ../../../tools/dashboard/results/dialog.php:103
+#: ../../../tools/dashboard/results/dialog.php:107
+#: ../../../tools/dashboard/results/dialog.php:111
+msgid "Unknown"
+msgstr "未知"
+
+#: ../../../blocks/formidable/form_setup_html.php:12
+msgid "Select a Formidable Form"
+msgstr "Formidableフォームを選択"
+
+#: ../../../blocks/formidable/form_setup_html.php:14
+msgid "Form Name"
+msgstr "フォーム名"
+
+#: ../../../blocks/formidable/form_setup_html.php:21
+#, fuzzy
+msgid "Edit forms"
+msgstr "フォーム"
+
+#: ../../../blocks/formidable/form_setup_html.php:22
+msgid "Clicking will take you back to the dashboard."
+msgstr "クリックでダッシュボードに戻ります。"
+
+#: ../../../blocks/formidable/form_setup_html.php:23
+msgid "The current page will remain in Edit Mode!"
+msgstr "現在のページは編集モードのままです。"
+
+#: ../../../blocks/formidable/form_setup_html.php:30
+msgid "There are no Formidable forms!"
+msgstr "フォームがありません。"
+
+#: ../../../blocks/formidable/form_setup_html.php:31
+msgid "Go to dashboard and create a Formidable Form"
+msgstr "管理画面に移動しFormidableフォームを作成する"
+
+#: ../../../blocks/formidable/form_setup_html.php:32
+#: ../../../single_pages/dashboard/formidable/results.php:14
+#, fuzzy
+msgid "Create a new FormidableForm"
+msgstr "新しいブロックタイプを作成"
+
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:5
+#: ../../../blocks/formidable/templates/clean/view.php:5
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:5
+#: ../../../blocks/formidable/view.php:5
+msgid "Can't find the Formidable Form"
+msgstr "Formidableフォームが見つかりません"
+
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:80
+#: ../../../blocks/formidable/templates/clean/view.php:79
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:81
+#: ../../../blocks/formidable/view.php:79
+#: ../../../models/formidable/element/emailaddress.php:49
+#: ../../../models/formidable/element/password.php:59
+#: ../../../models/formidable/element/website.php:52
+#, fuzzy, php-format
+msgid "Confirm %s"
+msgstr "確認"
+
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:95
+#: ../../../blocks/formidable/templates/clean/view.php:92
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:94
+#: ../../../blocks/formidable/view.php:92
+#, fuzzy
+msgid "You have"
+msgstr "このスクラップブックは空です。"
+
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:95
+#: ../../../blocks/formidable/templates/clean/view.php:92
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:94
+#: ../../../blocks/formidable/view.php:92
+#, fuzzy
+msgid "characters"
+msgstr "文字"
+
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:95
+#: ../../../blocks/formidable/templates/clean/view.php:92
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:94
+#: ../../../blocks/formidable/view.php:92
+msgid "left"
+msgstr "残り"
+
+#: ../../../blocks/formidable/templates/bootstrap_3/view.php:143
+#: ../../../blocks/formidable/templates/clean/view.php:149
+#: ../../../blocks/formidable/templates/twitter_bootstrap/view.php:151
+#: ../../../blocks/formidable/view.php:150
+#, fuzzy
+msgid "Back"
+msgstr "戻る"
+
+#: ../../../controller.php:15
+msgid "Create awesome forms with a few clicks!"
+msgstr "数クリックで素晴らしいフォームを作成しましょう！"
+
+#: ../../../controller.php:56
+#: ../../../models/system/captcha/types/calculation/controller.php:45
+msgid "Calculation Captcha"
+msgstr "計算CAPTCHA"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:32
+#: ../../../elements/dashboard/form/edit.php:19
+#, fuzzy
+msgid "My Formidable Form"
+msgstr "Formidableフォームを選択"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:33
+#, fuzzy
+msgid "Required fields"
+msgstr "必須項目を入力してください *"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:34
+#: ../../../elements/dashboard/form/edit.php:47
+msgid "Clear form"
+msgstr "クリア"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:35
+#: ../../../elements/dashboard/form/edit.php:39
+msgid "Submit now!"
+msgstr "送信"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:36
+#, fuzzy
+msgid "Review your submission"
+msgstr "サイトを翻訳しましょう。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:37
+msgid "Please check the information you want to send."
+msgstr "入力内容を確認してください。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:38
+#: ../../../controllers/dashboard/formidable/forms/controller.php:63
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:71
+msgid "Thank you!"
+msgstr "後程、担当者からご連絡いたしますので少々お待ちください。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:39
+msgid "You have reached the maximum submissions of the form."
+msgstr "フォームの送信上限に達しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:40
+msgid "The form is currently unavailable."
+msgstr "しばらくお待ちください。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:41
+msgid "Form succesfully submitted"
+msgstr "フォームが送信されました。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:44
+msgid "Total submissions"
+msgstr "送信総数"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:45
+msgid "Per IP-address"
+msgstr "IPアドレスごと"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:46
+msgid "Per user (guest-visitors excluded)"
+msgstr "ユーザーごと（ゲスト訪問者を除く）"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:58
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:66
+#, php-format
+msgid "%s submission"
+msgstr "お問い合わせありがとうございます（%s）"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:60
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:68
+#, php-format
+msgid "You succesfully sent our %s on our Concrete5 website."
+msgstr ""
+"本メールは、%sよりの通知メールです。\n"
+"お問い合わせありがとうございます。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:61
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:69
+msgid "The following information was sent to us:"
+msgstr "下記の通り、お問い合わせを受け付けました。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:64
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:72
+msgid "Regards,"
+msgstr "どうぞ、よろしくお願いいたします。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:77
+#, fuzzy
+msgid "Edit content"
+msgstr "ボタンをクリックすると内容を追加／編集できます。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:78
+#, fuzzy
+msgid "Add content"
+msgstr "コンテンツセクションを追加"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:79
+msgid ""
+"You have made some changes to the Form Properties. Are you sure you want to "
+"discard these changes?"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:126
+#: ../../../controllers/dashboard/formidable/forms/controller.php:288
+msgid "Form saved successfully"
+msgstr "フォームが保存されました。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:181
+#, fuzzy
+msgid "From name"
+msgstr "名前で"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:181
+#: ../../../controllers/dashboard/formidable/forms/controller.php:184
+#: ../../../controllers/dashboard/formidable/forms/controller.php:186
+#: ../../../controllers/dashboard/formidable/forms/controller.php:189
+#: ../../../controllers/dashboard/formidable/forms/controller.php:192
+#: ../../../controllers/dashboard/formidable/forms/controller.php:197
+#: ../../../controllers/dashboard/formidable/forms/controller.php:200
+#: ../../../controllers/dashboard/formidable/forms/controller.php:214
+#: ../../../controllers/dashboard/formidable/forms/controller.php:220
+#: ../../../models/formidable/form.php:514
+#: ../../../models/formidable/validator.php:77
+#: ../../../models/formidable/validator.php:207
+#: ../../../models/formidable/validator.php:214
+#: ../../../models/formidable/validator.php:221
+#: ../../../models/formidable/validator.php:228
+#: ../../../models/formidable/validator.php:242
+#: ../../../models/formidable/validator.php:250
+#: ../../../models/formidable/validator.php:256
+#: ../../../models/formidable/validator.php:268
+#: ../../../models/formidable/validator.php:277
+#: ../../../models/formidable/validator.php:280
+#: ../../../models/formidable/validator.php:287
+#: ../../../models/formidable/validator.php:293
+#: ../../../models/formidable/validator.php:299
+#: ../../../models/formidable/validator.php:304
+#: ../../../models/formidable/validator.php:312
+#: ../../../models/formidable/validator.php:319
+#: ../../../models/formidable/validator.php:339
+#: ../../../models/formidable/validator.php:346
+#: ../../../models/formidable/validator.php:412
+#: ../../../models/formidable/validator.php:418
+#, php-format
+msgid "Field \"%s\" is invalid"
+msgstr "\"%s\"項目 の値が未入力か、入力内容に誤りががあるようです。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:184
+#, fuzzy
+msgid "Captcha label"
+msgstr "CAPTCHAラベル"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:186
+#: ../../../elements/dashboard/form/edit.php:37
+msgid "Submit button label"
+msgstr "送信ボタンラベル"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:189
+#: ../../../elements/dashboard/form/edit.php:43
+msgid "Clear button label"
+msgstr "クリアボタンラベル"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:192
+#, fuzzy
+msgid "Description (review)"
+msgstr "レビューを有効化"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:196
+msgid "Limit (value)"
+msgstr "制限値"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:196
+#, php-format
+msgid "Field \"%s\" is invalid number"
+msgstr "\"%s\" 項目の値が未入力か、数値以外が入力されているようです。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:197
+#, fuzzy
+msgid "Limit (type)"
+msgstr "ページタイプによる制限"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:200
+msgid "Message (limit submissions)"
+msgstr "メッセージ（送信制限）"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:202
+#, fuzzy
+msgid "Page (limit submissions)"
+msgstr "送信制限の有効化"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:202
+#: ../../../controllers/dashboard/formidable/forms/controller.php:216
+#, php-format
+msgid "Field \"%s\" isn't selected"
+msgstr "\"%s\" フィールドが選択されていないようです。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:208
+msgid "Start date (schedule)"
+msgstr "開始日（スケジュール）"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:208
+#: ../../../controllers/dashboard/formidable/forms/controller.php:211
+#, php-format
+msgid "Field \"%s\" is invalid date"
+msgstr "\"%s\"項目の値が未入力か、入力内容が日付として正しくないようです。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:211
+msgid "End date (schedule)"
+msgstr "終了日（スケジュール）"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:214
+msgid "Message (schedule)"
+msgstr "メッセージ（スケジュール）"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:216
+#, fuzzy
+msgid "Page (schedule)"
+msgstr "スケジュール設定を更新"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:220
+msgid "CSS value"
+msgstr "CSS 値"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:285
+msgid "Form can't be found!"
+msgstr "フォームが見つかりません。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:286
+#: ../../../controllers/dashboard/formidable/forms/elements.php:408
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:246
+#: ../../../controllers/dashboard/formidable/results.php:210
+msgid "Oops, something went wrong!"
+msgstr "おっと、問題が発生したようです！"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:287
+msgid "Form duplicated succesfully"
+msgstr "フォームを複製しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/controller.php:290
+msgid "Form deleted successfully"
+msgstr "フォームを削除しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:53
+#: ../../../tools/dashboard/elements/dialog.php:199
+#: ../../../tools/dashboard/elements/dialog.php:292
+#: ../../../tools/dashboard/elements/dialog.php:592
+#: ../../../tools/dashboard/mailings/dialog.php:57
+#: ../../../tools/dashboard/mailings/dialog.php:69
+#, fuzzy
+msgid "Name"
+msgstr "名前で"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:54
+#: ../../../tools/dashboard/elements/dialog.php:293
+#: ../../../tools/dashboard/mailings/dialog.php:58
+#: ../../../tools/dashboard/mailings/dialog.php:70
+msgid "E-mailaddress"
+msgstr "メールアドレス"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:55
+#: ../../../elements/dashboard/mailing/elements.php:19
+#: ../../../elements/dashboard/mailing/elements.php:73
+#: ../../../models/formidable/validator.php:268
+#: ../../../tools/dashboard/elements/dialog.php:295
+#, fuzzy
+msgid "Option"
+msgstr "オプション"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:56
+msgid "Add element to Formidable Form"
+msgstr "Formidableフォームに要素を追加"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:57
+msgid "Edit element on Formidable Form"
+msgstr "Formidableフォーム上の要素を編集"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:58
+msgid "Add layout on Formidable Form"
+msgstr "Formidableフォームにレイアウトを追加"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:59
+msgid "Edit layout on Formidable Form"
+msgstr "Formidableフォーム上のレイアウトを編集"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:60
+msgid "Element successfully saved!"
+msgstr "要素を保存しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:61
+msgid "Element successfully duplicated!"
+msgstr "要素をコピーしました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:62
+msgid "Element successfully deleted!"
+msgstr "要素を削除しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:63
+msgid "Layout successfully saved!"
+msgstr "レイアウトを保存しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:64
+msgid "Layout successfully deleted!"
+msgstr "レイアウトを削除しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:65
+msgid "Classname to toggle"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:66
+#, fuzzy
+msgid "Value to set"
+msgstr "値"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:67
+#, fuzzy
+msgid "Placeholder to set"
+msgstr "プレースホルダー"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:68
+#: ../../../controllers/dashboard/formidable/forms/elements.php:572
+#, fuzzy
+msgid "any value"
+msgstr "値"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:68
+#: ../../../controllers/dashboard/formidable/forms/elements.php:573
+#, fuzzy
+msgid "no value"
+msgstr "値"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:69
+#: ../../../elements/dashboard/form/edit.php:98
+#: ../../../elements/dashboard/mailing/elements.php:47
+#: ../../../elements/dashboard/mailing/elements.php:98
+#: ../../../models/formidable/element/integer.php:33
+#: ../../../models/formidable/element/range.php:28
+#: ../../../models/formidable/element/slider.php:33
+#: ../../../tools/dashboard/elements/dialog.php:134
+#: ../../../tools/dashboard/elements/dialog.php:140
+#: ../../../tools/dashboard/elements/dialog.php:142
+#: ../../../tools/dashboard/results/dialog.php:40
+#: ../../../tools/dashboard/results/dialog.php:57
+msgid "Value"
+msgstr "値"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:70
+#, fuzzy
+msgid "Are you sure you want to delete this dependency rule?"
+msgstr "本当に削除してもよろしいですか？"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:71
+#: ../../../controllers/dashboard/formidable/forms/elements.php:581
+msgid "equals"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:71
+#: ../../../controllers/dashboard/formidable/forms/elements.php:582
+#, fuzzy
+msgid "not equal to"
+msgstr "〜に等しい"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:71
+#, fuzzy
+msgid "contains"
+msgstr "このテーマにはカスタマイズできるスタイルが入っていません。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:71
+#, fuzzy
+msgid "does not contain"
+msgstr "ディレクトリ「%s」がサーバー上に存在していません。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:86
+msgid "Form created successfully! Please add layouts and elements to the form"
+msgstr ""
+"フォームが正常に追加されました、フォームにレイアウトや要素を追加してくださ"
+"い。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:407
+msgid "Form or element can't be found!"
+msgstr "フォームや要素が見つかりません。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:409
+msgid "Element saved successfully"
+msgstr "要素を保存しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:411
+msgid "Element deleted successfully"
+msgstr "要素を削除しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:442
+msgid "OR"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:447
+#, fuzzy
+msgid "Delete this rule"
+msgstr "水平線"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:448
+#, fuzzy
+msgid "Move this rule"
+msgstr "水平線"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:449
+#, fuzzy
+msgid "Rule"
+msgstr "水平線"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:500
+#, fuzzy
+msgid "Select behaviour"
+msgstr "選択"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:501
+#, fuzzy
+msgid "Show"
+msgstr "表示"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:502
+#, fuzzy
+msgid "Enable"
+msgstr "有効"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:503
+msgid "Toggle classname"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:506
+#, fuzzy
+msgid "Change placeholder to"
+msgstr "プレースホルダー"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:509
+#, fuzzy
+msgid "Change value to"
+msgstr "値"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:522
+#, fuzzy
+msgid "Delete this action"
+msgstr "アクション"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:523
+#, fuzzy
+msgid "Add an action to this rule"
+msgstr "アクションを\b追加"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:525
+#: ../../../controllers/dashboard/formidable/forms/elements.php:594
+msgid "and"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:559
+#, fuzzy
+msgid "is enabled"
+msgstr "有効"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:560
+#, fuzzy
+msgid "is disabled"
+msgstr "無効"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:562
+#, fuzzy
+msgid "Select an element"
+msgstr "選択"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:583
+msgid "matches"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:584
+#, fuzzy
+msgid "does not match"
+msgstr "このアカウントに登録されたメールアドレスではありません。"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:591
+#, fuzzy
+msgid "Delete this element"
+msgstr "この要素を削除してよろしいですか？"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:592
+#, fuzzy
+msgid "Add an element to this rule"
+msgstr "要素を追加"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:595
+msgid "if"
+msgstr ""
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:599
+#, fuzzy
+msgid "has"
+msgstr "コメントが保存されました"
+
+#: ../../../controllers/dashboard/formidable/forms/elements.php:601
+#, fuzzy
+msgid "selected/checked"
+msgstr "選択したアイテムの"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:45
+msgid "Choose an element"
+msgstr "要素を選択"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:46
+#, fuzzy
+msgid "Choose a page"
+msgstr "ページを選択"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:47
+msgid "Add mailing to Formidable Form"
+msgstr "Formidableフォームのメール送信を追加"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:48
+msgid "Edit mailing from Formidable Form"
+msgstr "Formidableフォームのメール送信を編集"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:49
+msgid "Mailing successfully saved!"
+msgstr "通知メールを保存しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:50
+msgid "Mailing successfully duplicated!"
+msgstr "通知メールをコピーしました。"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:51
+msgid "Mailing successfully deleted!"
+msgstr "通知メールを削除しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:52
+#: ../../../tools/dashboard/mailings/dialog.php:204
+msgid "Choose file"
+msgstr "ファイルを選択"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:115
+msgid "Send from custom sender:"
+msgstr "任意入力"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:116
+msgid "Use the \"From\"-details"
+msgstr "送信元メールアドレス（From）"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:116
+msgid "Use custom \"Reply to\"-details:"
+msgstr "任意入力"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:245
+msgid "Form or mailing can't be found!"
+msgstr "フォームまたは通知メールが見つかりません。"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:247
+msgid "Mailing saved successfully"
+msgstr "通知メールを保存しました。"
+
+#: ../../../controllers/dashboard/formidable/forms/mailings.php:249
+msgid "Mailing deleted successfully"
+msgstr "通知メールを削除しました。"
+
+#: ../../../controllers/dashboard/formidable/results.php:36
+msgid "Are you sure you want to delete all selected submissions?"
+msgstr "選択されたものを全て削除してよろしいですか？"
+
+#: ../../../controllers/dashboard/formidable/results.php:209
+#, fuzzy
+msgid "Submission can't be found!"
+msgstr "フォームや要素が見つかりません！"
+
+#: ../../../controllers/dashboard/formidable/results.php:212
+#, fuzzy
+msgid "Submission deleted successfully"
+msgstr "メッセージの削除が成功しました。"
+
+#: ../../../elements/dashboard/element/list.php:24
+#: ../../../elements/dashboard/mailing/list.php:12
+#: ../../../tools/dashboard/forms/element_list.php:30
+#: ../../../tools/dashboard/forms/element_list.php:45
+#, fuzzy
+msgid "Edit"
+msgstr "編集"
+
+#: ../../../elements/dashboard/element/list.php:27
+#: ../../../elements/dashboard/form/list.php:31
+#: ../../../elements/dashboard/mailing/list.php:13
+#, fuzzy
+msgid "Copy"
+msgstr "コピー"
+
+#: ../../../elements/dashboard/element/list.php:30
+msgid "Are you sure you want to delete this element?"
+msgstr "削除してよろしいですか？"
+
+#: ../../../elements/dashboard/element/list.php:30
+#: ../../../elements/dashboard/form/list.php:32
+#: ../../../elements/dashboard/results/search_results.php:14
+#: ../../../elements/dashboard/results/search_results.php:65
+#: ../../../models/formidable/element/fileupload.php:97
+#: ../../../tools/dashboard/forms/element_list.php:31
+#: ../../../tools/dashboard/forms/element_list.php:46
+msgid "Delete"
+msgstr "削除"
+
+#: ../../../elements/dashboard/form/edit.php:15
+msgid "Set the properties for your form."
+msgstr "フォームのプロパティーを設定してください。"
+
+#: ../../../elements/dashboard/form/edit.php:17
+msgid "Form name"
+msgstr "フォーム名"
+
+#: ../../../elements/dashboard/form/edit.php:23
+msgid "Use captcha on your form."
+msgstr "フォームでCAPTCHAを使用する。"
+
+#: ../../../elements/dashboard/form/edit.php:25
+msgid "Captcha (label)"
+msgstr "CAPTCHAラベル"
+
+#: ../../../elements/dashboard/form/edit.php:29
+msgid "Captcha"
+msgstr "CAPTCHA"
+
+#: ../../../elements/dashboard/form/edit.php:30
+msgid "Label for the captcha"
+msgstr "CAPTCHAラベルを編集できます。"
+
+#: ../../../elements/dashboard/form/edit.php:35
+msgid "Buttons"
+msgstr "ボタン"
+
+#: ../../../elements/dashboard/form/edit.php:48
+msgid "Label for the \"reset form\" button"
+msgstr "クリアボタンのラベルを編集できます。"
+
+#: ../../../elements/dashboard/form/edit.php:53
+msgid ""
+"Review the submission. If enabled, the submitter will be prompted to a "
+"preview page that lets them double check their entries before submitting the "
+"form."
+msgstr ""
+"確認画面の有効化。有効化しているときはフォームを送信する前に入力内容をチェッ"
+"クするための確認画面を表示します。"
+
+#: ../../../elements/dashboard/form/edit.php:55
+msgid "Enable review"
+msgstr "確認画面"
+
+#: ../../../elements/dashboard/form/edit.php:60
+msgid "Add/Edit Description"
+msgstr "メッセージを追加／編集"
+
+#: ../../../elements/dashboard/form/edit.php:61
+msgid "Click on the button to add/edit the content."
+msgstr ""
+"ボタンをクリックすると確認画面に表示するメッセージを追加／編集できます。"
+
+#: ../../../elements/dashboard/form/edit.php:66
+msgid "Redirect or show message after succesfully submitted"
+msgstr "送信後に、選択したページにリダイレクトするか、メッセージを表示します。"
+
+#: ../../../elements/dashboard/form/edit.php:68
+msgid "After submission"
+msgstr "送信後"
+
+#: ../../../elements/dashboard/form/edit.php:70
+#: ../../../elements/dashboard/form/edit.php:107
+#: ../../../elements/dashboard/form/edit.php:151
+msgid "Show message"
+msgstr "メッセージを表示"
+
+#: ../../../elements/dashboard/form/edit.php:70
+#: ../../../elements/dashboard/form/edit.php:107
+#: ../../../elements/dashboard/form/edit.php:151
+msgid "Redirect to page"
+msgstr "選択ページにリダイレクト"
+
+#: ../../../elements/dashboard/form/edit.php:75
+#: ../../../elements/dashboard/form/edit.php:112
+#: ../../../elements/dashboard/form/edit.php:156
+#: ../../../models/formidable/validator.php:418
+#: ../../../tools/dashboard/mailings/dialog.php:36
+#: ../../../tools/dashboard/mailings/dialog.php:133
+msgid "Message"
+msgstr "メッセージ"
+
+#: ../../../elements/dashboard/form/edit.php:78
+#: ../../../elements/dashboard/form/edit.php:115
+#: ../../../elements/dashboard/form/edit.php:159
+msgid "Add/Edit Message"
+msgstr "メッセージを追加／編集"
+
+#: ../../../elements/dashboard/form/edit.php:84
+#: ../../../elements/dashboard/form/edit.php:121
+#: ../../../elements/dashboard/form/edit.php:165
+msgid "Select page"
+msgstr "選択ページ"
+
+#: ../../../elements/dashboard/form/edit.php:92
+msgid "Limit submissions"
+msgstr "送信制限の有効化"
+
+#: ../../../elements/dashboard/form/edit.php:94
+msgid "Enable limits"
+msgstr "送信制限"
+
+#: ../../../elements/dashboard/form/edit.php:105
+msgid "If limit reached"
+msgstr "送信制限に達したとき"
+
+#: ../../../elements/dashboard/form/edit.php:130
+msgid "Scheduling"
+msgstr "公開期間の有効化"
+
+#: ../../../elements/dashboard/form/edit.php:132
+msgid "Enable scheduling"
+msgstr "公開期間"
+
+#: ../../../elements/dashboard/form/edit.php:141 ../../../helpers/mail.php:108
+#: ../../../helpers/mail.php:132 ../../../models/formidable/validator.php:354
+#: ../../../tools/dashboard/mailings/dialog.php:51
+#, fuzzy
+msgid "From"
+msgstr "From"
+
+#: ../../../elements/dashboard/form/edit.php:144 ../../../helpers/mail.php:107
+#: ../../../helpers/mail.php:131
+msgid "To"
+msgstr ""
+
+#: ../../../elements/dashboard/form/edit.php:149
+msgid "If outside schedule"
+msgstr "公開期間以外のとき"
+
+#: ../../../elements/dashboard/form/edit.php:175
+msgid "Use HTML5 elements"
+msgstr "HTML5要素を使う"
+
+#: ../../../elements/dashboard/form/edit.php:184
+#: ../../../tools/dashboard/elements/dialog.php:484
+#: ../../../tools/dashboard/layouts/dialog.php:57
+msgid "CSS Classes"
+msgstr "CSS クラス名"
+
+#: ../../../elements/dashboard/form/edit.php:189
+msgid "Add classname(s) to customize your form. Example: myform"
+msgstr ""
+"フォームをカスタマイズするためのCSS クラス名を追加してください。例）myform"
+
+#: ../../../elements/dashboard/form/edit.php:196
+#: ../../../tools/dashboard/elements/dialog.php:645
+#: ../../../tools/dashboard/layouts/dialog.php:87
+#: ../../../tools/dashboard/mailings/dialog.php:225
+#: ../../../tools/dashboard/results/customize_search_columns.php:90
+#, fuzzy
+msgid "Save"
+msgstr "保存"
+
+#: ../../../elements/dashboard/form/edit.php:196
+#: ../../../elements/dashboard/form/list.php:27
+#: ../../../elements/dashboard/form/nav.php:27
+msgid "Form Properties"
+msgstr "フォーム設定"
+
+#: ../../../elements/dashboard/form/elements.php:7
+msgid "Search:"
+msgstr "検索:"
+
+#: ../../../elements/dashboard/form/elements.php:27
+#, fuzzy
+msgid "No available elements found!"
+msgstr "要素"
+
+#: ../../../elements/dashboard/form/list.php:24
+#: ../../../elements/dashboard/form/nav.php:20
+msgid "Results"
+msgstr "受信データ"
+
+#: ../../../elements/dashboard/form/list.php:25
+#: ../../../elements/dashboard/form/nav.php:21
+#, fuzzy
+msgid "Preview"
+msgstr "プレビューユーザー"
+
+#: ../../../elements/dashboard/form/list.php:28
+#: ../../../elements/dashboard/form/nav.php:30
+#: ../../../single_pages/dashboard/formidable/forms/elements.php:3
+msgid "Layout and elements"
+msgstr "レイアウトと要素"
+
+#: ../../../elements/dashboard/form/list.php:29
+#: ../../../elements/dashboard/form/nav.php:33
+msgid "Emails"
+msgstr "通知メール"
+
+#: ../../../elements/dashboard/form/list.php:32
+msgid "Are you sure you want to delete this form?"
+msgstr "削除してよろしいですか？"
+
+#: ../../../elements/dashboard/form/nav.php:18
+msgid "Back to list"
+msgstr "&lt; 戻る"
+
+#: ../../../elements/dashboard/form/preview_nav.php:14
+#, fuzzy
+msgid "Warning!"
+msgstr "警告！"
+
+#: ../../../elements/dashboard/form/preview_nav.php:14
+msgid ""
+"This is a preview! You can't submit. Styles and theme aren't loaded, just a "
+"preview with the default view and css."
+msgstr ""
+
+#: ../../../elements/dashboard/form/preview_nav.php:15
+#, fuzzy
+msgid "Back to form"
+msgstr "戻る"
+
+#: ../../../elements/dashboard/mailing/elements.php:17
+#: ../../../elements/dashboard/mailing/elements.php:71
+#: ../../../models/formidable/validator.php:207
+#: ../../../tools/dashboard/elements/dialog.php:73
+#: ../../../tools/dashboard/layouts/dialog.php:43
+msgid "Label / Name"
+msgstr "項目名"
+
+#: ../../../elements/dashboard/mailing/elements.php:18
+#: ../../../elements/dashboard/mailing/elements.php:72
+#: ../../../tools/dashboard/elements/dialog.php:65
+msgid "Type"
+msgstr "タイプ"
+
+#: ../../../elements/dashboard/mailing/elements.php:27
+msgid "All elements in the form"
+msgstr "フォームの全ての要素"
+
+#: ../../../elements/dashboard/mailing/elements.php:28
+#: ../../../elements/dashboard/mailing/elements.php:82
+#, fuzzy
+msgid "All"
+msgstr "すべて"
+
+#: ../../../elements/dashboard/mailing/elements.php:30
+msgid "Add all elements"
+msgstr "全ての要素を追加"
+
+#: ../../../elements/dashboard/mailing/elements.php:44
+#: ../../../elements/dashboard/mailing/elements.php:46
+#: ../../../elements/dashboard/mailing/elements.php:97
+#: ../../../tools/dashboard/results/dialog.php:39
+#: ../../../tools/dashboard/results/dialog.php:56
+msgid "Label"
+msgstr "ラベル"
+
+#: ../../../elements/dashboard/mailing/elements.php:48
+#: ../../../elements/dashboard/mailing/elements.php:99
+#, fuzzy
+msgid "Both"
+msgstr "日付と時刻"
+
+#: ../../../elements/dashboard/mailing/elements.php:58
+#, fuzzy
+msgid "No elements created yet."
+msgstr "グローバルエリアが作成されていません。"
+
+#: ../../../elements/dashboard/mailing/elements.php:59
+msgid ""
+"Go to \"Layout and Elements\"-tab in this form, and add some form elements."
+msgstr ""
+
+#: ../../../elements/dashboard/mailing/elements.php:81
+msgid "All advanced data of the form"
+msgstr "フォームの全ての付加情報"
+
+#: ../../../elements/dashboard/mailing/elements.php:84
+msgid "Add all advanced data"
+msgstr "全ての付加情報を追加"
+
+#: ../../../elements/dashboard/mailing/elements.php:113
+#: ../../../tools/dashboard/editor.php:26
+#: ../../../tools/dashboard/elements/dialog.php:19
+#: ../../../tools/dashboard/elements/dialog.php:644
+#: ../../../tools/dashboard/layouts/dialog.php:21
+#: ../../../tools/dashboard/layouts/dialog.php:86
+#: ../../../tools/dashboard/mailings/dialog.php:19
+#: ../../../tools/dashboard/mailings/dialog.php:224
+#: ../../../tools/dashboard/results/delete_search.php:28
+#: ../../../tools/dashboard/results/dialog.php:19
+#: ../../../tools/dashboard/results/dialog.php:119
+#: ../../../tools/dashboard/results/save_search.php:33
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:4
+#, fuzzy
+msgid "Fields"
+msgstr "フィールド"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:5
+msgid "On page"
+msgstr "ページ"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:6
+msgid "From IP"
+msgstr "IPアドレス"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:7
+msgid "Submitted between"
+msgstr "送信日"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:8
+msgid "From userID"
+msgstr "ユーザー"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:9
+msgid "Browser used"
+msgstr "ブラウザー"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:10
+#: ../../../models/formidable/result.php:280
+#: ../../../models/formidable/result.php:310
+msgid "Resolution"
+msgstr "解像度"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:11
+msgid "Platform / OS"
+msgstr "プラットフォーム / OS"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:40
+#: ../../../elements/dashboard/results/search_form_advanced.php:189
+msgid "to"
+msgstr ""
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:59
+#: ../../../elements/dashboard/results/search_form_advanced.php:213
+#: ../../../tools/dashboard/results/dialog.php:111
+#, fuzzy
+msgid "px"
+msgstr "px"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:83
+#, fuzzy
+msgid "** Select a saved search."
+msgstr "** 保存された検索を選択"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:85
+#, fuzzy
+msgid "** None (Exit Saved Search)"
+msgstr "** なし（検索フィルターを解除）"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:93
+#, fuzzy
+msgid "Saved Search"
+msgstr "保存された検索"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:97
+#, fuzzy
+msgid "Delete Saved Search"
+msgstr "保存された検索"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:105
+msgid "Form(s)"
+msgstr "フォーム"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:116
+#, fuzzy
+msgid "Keywords"
+msgstr "キーワード"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:118
+#, fuzzy
+msgid "Name or Email Address"
+msgstr "メールアドレス"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:123
+#, fuzzy
+msgid "# Per Page"
+msgstr "表示件数"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:134
+msgid "Search"
+msgstr "検索"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:140
+#: ../../../tools/dashboard/mailings/tools.php:51
+#, fuzzy
+msgid "Advanced"
+msgstr "詳細"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:146
+#, fuzzy
+msgid "Additional Filters"
+msgstr "追加フィルター"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:147
+#, fuzzy
+msgid "Add"
+msgstr "新規"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:155
+#, fuzzy
+msgid "Select Search Field."
+msgstr "検索フィールドを選択してください。"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:244
+#, fuzzy
+msgid "Customize Results"
+msgstr "検索結果をカスタマイズ"
+
+#: ../../../elements/dashboard/results/search_form_advanced.php:245
+#: ../../../tools/dashboard/results/save_search.php:32
+#, fuzzy
+msgid "Save Search"
+msgstr "検索条件を保存"
+
+#: ../../../elements/dashboard/results/search_results.php:13
+#, fuzzy
+msgid "With Selected"
+msgstr "選択したアイテムの"
+
+#: ../../../elements/dashboard/results/search_results.php:20
+#, php-format
+msgid "Edit \"%s\"-form"
+msgstr "%sを編集"
+
+#: ../../../elements/dashboard/results/search_results.php:64
+#, fuzzy
+msgid "View"
+msgstr "閲覧ユーザー"
+
+#: ../../../elements/dashboard/results/search_results.php:73
+#, fuzzy
+msgid "No results found."
+msgstr "該当する結果がありません。"
+
+#: ../../../elements/dashboard/results/search_results.php:79
+msgid "Export"
+msgstr "エクスポート"
+
+#: ../../../elements/editor_controls.php:6
+#, fuzzy
+msgid "Add Image"
+msgstr "画像を追加"
+
+#: ../../../elements/editor_controls.php:7
+msgid "Add File"
+msgstr "ファイルを追加"
+
+#: ../../../elements/editor_controls.php:8
+#, fuzzy
+msgid "Insert Link to Page"
+msgstr "ページへのリンクを挿入"
+
+#: ../../../elements/editor_controls.php:9
+msgid "Insert Formidable Element"
+msgstr "要素を挿入"
+
+#: ../../../helpers/mail.php:103
+#, fuzzy
+msgid "Mail Exception Occurred. Unable to send mail: "
+msgstr "エラーが発生し、メール送信ができませんでした: "
+
+#: ../../../helpers/mail.php:106 ../../../helpers/mail.php:130
+#, fuzzy
+msgid "Template Used"
+msgstr "使用テンプレート"
+
+#: ../../../helpers/mail.php:110 ../../../helpers/mail.php:134
+msgid "CC"
+msgstr ""
+
+#: ../../../helpers/mail.php:112 ../../../helpers/mail.php:136
+msgid "BCC"
+msgstr ""
+
+#: ../../../helpers/mail.php:114 ../../../helpers/mail.php:138
+#, fuzzy
+msgid "Reply-To"
+msgstr "Reply-To"
+
+#: ../../../helpers/mail.php:115 ../../../helpers/mail.php:139
+#: ../../../models/formidable/validator.php:412
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:19
+#: ../../../tools/dashboard/mailings/dialog.php:126
+msgid "Subject"
+msgstr "件名"
+
+#: ../../../helpers/mail.php:116 ../../../helpers/mail.php:140
+#, fuzzy
+msgid "Body"
+msgstr "本文"
+
+#: ../../../helpers/mail.php:126
+#, fuzzy
+msgid "EMAILS ARE ENABLED. THIS EMAIL WAS SENT TO mail()"
+msgstr ""
+"メール機能は有効。このメールはmail()もしくはmb_send_mail()に送られました。"
+
+#: ../../../helpers/mail.php:128
+#, fuzzy
+msgid "EMAILS ARE DISABLED. THIS EMAIL WAS LOGGED BUT NOT SENT"
+msgstr ""
+"メール機能は無効。このメールはログに記録されましたが、送信されませんでした"
+
+#: ../../../jobs/remove_temp_submissions.php:10
+#, fuzzy
+msgid "Formidable cleanup"
+msgstr "Formidable"
+
+#: ../../../jobs/remove_temp_submissions.php:14
+msgid "Removes temporary content and files."
+msgstr ""
+
+#: ../../../jobs/remove_temp_submissions.php:84
+#, php-format
+msgid ""
+"%s temp submissions deleted, %s temp answers deleted, %s temp files deleted"
+msgstr ""
+
+#: ../../../models/formidable.php:175
+#: ../../../tools/dashboard/results/dialog.php:88
+msgid "Guest"
+msgstr "ゲスト"
+
+#: ../../../models/formidable.php:337
+#, fuzzy
+msgid "Type of element not supported"
+msgstr "タイプ"
+
+#: ../../../models/formidable.php:341
+#, fuzzy, php-format
+msgid "Class \"%s\" unknown!"
+msgstr "不明な MIME-TYPE: %s"
+
+#: ../../../models/formidable/element.php:123
+#: ../../../models/formidable/form.php:324
+#: ../../../models/formidable/layout.php:114
+#: ../../../models/formidable/mailing.php:133
+#, fuzzy
+msgid "copy"
+msgstr "コピー"
+
+#: ../../../models/formidable/element/address.php:33
+#: ../../../models/formidable/element/address.php:34
+msgid ""
+"address_1 {n} address_2 {n} city {n} province {n} country {n} postal_code"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:35
+msgid "address_1 {n} address_2 {n} city {n} county {n} country {n} zipcode"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:37
+msgid "address_1 {n} address_2 {n} city {n} state {n} postal_code {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:38
+msgid ""
+"address_1 {n} address_2 {n} city {n} province {n} postal_code {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:39
+msgid "address_1 {n} address_2 {n} city {n} county {n} zipcode {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:41
+msgid "address_1 {n} address_2 {n} city {n} country {n} state {n} postal_code"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:42
+msgid ""
+"address_1 {n} address_2 {n} city {n} country {n} province {n} postal_code"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:43
+msgid "address_1 {n} address_2 {n} city {n} country {n} county {n} zipcode"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:45
+msgid "address_1 address_2 {n} postal_code city, state {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:46
+msgid "address_1 address_2 {n} postal_code city, province {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:47
+msgid "address_1 address_2 {n} zipcode city, county {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:49
+msgid "address_1 {n} postal_code city, state {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:50
+msgid "address_1 {n} postal_code city, province {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:51
+msgid "address_1 {n} zipcode city, county {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:52
+msgid "street, number {n} zipcode city, state {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:53
+msgid "street, number {n} zipcode city, province {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:54
+msgid "street, number {n} zipcode city, county {n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:55
+msgid "street, number {n} zipcode city{n} country"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:56
+#: ../../../models/formidable/element/date.php:80
+#: ../../../models/formidable/element/fullname.php:36
+#: ../../../models/formidable/element/time.php:60
+msgid "Other format: "
+msgstr "その他のフォーマット"
+
+#: ../../../models/formidable/element/address.php:59
+#: ../../../models/formidable/element/address.php:145
+msgid "Street"
+msgstr ""
+
+#: ../../../models/formidable/element/address.php:60
+#: ../../../models/formidable/element/address.php:150
+#, fuzzy
+msgid "Number"
+msgstr "数字"
+
+#: ../../../models/formidable/element/address.php:61
+#: ../../../models/formidable/element/address.php:81
+msgid "Address 1"
+msgstr "住所"
+
+#: ../../../models/formidable/element/address.php:62
+#: ../../../models/formidable/element/address.php:86
+msgid "Address 2"
+msgstr "建物名"
+
+#: ../../../models/formidable/element/address.php:63
+#: ../../../models/formidable/element/address.php:91
+msgid "City"
+msgstr "市町村郡"
+
+#: ../../../models/formidable/element/address.php:64
+#: ../../../models/formidable/element/address.php:119
+#: ../../../models/formidable/element/address.php:125
+#, fuzzy
+msgid "State"
+msgstr "マウスオーバー画像"
+
+#: ../../../models/formidable/element/address.php:65
+#: ../../../models/formidable/element/address.php:108
+msgid "Province"
+msgstr "都道府県"
+
+#: ../../../models/formidable/element/address.php:66
+#: ../../../models/formidable/element/address.php:96
+#: ../../../models/formidable/element/address.php:102
+msgid "County"
+msgstr "国"
+
+#: ../../../models/formidable/element/address.php:67
+msgid "Country"
+msgstr "国選択"
+
+#: ../../../models/formidable/element/address.php:68
+#: ../../../models/formidable/element/address.php:135
+msgid "Postal Code"
+msgstr "郵便番号（Postal Code）"
+
+#: ../../../models/formidable/element/address.php:69
+#: ../../../models/formidable/element/address.php:140
+msgid "Zipcode"
+msgstr "郵便番号（Zip Code）"
+
+#: ../../../models/formidable/element/address.php:70
+#: ../../../models/formidable/element/fullname.php:42
+msgid "Break / New line"
+msgstr "改行"
+
+#: ../../../models/formidable/element/address.php:71
+#: ../../../models/formidable/element/fullname.php:43
+msgid "You can also use specialchars like ,.!;: etc..."
+msgstr ",.!;:などの特別な記号を使うこともできます。"
+
+#: ../../../models/formidable/element/address.php:247
+msgid "Choose country"
+msgstr "国を選択"
+
+#: ../../../models/formidable/element/checkbox.php:35
+#: ../../../models/formidable/element/recipientselector.php:32
+#: ../../../models/formidable/element/select.php:34
+msgid "Selected options"
+msgstr "選択した選択肢"
+
+#: ../../../models/formidable/element/checkbox.php:39
+#: ../../../models/formidable/element/radio.php:34
+#: ../../../models/formidable/element/select.php:38
+msgid "Single text"
+msgstr "テキストフィールド"
+
+#: ../../../models/formidable/element/checkbox.php:40
+#: ../../../models/formidable/element/radio.php:35
+#: ../../../models/formidable/element/select.php:39
+msgid "Textarea"
+msgstr "テキストエリア"
+
+#: ../../../models/formidable/element/checkbox.php:44
+#: ../../../models/formidable/element/radio.php:39
+msgid "One column"
+msgstr "１列"
+
+#: ../../../models/formidable/element/checkbox.php:45
+#: ../../../models/formidable/element/radio.php:40
+msgid "Two columns"
+msgstr "２列"
+
+#: ../../../models/formidable/element/checkbox.php:46
+#: ../../../models/formidable/element/radio.php:41
+msgid "Three columns"
+msgstr "3列"
+
+#: ../../../models/formidable/element/checkbox.php:47
+#: ../../../models/formidable/element/radio.php:42
+msgid "Four columns"
+msgstr "4列"
+
+#: ../../../models/formidable/element/checkbox.php:48
+#: ../../../models/formidable/element/radio.php:43
+msgid "Five columns"
+msgstr "5列"
+
+#: ../../../models/formidable/element/checkbox.php:49
+#: ../../../models/formidable/element/radio.php:44
+msgid "Automatically (let the width decide)"
+msgstr "自動"
+
+#: ../../../models/formidable/element/date.php:61
+msgid "Default date format: mm/dd/yyyy"
+msgstr ""
+
+#: ../../../models/formidable/element/date.php:65
+msgid "Create element with datepicker"
+msgstr "カレンダー"
+
+#: ../../../models/formidable/element/date.php:66
+msgid "Selectboxes for years, months, days"
+msgstr "セレクトボックス"
+
+#: ../../../models/formidable/element/date.php:67
+msgid "Create masked input textfield (only dd, mm and yyyy input)"
+msgstr "マスキング（yyyy/mm/dd固定）"
+
+#: ../../../models/formidable/element/date.php:84
+msgid "day of month (no leading zero)"
+msgstr "日（ゼロ詰めなし）"
+
+#: ../../../models/formidable/element/date.php:85
+msgid "day of month (two digit)"
+msgstr "日（ゼロ詰めあり）"
+
+#: ../../../models/formidable/element/date.php:86
+msgid "day of the year (no leading zeros)"
+msgstr "年間通算日(年、ゼロ詰めなし)"
+
+#: ../../../models/formidable/element/date.php:87
+msgid "day of the year (three digit)"
+msgstr "年間通算日(年、ゼロ詰めあり)"
+
+#: ../../../models/formidable/element/date.php:88
+msgid "day name short"
+msgstr "曜日（略称）"
+
+#: ../../../models/formidable/element/date.php:89
+msgid "day name long"
+msgstr "曜日"
+
+#: ../../../models/formidable/element/date.php:90
+msgid "month of year (no leading zero)"
+msgstr "月(ゼロ詰めなし)"
+
+#: ../../../models/formidable/element/date.php:91
+msgid "month of year (two digit)"
+msgstr "月(ゼロ詰めあり)"
+
+#: ../../../models/formidable/element/date.php:92
+msgid "month name short"
+msgstr "月（略名）"
+
+#: ../../../models/formidable/element/date.php:93
+msgid "month name long"
+msgstr "月"
+
+#: ../../../models/formidable/element/date.php:94
+msgid "year (two digit)"
+msgstr "年（2桁）"
+
+#: ../../../models/formidable/element/date.php:95
+msgid "year (four digit)"
+msgstr "年（4桁）"
+
+#: ../../../models/formidable/element/date.php:96
+msgid "More information about dateformat: "
+msgstr "フォーマットのより詳しい情報について（英語）："
+
+#: ../../../models/formidable/element/date.php:96
+#: ../../../models/formidable/element/date.php:103
+#: ../../../models/formidable/element/time.php:72
+#: ../../../models/formidable/element/time.php:79
+#, fuzzy
+msgid "click here"
+msgstr "クリックしてログイン"
+
+#: ../../../models/formidable/element/date.php:100
+msgid "Manage some advanced options of the datepicker"
+msgstr "さらに、いくつかのオプションを設定できます。"
+
+#: ../../../models/formidable/element/date.php:101
+#: ../../../models/formidable/element/time.php:77
+msgid "Comma seperate options"
+msgstr "オプションはカンマで区切ることで複数設定できます。"
+
+#: ../../../models/formidable/element/date.php:102
+msgid "Example: changeYear:true, yearRange:\"c-10:c+10\""
+msgstr "例: changeYear:true, yearRange:\"c-10:c+10\""
+
+#: ../../../models/formidable/element/date.php:103
+#: ../../../models/formidable/element/time.php:79
+msgid "Possible options: "
+msgstr "オプションのより詳しい情報について（英語）："
+
+#: ../../../models/formidable/element/date.php:222
+#: ../../../models/formidable/element/date.php:228
+#: ../../../models/formidable/element/date.php:232
+#, php-format
+msgid "Field \"%s\" is an invalid date"
+msgstr "\"%s\"フィールドの日付形式に誤りがあるようです。"
+
+#: ../../../models/formidable/element/fileupload.php:37
+msgid "Files"
+msgstr "ファイル"
+
+#: ../../../models/formidable/element/fileupload.php:168
+#, fuzzy, php-format
+msgid "%s uploaded files"
+msgstr "ファイルがアップロードされました"
+
+#: ../../../models/formidable/element/fullname.php:33
+#, fuzzy
+msgid "firstname prefix lastname"
+msgstr "名"
+
+#: ../../../models/formidable/element/fullname.php:34
+#, fuzzy
+msgid "firstname lastname"
+msgstr "名"
+
+#: ../../../models/formidable/element/fullname.php:35
+#, fuzzy
+msgid "prefix lastname"
+msgstr "姓"
+
+#: ../../../models/formidable/element/fullname.php:39
+#: ../../../models/formidable/element/fullname.php:53
+msgid "Firstname"
+msgstr "名"
+
+#: ../../../models/formidable/element/fullname.php:40
+#: ../../../models/formidable/element/fullname.php:58
+msgid "Prefix"
+msgstr "敬称"
+
+#: ../../../models/formidable/element/fullname.php:41
+#: ../../../models/formidable/element/fullname.php:63
+msgid "Lastname"
+msgstr "姓"
+
+#: ../../../models/formidable/element/integer.php:34
+#: ../../../models/formidable/element/password.php:33
+#: ../../../models/formidable/element/text.php:48
+#: ../../../models/formidable/element/textarea.php:36
+msgid "Characters"
+msgstr "文字数"
+
+#: ../../../models/formidable/element/password.php:37
+msgid "lowercase chars"
+msgstr "英字（小文字）"
+
+#: ../../../models/formidable/element/password.php:38
+msgid "uppercase chars"
+msgstr "英字（大文字）"
+
+#: ../../../models/formidable/element/password.php:39
+msgid "digits"
+msgstr "数値"
+
+#: ../../../models/formidable/element/password.php:40
+msgid "symbols"
+msgstr "記号"
+
+#: ../../../models/formidable/element/phone.php:48
+msgid "Your mask not available? Add a text field and create your own mask"
+msgstr ""
+
+#: ../../../models/formidable/element/phone.php:49
+#, fuzzy, php-format
+msgid "Send your mask to %s"
+msgstr "メール送信方法：%s"
+
+#: ../../../models/formidable/element/phone.php:50
+#: ../../../models/formidable/element/text.php:42
+#, php-format
+msgid ""
+"More information about masking: <a href=\"%s\" target=\"_blank\">click here</"
+"a>"
+msgstr ""
+
+#: ../../../models/formidable/element/rating.php:34
+#: ../../../models/formidable/element/rating.php:35
+#: ../../../models/formidable/element/rating.php:36
+msgid "stars"
+msgstr ""
+
+#: ../../../models/formidable/element/rating.php:83
+#, fuzzy, php-format
+msgid "%s of %s"
+msgstr "%s: %s"
+
+#: ../../../models/formidable/element/slider.php:37
+#, fuzzy
+msgid "Horizontal - Range (default)"
+msgstr "水平"
+
+#: ../../../models/formidable/element/slider.php:38
+msgid "Horizontal - Range with fixed minimum"
+msgstr ""
+
+#: ../../../models/formidable/element/slider.php:39
+msgid "Horizontal - Range with fixed maximum"
+msgstr ""
+
+#: ../../../models/formidable/element/slider.php:40
+#, fuzzy
+msgid "Vertical - Range"
+msgstr "垂直"
+
+#: ../../../models/formidable/element/slider.php:41
+msgid "Vertical - Range with fixed minimum"
+msgstr ""
+
+#: ../../../models/formidable/element/slider.php:42
+msgid "Vertical - Range with fixed maximum"
+msgstr ""
+
+#: ../../../models/formidable/element/slider.php:171
+#, fuzzy, php-format
+msgid "%s - %s"
+msgstr "%s: %s"
+
+#: ../../../models/formidable/element/tags.php:32
+#, fuzzy
+msgid "Tags"
+msgstr "タグ"
+
+#: ../../../models/formidable/element/tags.php:44
+#, fuzzy
+msgid "add a tag"
+msgstr "タグで"
+
+#: ../../../models/formidable/element/text.php:35
+msgid "Represents an alpha character"
+msgstr "アルファベット文字を表します"
+
+#: ../../../models/formidable/element/text.php:36
+msgid "Represents a numeric character"
+msgstr "数字を表します"
+
+#: ../../../models/formidable/element/text.php:37
+msgid "Represents an alphanumeric character"
+msgstr "英数字を表します"
+
+#: ../../../models/formidable/element/text.php:38
+msgid ""
+"Represents optional data, everything behind the questionmark is optional"
+msgstr "任意のデータを表します、クエスチョンマークの後ろは全て任意です。"
+
+#: ../../../models/formidable/element/text.php:39
+msgid "Examples:"
+msgstr "サンプル："
+
+#: ../../../models/formidable/element/text.php:40
+msgid "Phone"
+msgstr "電話"
+
+#: ../../../models/formidable/element/text.php:41
+msgid "Product Code"
+msgstr "製品コード"
+
+#: ../../../models/formidable/element/text.php:47
+#: ../../../models/formidable/element/textarea.php:35
+msgid "Words"
+msgstr "単語"
+
+#: ../../../models/formidable/element/time.php:44
+msgid "Default time format (24 hours): HH:mm:ss"
+msgstr ""
+
+#: ../../../models/formidable/element/time.php:48
+msgid "Create element with timeslider"
+msgstr "時間選択ツール"
+
+#: ../../../models/formidable/element/time.php:49
+msgid "Selectboxes for hours, minutes, etc."
+msgstr "セレクトボックス"
+
+#: ../../../models/formidable/element/time.php:50
+msgid "Create masked input textfield (only 24-hours notation)"
+msgstr "マスキング（hh:mm固定）"
+
+#: ../../../models/formidable/element/time.php:64
+msgid "hour (no leading zero)"
+msgstr "時（ゼロ詰めなし）"
+
+#: ../../../models/formidable/element/time.php:65
+msgid "hour (two digit)"
+msgstr "時（ゼロ詰めあり）"
+
+#: ../../../models/formidable/element/time.php:66
+msgid "minutes (no leading zero)"
+msgstr "分（ゼロ詰めなし）"
+
+#: ../../../models/formidable/element/time.php:67
+msgid "minutes (two digit)"
+msgstr "分（ゼロ詰めあり）"
+
+#: ../../../models/formidable/element/time.php:68
+msgid "seconds (no leading zero)"
+msgstr "秒（ゼロ詰めなし）"
+
+#: ../../../models/formidable/element/time.php:69
+msgid "seconds (two digit)"
+msgstr "秒（ゼロ詰めあり）"
+
+#: ../../../models/formidable/element/time.php:70
+msgid "am or pm for AM/PM"
+msgstr "12時間表記"
+
+#: ../../../models/formidable/element/time.php:71
+msgid "AM or PM for AM/PM"
+msgstr "24時間表記"
+
+#: ../../../models/formidable/element/time.php:72
+msgid "More information about timeformat: "
+msgstr "フォーマットのより詳しい情報について（英語）："
+
+#: ../../../models/formidable/element/time.php:76
+msgid "Manage some advanced options of the timepicker"
+msgstr "さらに、いくつかのオプションを設定できます。"
+
+#: ../../../models/formidable/element/time.php:78
+msgid "Example: hourMin: 8, hourMax: 16"
+msgstr "例: hourMin: 8, hourMax: 16"
+
+#: ../../../models/formidable/element/time.php:232
+#, php-format
+msgid "Field \"%s\" is an invalid time"
+msgstr "\"%s\"フィールドの時間形式に誤りがあるようです。"
+
+#: ../../../models/formidable/element/tinymce.php:29
+msgid "Simple (Basic tools for html, bold, italic, lists, etc...)"
+msgstr ""
+
+#: ../../../models/formidable/element/tinymce.php:30
+msgid "Advanced (Some extra options like images, links, special chars)"
+msgstr ""
+
+#: ../../../models/formidable/element/tinymce.php:31
+msgid "Concrete5 (Sure, everything is possible!) (not recommended)"
+msgstr ""
+
+#: ../../../models/formidable/element/website.php:42
+msgid "Including http(s):// or (s)ftp://"
+msgstr "http(s):// または (s)ftp:// を含めてください"
+
+#: ../../../models/formidable/form.php:221
+#, fuzzy
+msgid "Never"
+msgstr "なし"
+
+#: ../../../models/formidable/form.php:484
+msgid "Wrong form is loaded in the page, please try again"
+msgstr ""
+
+#: ../../../models/formidable/form.php:494
+msgid ""
+"Unable to complete action due to our spam policy. Please contact the "
+"administrator of this site for more information."
+msgstr ""
+
+#: ../../../models/formidable/result.php:240
+#: ../../../models/formidable/result.php:277
+msgid "Submitted"
+msgstr "送信日"
+
+#: ../../../models/formidable/result.php:273
+#: ../../../models/formidable/result.php:304
+msgid "IP"
+msgstr "IPアドレス"
+
+#: ../../../models/formidable/result.php:274
+#: ../../../models/formidable/result.php:305
+#, fuzzy
+msgid "Page"
+msgstr "ページ"
+
+#: ../../../models/formidable/result.php:275
+#: ../../../models/formidable/result.php:306
+msgid "User"
+msgstr "ユーザー"
+
+#: ../../../models/formidable/result.php:276
+#: ../../../models/formidable/result.php:307
+#, fuzzy
+msgid "Answerset ID"
+msgstr "ID"
+
+#: ../../../models/formidable/result.php:278
+#: ../../../models/formidable/result.php:308
+msgid "Browser"
+msgstr "ブラウザー"
+
+#: ../../../models/formidable/result.php:279
+#: ../../../models/formidable/result.php:309
+#: ../../../tools/dashboard/results/dialog.php:106
+msgid "Platform"
+msgstr "プラットフォーム / OS"
+
+#: ../../../models/formidable/validator.php:82
+#, php-format
+msgid "Field \"%s\" is an invalid numeric value"
+msgstr "\"%s\"フィールドに数値以外の値が入力されているようです。"
+
+#: ../../../models/formidable/validator.php:88
+#, php-format
+msgid "Field \"%s\" is an invalid e-mailaddress"
+msgstr "\"%s\"フィールドのメールアドレス形式に誤りがあるようです。"
+
+#: ../../../models/formidable/validator.php:94
+#, fuzzy, php-format
+msgid "Fields \"%s\" is an invalid url"
+msgstr "URL: %s"
+
+#: ../../../models/formidable/validator.php:101
+#, php-format
+msgid "Fields \"%s\" and it's confirmation don't match"
+msgstr ""
+
+#: ../../../models/formidable/validator.php:118
+#, php-format
+msgid "Fields \"%s\" only allows the following characters: %s"
+msgstr ""
+
+#: ../../../models/formidable/validator.php:131
+#, php-format
+msgid "Field \"%s\" should be between %s and %s words"
+msgstr "\"%s\"フィールドには %s 語から %s 語までの単語を入力してください。"
+
+#: ../../../models/formidable/validator.php:133
+#, php-format
+msgid "Field \"%s\" should have at least %s words"
+msgstr "\"%s\"フィールドには少なくとも %s 語以上の単語を入力してください。"
+
+#: ../../../models/formidable/validator.php:139
+#, php-format
+msgid "Field \"%s\" should be between %s and %s charachters"
+msgstr ""
+"\"%s\"フィールドには %s 文字から %s 文字までの文字列を入力してください。"
+
+#: ../../../models/formidable/validator.php:141
+#, php-format
+msgid "Field \"%s\" should be at least %s charachters"
+msgstr "\"%s\"フィールドには少なくとも %s 文字以上の文字列を入力してください。"
+
+#: ../../../models/formidable/validator.php:147
+#, php-format
+msgid "Field \"%s\" should be a numeric value between %s and %s"
+msgstr "\"%s\"フィールドには %s から %s までの数値を入力してください。"
+
+#: ../../../models/formidable/validator.php:149
+#, php-format
+msgid "Field \"%s\" should be a numeric value equal or greater than %s"
+msgstr "\"%s\"フィールドには %s　よりも大きい数値を入力してください。"
+
+#: ../../../models/formidable/validator.php:155
+#, php-format
+msgid "Field \"%s\" should have %s options selected"
+msgstr "\"%s\"フィールドには %s 件の選択肢を選択してください。"
+
+#: ../../../models/formidable/validator.php:157
+#, php-format
+msgid "Field \"%s\" should have between %s and %s options selected"
+msgstr "\"%s\"フィールドには %s 件から %s 件までの選択肢を選択してください。"
+
+#: ../../../models/formidable/validator.php:163
+#, php-format
+msgid "Field \"%s\" should have %s files"
+msgstr "\"%s\"フィールドには %s のファイルを設定してください。"
+
+#: ../../../models/formidable/validator.php:165
+#, php-format
+msgid "Field \"%s\" should have between %s and %s files"
+msgstr "\"%s\"フィールドには %s から %s までのファイルを設定してください。"
+
+#: ../../../models/formidable/validator.php:177
+#, php-format
+msgid "Field \"%s\" is invalid or empty"
+msgstr "\"%s\"フィールドの値が未入力のようです。"
+
+#: ../../../models/formidable/validator.php:185
+#, fuzzy, php-format
+msgid "Field \"%s\" files are not permitted"
+msgstr "\"%s\"フィールドには %s のファイルを設定してください。"
+
+#: ../../../models/formidable/validator.php:214
+#: ../../../tools/dashboard/elements/dialog.php:118
+msgid "Placeholder"
+msgstr "プレースホルダー"
+
+#: ../../../models/formidable/validator.php:221
+#, fuzzy
+msgid "Default"
+msgstr "** デフォルト"
+
+#: ../../../models/formidable/validator.php:228
+#, fuzzy
+msgid "Masking"
+msgstr "入力形式"
+
+#: ../../../models/formidable/validator.php:236
+#, fuzzy
+msgid "Minimum value"
+msgstr "最小値"
+
+#: ../../../models/formidable/validator.php:236
+#: ../../../models/formidable/validator.php:239
+#, php-format
+msgid "Field \"%s\" isn't a valid integer"
+msgstr "\"%s\"フィールドに数値以外の値が入力されているようです。"
+
+#: ../../../models/formidable/validator.php:239
+#, fuzzy
+msgid "Maximum value"
+msgstr "最大値"
+
+#: ../../../models/formidable/validator.php:242
+#, fuzzy
+msgid "Minimum/Maximum type"
+msgstr "最小値"
+
+#: ../../../models/formidable/validator.php:250
+#, fuzzy
+msgid "Tooltip"
+msgstr "ツールチップの色"
+
+#: ../../../models/formidable/validator.php:256
+#: ../../../tools/dashboard/elements/dialog.php:241
+#: ../../../tools/dashboard/elements/dialog.php:252
+#, fuzzy
+msgid "Content"
+msgstr "コンテントがありません。"
+
+#: ../../../models/formidable/validator.php:277
+msgid "Other option (value)"
+msgstr ""
+
+#: ../../../models/formidable/validator.php:280
+#, fuzzy
+msgid "Other option (type)"
+msgstr "その他"
+
+#: ../../../models/formidable/validator.php:287
+#: ../../../tools/dashboard/elements/dialog.php:266
+msgid "Code"
+msgstr "ソースコード"
+
+#: ../../../models/formidable/validator.php:293
+#: ../../../tools/dashboard/elements/dialog.php:446
+#: ../../../tools/dashboard/layouts/dialog.php:50
+#, fuzzy
+msgid "Appearance"
+msgstr "外観"
+
+#: ../../../models/formidable/validator.php:299
+#: ../../../tools/dashboard/elements/dialog.php:431
+msgid "Format"
+msgstr "フォーマット"
+
+#: ../../../models/formidable/validator.php:304
+#, fuzzy
+msgid "Format (other)"
+msgstr "その他のフォーマット"
+
+#: ../../../models/formidable/validator.php:312
+#: ../../../tools/dashboard/elements/dialog.php:455
+msgid "Advanced options"
+msgstr "オプション"
+
+#: ../../../models/formidable/validator.php:330
+#, php-format
+msgid ""
+"Extensions \"%s\" in \"%s\" aren't allowed globally (check Allowed File "
+"Types)"
+msgstr ""
+"拡張子 \"%s\" は、「システムと設定」の \"%s\" に含まれていないため利用できま"
+"せん。"
+
+#: ../../../models/formidable/validator.php:339
+#: ../../../tools/dashboard/elements/dialog.php:393
+msgid "Assign to fileset"
+msgstr "ファイルセット"
+
+#: ../../../models/formidable/validator.php:346
+msgid "CSS Class"
+msgstr "CSS クラス名"
+
+#: ../../../models/formidable/validator.php:354
+#: ../../../models/formidable/validator.php:359
+#: ../../../models/formidable/validator.php:362
+#: ../../../models/formidable/validator.php:367
+#: ../../../models/formidable/validator.php:372
+#: ../../../models/formidable/validator.php:375
+#: ../../../models/formidable/validator.php:395
+#: ../../../models/formidable/validator.php:402
+#, php-format
+msgid "Field %s is invalid"
+msgstr "%s フィールドに誤りがあるようです。"
+
+#: ../../../models/formidable/validator.php:359
+#, fuzzy
+msgid "From (Name)"
+msgstr "名前で"
+
+#: ../../../models/formidable/validator.php:362
+#, fuzzy
+msgid "From (Email Address)"
+msgstr "新着フォームのメール通知をこのアドレスから受け取る"
+
+#: ../../../models/formidable/validator.php:367
+#: ../../../tools/dashboard/mailings/dialog.php:63
+msgid "Reply To"
+msgstr "返信先メールアドレス（Reply To）"
+
+#: ../../../models/formidable/validator.php:372
+#, fuzzy
+msgid "Reply To (Name)"
+msgstr "Reply-To"
+
+#: ../../../models/formidable/validator.php:375
+#, fuzzy
+msgid "Reply To (Email Address)"
+msgstr "このEmailアドレスへ返信"
+
+#: ../../../models/formidable/validator.php:389
+#: ../../../tools/dashboard/mailings/dialog.php:35
+#: ../../../tools/dashboard/mailings/dialog.php:80
+msgid "Send to"
+msgstr "送信先メールアドレス（To）"
+
+#: ../../../models/formidable/validator.php:389
+#, php-format
+msgid "Field %s isn't selected"
+msgstr "\"%s\" フィールドが選択されていないようです。"
+
+#: ../../../models/formidable/validator.php:395
+#: ../../../models/formidable/validator.php:402
+#, fuzzy
+msgid "Send to (custom)"
+msgstr "カスタム送信者から送信："
+
+#: ../../../models/formidable/validator.php:450
+#, php-format
+msgid "Dependency Rule #%s: %s is already used"
+msgstr ""
+
+#: ../../../models/formidable/validator.php:456
+#: ../../../models/formidable/validator.php:459
+#, php-format
+msgid "Dependency Rule #%s: %s is invalid or not selected"
+msgstr ""
+
+#: ../../../models/formidable/validator.php:465
+#: ../../../models/formidable/validator.php:472
+#, php-format
+msgid "Dependency Rule #%s: no depending element selected"
+msgstr ""
+
+#: ../../../models/formidable/validator.php:469
+#, php-format
+msgid "Dependency Rule #%s: condition value is invalid"
+msgstr ""
+
+#: ../../../models/system/captcha/types/calculation/controller.php:52
+#, fuzzy
+msgid "Captcha Code"
+msgstr "Captcha認証コード"
+
+#: ../../../models/system/captcha/types/calculation/controller.php:59
+#: ../../../models/system/captcha/types/calculation/controller.php:79
+#, fuzzy
+msgid "Please solve the equation"
+msgstr "お待ちください…"
+
+#: ../../../models/system/captcha/types/calculation/controller.php:79
+#, fuzzy
+msgid "click the image to see another equation"
+msgstr "Captchaをクリックすると違う文字候補が出てきます。"
+
+#: ../../../single_pages/dashboard/formidable/forms/elements.php:3
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:3
+#: ../../../single_pages/dashboard/formidable/forms/view.php:3
+#, fuzzy
+msgid "Formidable Forms"
+msgstr "Formidableフォームがありません！"
+
+#: ../../../single_pages/dashboard/formidable/forms/elements.php:3
+msgid "List of rows and colums containing elements of this form"
+msgstr ""
+
+#: ../../../single_pages/dashboard/formidable/forms/elements.php:19
+#: ../../../tools/dashboard/forms/element_list.php:53
+msgid "Add row"
+msgstr "行を追加"
+
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:3
+msgid "Mailings"
+msgstr "通知メール"
+
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:3
+#, fuzzy
+msgid "List of mailing for this form"
+msgstr "フォームまたはメール送信が見つかりません！"
+
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:10
+msgid "Create a new mail"
+msgstr "通知メールを追加"
+
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:20
+msgid "Mail from"
+msgstr "送信元"
+
+#: ../../../single_pages/dashboard/formidable/forms/mailings.php:25
+msgid "You didn't create any mails yet."
+msgstr "通知メールを設定してください。"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:3
+#: ../../../tools/dashboard/elements/dialog.php:48
+#: ../../../tools/dashboard/elements/dialog.php:153
+#: ../../../tools/dashboard/elements/dialog.php:195
+#: ../../../tools/dashboard/elements/dialog.php:552
+#: ../../../tools/dashboard/elements/dialog.php:589
+#, fuzzy
+msgid "Properties"
+msgstr "設定"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:3
+msgid "List of Formidable Forms. If the list is empty, please add one."
+msgstr ""
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:26
+#, php-format
+msgid "Back to \"%s\"-page"
+msgstr "\"%s\"へ戻る"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:30
+msgid "Add new"
+msgstr "フォーム追加"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:37
+msgid "Form Title"
+msgstr "タイトル"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:38
+#, fuzzy
+msgid "Last Submission"
+msgstr "お問い合わせありがとうございます（%s）"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:39
+#, fuzzy
+msgid "Submissions"
+msgstr "登録"
+
+#: ../../../single_pages/dashboard/formidable/forms/view.php:52
+#: ../../../single_pages/dashboard/formidable/results.php:16
+msgid "You have not created any forms."
+msgstr "フォームはありません。"
+
+#: ../../../single_pages/dashboard/formidable/results.php:4
+#, fuzzy
+msgid "Search Formidable Results"
+msgstr "検索結果"
+
+#: ../../../single_pages/dashboard/formidable/results.php:4
+#, fuzzy
+msgid "Search the results of Formidable"
+msgstr "検索結果"
+
+#: ../../../tools/dashboard/editor.php:27
+#, fuzzy
+msgid "Save content"
+msgstr "保存"
+
+#: ../../../tools/dashboard/editor.php:28
+#, fuzzy
+msgid "Clear content"
+msgstr "クリア"
+
+#: ../../../tools/dashboard/elements/dialog.php:52
+#, fuzzy
+msgid "On submission"
+msgstr "お問い合わせありがとうございます（%s）"
+
+#: ../../../tools/dashboard/elements/dialog.php:56
+msgid "Dependency"
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:63
+msgid ""
+"Please set the properties of this element. Each element has his own "
+"behaviour and/or values."
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:82
+msgid "Hide label / name"
+msgstr "項目名を非表示"
+
+#: ../../../tools/dashboard/elements/dialog.php:86
+msgid "When enabled, the label of the form element will not be displayed"
+msgstr "項目名は表示されません。"
+
+#: ../../../tools/dashboard/elements/dialog.php:94
+msgid "Confirmation"
+msgstr "再入力項目"
+
+#: ../../../tools/dashboard/elements/dialog.php:98
+msgid "When enabled, duplicates field and compare both values"
+msgstr "入力値の確認のため再度入力を求める項目が表示されます。"
+
+#: ../../../tools/dashboard/elements/dialog.php:106
+#, fuzzy
+msgid "Required"
+msgstr "必須"
+
+#: ../../../tools/dashboard/elements/dialog.php:110
+msgid "When enabled, the submitted value will be required and checked"
+msgstr "必須項目となります。"
+
+#: ../../../tools/dashboard/elements/dialog.php:130
+msgid "Default value"
+msgstr "初期値"
+
+#: ../../../tools/dashboard/elements/dialog.php:134
+#: ../../../tools/dashboard/elements/dialog.php:546
+#, fuzzy
+msgid "User Data"
+msgstr "user attributes, user data, gather data, registration data"
+
+#: ../../../tools/dashboard/elements/dialog.php:134
+#: ../../../tools/dashboard/elements/dialog.php:546
+#, fuzzy
+msgid "Collection Data"
+msgstr "データソース元"
+
+#: ../../../tools/dashboard/elements/dialog.php:151
+#: ../../../tools/dashboard/elements/dialog.php:193
+#: ../../../tools/dashboard/elements/dialog.php:550
+#: ../../../tools/dashboard/elements/dialog.php:587
+#, fuzzy
+msgid "Select"
+msgstr "選択"
+
+#: ../../../tools/dashboard/elements/dialog.php:156
+#, fuzzy
+msgid "User ID"
+msgstr "ユーザーIDが無効です。"
+
+#: ../../../tools/dashboard/elements/dialog.php:157
+#: ../../../tools/dashboard/elements/dialog.php:555
+#, fuzzy
+msgid "Username"
+msgstr "ユーザーID"
+
+#: ../../../tools/dashboard/elements/dialog.php:158
+#: ../../../tools/dashboard/elements/dialog.php:556
+#, fuzzy
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: ../../../tools/dashboard/elements/dialog.php:159
+#: ../../../tools/dashboard/elements/dialog.php:202
+#: ../../../tools/dashboard/elements/dialog.php:558
+#: ../../../tools/dashboard/elements/dialog.php:594
+#, fuzzy
+msgid "Date added"
+msgstr "登録日"
+
+#: ../../../tools/dashboard/elements/dialog.php:171
+#: ../../../tools/dashboard/elements/dialog.php:214
+#: ../../../tools/dashboard/elements/dialog.php:570
+#: ../../../tools/dashboard/elements/dialog.php:606
+#, fuzzy
+msgid "Attributes"
+msgstr "属性"
+
+#: ../../../tools/dashboard/elements/dialog.php:198
+#, fuzzy
+msgid "Collection ID"
+msgstr "ID"
+
+#: ../../../tools/dashboard/elements/dialog.php:200
+#: ../../../tools/dashboard/elements/dialog.php:593
+#, fuzzy
+msgid "Handle"
+msgstr "ハンドル"
+
+#: ../../../tools/dashboard/elements/dialog.php:201
+#, fuzzy
+msgid "Page Type (ID)"
+msgstr "無効な認証タイプIDです"
+
+#: ../../../tools/dashboard/elements/dialog.php:279
+msgid "Element options"
+msgstr "選択肢"
+
+#: ../../../tools/dashboard/elements/dialog.php:310
+msgid "When enabled, user can add a new option."
+msgstr "ユーザーが選択肢を追加できます。"
+
+#: ../../../tools/dashboard/elements/dialog.php:319
+msgid "Multiple options"
+msgstr "複数選択"
+
+#: ../../../tools/dashboard/elements/dialog.php:323
+msgid "When enabled, multiple options can be selected"
+msgstr "複数の選択肢が選択できます。"
+
+#: ../../../tools/dashboard/elements/dialog.php:331
+#: ../../../tools/dashboard/elements/dialog.php:335
+msgid "Minimum"
+msgstr "最小値"
+
+#: ../../../tools/dashboard/elements/dialog.php:331
+#: ../../../tools/dashboard/elements/dialog.php:336
+msgid "Maximum"
+msgstr "最大値"
+
+#: ../../../tools/dashboard/elements/dialog.php:345
+msgid "Allowed certain chars"
+msgstr "入力できる文字"
+
+#: ../../../tools/dashboard/elements/dialog.php:354
+#: ../../../tools/dashboard/mailings/dialog.php:187
+msgid "Use CTRL (or option) to deselect or select multiple"
+msgstr ""
+"コントロール（もしくはオプション）ボタンを押しながらクリックすると、複数選択"
+"または解除ができます。"
+
+#: ../../../tools/dashboard/elements/dialog.php:362
+#, fuzzy
+msgid "File handling"
+msgstr "ファイル"
+
+#: ../../../tools/dashboard/elements/dialog.php:365
+msgid "What do you want to happen when files are uploaded?"
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:377
+msgid "Comma seperate each extension"
+msgstr "カンマ区切りで複数の拡張子を設定できます。"
+
+#: ../../../tools/dashboard/elements/dialog.php:400
+#, fuzzy
+msgid "No filesets available"
+msgstr "利用可能"
+
+#: ../../../tools/dashboard/elements/dialog.php:402
+msgid "Assign uploaded file to selected fileset"
+msgstr "添付ファイルを登録するためのファイルセットを設定してください。"
+
+#: ../../../tools/dashboard/elements/dialog.php:410
+msgid "Enable masking"
+msgstr "入力形式"
+
+#: ../../../tools/dashboard/elements/dialog.php:472
+msgid "Tooltip / Description"
+msgstr "補足"
+
+#: ../../../tools/dashboard/elements/dialog.php:490
+#: ../../../tools/dashboard/layouts/dialog.php:63
+msgid "Add classname(s) to customize your form field. Example: myformelement"
+msgstr ""
+"フォームをカスタマイズするためのCSS クラス名を追加してください。例）"
+"myformelement"
+
+#: ../../../tools/dashboard/elements/dialog.php:507
+msgid ""
+"If you want you can use dependencies for this element. This means the "
+"behaviour or the value can be influenced with the behaviour or value of "
+"another element"
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:518
+#, fuzzy
+msgid "Add dependency rule"
+msgstr "水平線"
+
+#: ../../../tools/dashboard/elements/dialog.php:521
+#, fuzzy
+msgid "Note:"
+msgstr "(注意：セットの中にあるファイルは削除されません)"
+
+#: ../../../tools/dashboard/elements/dialog.php:521
+msgid ""
+"You have to save the element first before you can add dependencies to this "
+"element."
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:534
+#, fuzzy
+msgid "Warning:"
+msgstr "警告！"
+
+#: ../../../tools/dashboard/elements/dialog.php:534
+msgid ""
+"This element can overwrite certain values within you Concrete5 installation. "
+"There will be no validation here, so if you overwrite the users username it "
+"will try to save that value. This means it could break your site! Please be "
+"aware of this!!!"
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:538
+#, fuzzy
+msgid "Beta:"
+msgstr "コンポーザー Beta"
+
+#: ../../../tools/dashboard/elements/dialog.php:538
+msgid "Having problems? Please send a support ticket through Concrete5."
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:542
+#, fuzzy
+msgid "Update at submission"
+msgstr "お問い合わせありがとうございます（%s）"
+
+#: ../../../tools/dashboard/elements/dialog.php:557
+#, fuzzy
+msgid "Password"
+msgstr "パスワード"
+
+#: ../../../tools/dashboard/elements/dialog.php:626
+msgid "Skip if empty"
+msgstr ""
+
+#: ../../../tools/dashboard/elements/dialog.php:630
+msgid ""
+"If the value of this element is empty, skip saving the data into the "
+"selected propertie or attribute"
+msgstr ""
+
+#: ../../../tools/dashboard/elements/tools.php:12
+#, fuzzy, php-format
+msgid "Error: \"%s\" can't be added or updated"
+msgstr "新しいフィールド<b>%s</b>が追加されました。"
+
+#: ../../../tools/dashboard/elements/tools.php:15
+#, php-format
+msgid "Field \"%s\" is succesfully added or updated"
+msgstr "新しいフィールド<b>%s</b>が追加されました。"
+
+#: ../../../tools/dashboard/elements/tools.php:21
+#, fuzzy
+msgid "Error: Field can't be deleted"
+msgstr "フィールドを削除しました。"
+
+#: ../../../tools/dashboard/elements/tools.php:24
+msgid "Field succesfully deleted"
+msgstr "フィールドを削除しました。"
+
+#: ../../../tools/dashboard/elements/tools.php:30
+#, fuzzy
+msgid "Error: Field can't be duplicated"
+msgstr "フィールドを削除しました。"
+
+#: ../../../tools/dashboard/elements/tools.php:33
+msgid "Field succesfully duplicated"
+msgstr "フィールドを削除しました。"
+
+#: ../../../tools/dashboard/forms/element_list.php:19
+msgid "Empty column"
+msgstr "要素はありません"
+
+#: ../../../tools/dashboard/forms/element_list.php:26
+msgid "Column"
+msgstr "列"
+
+#: ../../../tools/dashboard/forms/element_list.php:29
+msgid "Add element"
+msgstr "要素を追加"
+
+#: ../../../tools/dashboard/forms/element_list.php:42
+msgid "Row"
+msgstr "行"
+
+#: ../../../tools/dashboard/layouts/dialog.php:10
+msgid "Div"
+msgstr ""
+
+#: ../../../tools/dashboard/layouts/dialog.php:11
+msgid "Fieldset (with legend, if label exists)"
+msgstr ""
+
+#: ../../../tools/dashboard/layouts/dialog.php:40
+#, fuzzy
+msgid "Set the properties of the column"
+msgstr "フォームのプロパティーを設定してください。"
+
+#: ../../../tools/dashboard/layouts/dialog.php:69
+msgid "Set the properties of the row"
+msgstr "行を設定してください。"
+
+#: ../../../tools/dashboard/layouts/dialog.php:72
+msgid "Number of columns"
+msgstr "列の数"
+
+#: ../../../tools/dashboard/layouts/dialog.php:76
+msgid "If you want to have less columns, empty them first."
+msgstr "列を減らしたいときは、列を全て削除してから追加してください。"
+
+#: ../../../tools/dashboard/layouts/tools.php:11
+#, fuzzy
+msgid "Error: Layout can't be added or updated"
+msgstr "レイアウトを追加しました。"
+
+#: ../../../tools/dashboard/layouts/tools.php:14
+msgid "Layout is succesfully added or updated"
+msgstr "レイアウトを追加しました。"
+
+#: ../../../tools/dashboard/layouts/tools.php:20
+msgid "Error: Row or column must be empty before deletion"
+msgstr ""
+
+#: ../../../tools/dashboard/layouts/tools.php:23
+msgid "Layout succesfully deleted"
+msgstr "レイアウトを削除しました。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:34
+msgid "Send from"
+msgstr "送信元メールアドレス（From）"
+
+#: ../../../tools/dashboard/mailings/dialog.php:37
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: ../../../tools/dashboard/mailings/dialog.php:48
+msgid ""
+"Set the \"From\"-header of the mail. You can either select a form element or "
+"add a custom one. You can also set the \"Reply-To\"-header of the mail when "
+"you use a custom \"From\"-header. This is for the advanced user."
+msgstr ""
+"送信元メールアドレス（From）をメールアドレス要素、もしくは任意で設定してくだ"
+"さい。\n"
+"任意入力のときは返信先メールアドレス（Reply-To）も設定できます。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:78
+msgid ""
+"You can send a mail to multiple addresses. You can select \"Send to\"-"
+"elements if you have them in your form. You can also add custom Email "
+"Address(es) in the field below."
+msgstr ""
+"複数のメールアドレスに通知メールを送信できます。メールアドレス要素があるとき"
+"は送信先メールアドレス（To）として設定できます。\n"
+"通知先メールアドレスも設定できます。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:88
+msgid "AND/OR"
+msgstr ""
+
+#: ../../../tools/dashboard/mailings/dialog.php:91
+msgid ""
+"Add an \"Email Address\" or a \"Recipient Selector\" element(s) to enable "
+"selection of recipient."
+msgstr ""
+"メールアドレスもしくは\"Recipient Selector\"要素を追加すると選択できるように"
+"なります。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:92
+msgid "You must add custom e-mailaddress now:"
+msgstr "メールアドレス要素を追加してください。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:97
+msgid "E-mail Address(es)"
+msgstr "通知先メールアドレス"
+
+#: ../../../tools/dashboard/mailings/dialog.php:102
+msgid "Comma seperate each e-mailaddress"
+msgstr "カンマ区切りで複数のメールアドレスを設定できます。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:108
+#, fuzzy
+msgid "Send as CC"
+msgstr "送信"
+
+#: ../../../tools/dashboard/mailings/dialog.php:113
+msgid "Use CC instead of BCC (default) for sending mail"
+msgstr ""
+
+#: ../../../tools/dashboard/mailings/dialog.php:124
+msgid ""
+"Define your mail here. Add a subject and a HTML-message. In your message you "
+"can use element values and labels form the form by clicking on \"Insert "
+"Formidable Element\" in the top bar of the editor."
+msgstr ""
+"件名とメッセージを入力してください。メッセージには\"要素を挿入\"をクリックす"
+"ることで要素の値とラベルを指定できます。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:147
+#, fuzzy
+msgid "Discard empty"
+msgstr "破棄"
+
+#: ../../../tools/dashboard/mailings/dialog.php:152
+msgid "If checked empty elements will not be shown in message"
+msgstr ""
+
+#: ../../../tools/dashboard/mailings/dialog.php:159
+#, fuzzy
+msgid "Discard layout"
+msgstr "破棄"
+
+#: ../../../tools/dashboard/mailings/dialog.php:164
+msgid "If checked layout elements will not be shown in message"
+msgstr ""
+
+#: ../../../tools/dashboard/mailings/dialog.php:175
+msgid ""
+"With your mailing you can send attachments. You can add the files from "
+"\"Upload Files\"-elements in your form. You can also add files from the "
+"filemanager."
+msgstr ""
+"通知メールにはファイルを添付できます。フォームの添付ファイル要素で添付された"
+"ファイルを設定できます。ファイルマネージャーに登録されているファイルも設定で"
+"きます。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:190
+msgid "Add an \"Upload Files\"-element to enable selection of attachments."
+msgstr "添付ファイル要素を追加すると選択できるようになります。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:191
+msgid "You can select attachments from the filemanager:"
+msgstr "ファイルマネージャーにあるファイルを添付することもできます。"
+
+#: ../../../tools/dashboard/mailings/dialog.php:198
+msgid "From Filemanager"
+msgstr "ファイルマネージャー"
+
+#: ../../../tools/dashboard/mailings/dialog.php:212
+msgid ""
+"Be careful with size and extensions, some spamfilters can block your mail."
+msgstr ""
+"添付ファイルのファイルサイズと拡張子にご注意ください。迷惑メールとして扱われ"
+"ることがあります。"
+
+#: ../../../tools/dashboard/mailings/tools.php:12
+#, fuzzy
+msgid "Error: Mailing can't be added or updated"
+msgstr "通知メールを追加しました。"
+
+#: ../../../tools/dashboard/mailings/tools.php:16
+msgid "Mailing is succesfully added or updated"
+msgstr "通知メールを追加しました。"
+
+#: ../../../tools/dashboard/mailings/tools.php:22
+#, fuzzy
+msgid "Error: Mailing can't be deleted"
+msgstr "フォームまたはメール送信が見つかりません！"
+
+#: ../../../tools/dashboard/mailings/tools.php:26
+msgid "Mailing succesfully deleted"
+msgstr "通知メールを削除しました。"
+
+#: ../../../tools/dashboard/mailings/tools.php:37
+#, fuzzy
+msgid "Error: Mailing can't be duplicated"
+msgstr "通知メールをコピーしました。"
+
+#: ../../../tools/dashboard/mailings/tools.php:41
+msgid "Mailing succesfully duplicated"
+msgstr "通知メールをコピーしました。"
+
+#: ../../../tools/dashboard/mailings/tools.php:50
+msgid "Elements"
+msgstr "要素"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:44
+#, fuzzy
+msgid "Choose Headers"
+msgstr "ヘッダーを選択"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:46
+#, fuzzy
+msgid "Standard Properties"
+msgstr "基本プロパティー"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:58
+msgid "Additional Columns"
+msgstr "付加情報"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:68
+msgid "Column Order"
+msgstr "列の順序"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:69
+msgid "Click and drag to change column order."
+msgstr "列の順序を変更するには、クリックしてドラッグしてください。"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:76
+#, fuzzy
+msgid "Sort By"
+msgstr "並び替え"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:85
+msgid "Ascending"
+msgstr "昇順"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:86
+msgid "Descending"
+msgstr "降順"
+
+#: ../../../tools/dashboard/results/customize_search_columns.php:92
+msgid "Reset customized results"
+msgstr "リセット"
+
+#: ../../../tools/dashboard/results/delete_search.php:12
+#, fuzzy
+msgid "Invalid Saved Search"
+msgstr "保存された検索"
+
+#: ../../../tools/dashboard/results/delete_search.php:21
+#, fuzzy
+msgid "Are you sure you want to delete the following search?"
+msgstr "これらのファイルを削除してよろしいですか？"
+
+#: ../../../tools/dashboard/results/delete_search.php:27
+#, fuzzy
+msgid "Delete Search"
+msgstr "削除"
+
+#: ../../../tools/dashboard/results/dialog.php:15
+msgid "There are no results found, the answers are empty or not set"
+msgstr ""
+
+#: ../../../tools/dashboard/results/dialog.php:28
+msgid "Submitted data"
+msgstr "送信内容"
+
+#: ../../../tools/dashboard/results/dialog.php:29
+msgid "Submission details"
+msgstr "送信情報"
+
+#: ../../../tools/dashboard/results/dialog.php:60
+msgid "Submitted on"
+msgstr "送信日時"
+
+#: ../../../tools/dashboard/results/dialog.php:64
+msgid "From page"
+msgstr "フォーム設置ページ"
+
+#: ../../../tools/dashboard/results/dialog.php:70
+#, php-format
+msgid "(Page ID: %s)"
+msgstr "(ページID: %s)"
+
+#: ../../../tools/dashboard/results/dialog.php:72
+#, fuzzy
+msgid "Unknown or deleted page"
+msgstr "(不明)"
+
+#: ../../../tools/dashboard/results/dialog.php:77
+msgid "Submitted by"
+msgstr "ユーザー"
+
+#: ../../../tools/dashboard/results/dialog.php:83
+#, php-format
+msgid "(User ID: %s)"
+msgstr "(ユーザーID: %s)"
+
+#: ../../../tools/dashboard/results/dialog.php:86
+#, fuzzy
+msgid "Unknown or deleted user"
+msgstr "不明なユーザー"
+
+#: ../../../tools/dashboard/results/dialog.php:94
+#, fuzzy
+msgid "Answerset ID (unique)"
+msgstr "ユニーク"
+
+#: ../../../tools/dashboard/results/dialog.php:98
+msgid "Submitters IP"
+msgstr "IPアドレス"
+
+#: ../../../tools/dashboard/results/dialog.php:102
+msgid "Used Browser"
+msgstr "ブラウザー"
+
+#: ../../../tools/dashboard/results/dialog.php:110
+msgid "Screen resolution"
+msgstr "解像度"
+
+#: ../../../tools/dashboard/results/save_search.php:29
+msgid "Enter a name for this saved search."
+msgstr "検索条件名を入力してください。"
+
+#: ../../../tools/dashboard/results/save_search.php:44
+#, fuzzy
+msgid "You must enter a valid name"
+msgstr "正しい名前を入力してください"
+
+#: ../../../tools/dashboard/results/tools.php:13
+#, fuzzy
+msgid "Error: Result can't be deleted"
+msgstr "受信データを削除しました。"
+
+#: ../../../tools/dashboard/results/tools.php:17
+msgid "Result succesfully deleted"
+msgstr "受信データを削除しました。"
+
+#~ msgid "More information about masking: "
+#~ msgstr "マスキングのより詳しい情報について（英語）："
+
+#, fuzzy
+#~ msgid "No errors."
+#~ msgstr ""
+#~ "<b>PHPエラーを防ぐため、必ずこのフィールドをブロックのview.phpから削除して"
+#~ "ください！</b>"
+
+#, fuzzy
+#~ msgid "Invalid file."
+#~ msgstr "ファイル"
+
+#, fuzzy
+#~ msgid "Invalid file extension."
+#~ msgstr "ファイル"
+
+#~ msgid "Province/State"
+#~ msgstr "都道府県"
+
+#~ msgid "Set the properties of the element"
+#~ msgstr "要素の詳細を設定してください。"
+
+#, fuzzy
+#~ msgid "Default (no tag)"
+#~ msgstr "デフォルト言語"
