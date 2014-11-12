@@ -1727,7 +1727,7 @@ msgstr "姓（敬称）名"
 
 #: ../../../models/formidable/element/fullname.php:34
 msgid "firstname lastname"
-msgstr "姓名"
+msgstr "名姓"
 
 #: ../../../models/formidable/element/fullname.php:35
 msgid "prefix lastname"
