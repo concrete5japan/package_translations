@@ -1,0 +1,437 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lerteco User Importer 2.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-25 16:02+0900\n"
+"PO-Revision-Date: 2015-01-15 11:28+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: t;t2;tc\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+msgid "Import Users"
+msgstr "ユーザー一括登録"
+
+#: ../../../controller.php:17
+msgid "Imports users from a file"
+msgstr "﻿ファイルからユーザーをインポートします。"
+
+#: ../../../controller.php:21
+msgid "Lerteco User Importer"
+msgstr "Lertecoユーザーインポーター"
+
+#: ../../../helpers/updates.php:11
+msgid "None"
+msgstr "なし"
+
+#: ../../../helpers/updates.php:12
+msgid "Replace"
+msgstr "置き換え"
+
+#: ../../../helpers/updates.php:13
+msgid "Merge / Add"
+msgstr "マージ / 追加"
+
+#: ../../../mail/user_import_welcome.php:9
+msgid "Welcome to "
+msgstr "ようこそ "
+
+#: ../../../models/importable/field/attr/address.php:34
+msgid "Address country must be two-letter country code"
+msgstr "住所の国は２文字の国コードで指定してください"
+
+#: ../../../models/importable/field/attr/address.php:41
+msgid "Address states in US **should** be two-letter state code"
+msgstr "アメリカの州は２文字の州コードで指定してください"
+
+#: ../../../models/importable/field/attr/address.php:44
+msgid "Address column must have six values separated by |'s"
+msgstr "住所のカラムは | で区切られた６つの値で指定してください"
+
+#: ../../../models/importable/field/attr/image_file.php:27
+msgid "File not readable"
+msgstr "﻿ファイルが読み取り不能"
+
+#: ../../../models/importable/field/attr/image_file.php:29
+msgid "File extension not valid"
+msgstr "無効なファイル拡張子"
+
+#: ../../../models/importable/field/attr/select.php:32
+msgid "Select options not valid"
+msgstr "正しい場所を選択してください"
+
+#: ../../../models/importable/field/avatar.php:29
+msgid "Avatar file not readable"
+msgstr "アバターファイルが読み込めません"
+
+#: ../../../models/importable/field/avatar.php:31
+msgid "Avatar file not a valid image"
+msgstr "アバターファイルが正しい画像ではありません"
+
+#: ../../../models/importable/field/email.php:28
+msgid "Email address not valid"
+msgstr "無効なメールアドレス"
+
+#: ../../../models/importable/field/email.php:30
+msgid "Email address previously added"
+msgstr "すでに追加されたメールアドレス"
+
+#: ../../../models/importable/field/email.php:32
+msgid "Email address already exists"
+msgstr "メールアドレスはすでに存在しています"
+
+#: ../../../models/importable/field/groups.php:36
+msgid "Groups not valid"
+msgstr "無効なグループ"
+
+#: ../../../models/importable/field/memberships.php:68
+msgid "Memberships not valid"
+msgstr "無効なメンバーシップ"
+
+#: ../../../models/importable/field/memberships.php:71
+msgid "Memberships dates not valid"
+msgstr "無効なメンバーシップ日付"
+
+#: ../../../models/importable/field/memberships.php:90
+#, php-format
+msgid "%s Import"
+msgstr "%s インポート"
+
+#: ../../../models/importable/field/password.php:24
+msgid "Password not valid according to rules"
+msgstr "﻿パスワードの規則に従って有効ではありません。"
+
+#: ../../../models/importable/field/username.php:53
+msgid "Username not valid according to rules"
+msgstr "﻿ユーザー名の規則に従って有効ではありません。"
+
+#: ../../../models/importable/field/username.php:55
+msgid "Username previously added"
+msgstr "すでに追加されたユーザー名"
+
+#: ../../../models/importable/field/username.php:57
+msgid "Username already exists"
+msgstr "ユーザー名はすでに存在しています"
+
+#: ../../../models/importable/user.php:106
+msgid "Core Fields"
+msgstr "コアフィールド"
+
+#: ../../../models/importable/user.php:107
+msgid "User Attributes"
+msgstr "ユーザー属性"
+
+#: ../../../models/importable/user.php:110 ../../../single_pages/dashboard/users/limport/updates.php:93
+msgid "Username"
+msgstr "ユーザーID"
+
+#: ../../../models/importable/user.php:111
+msgid "Email"
+msgstr "Email"
+
+#: ../../../models/importable/user.php:112
+msgid "Password"
+msgstr "パスワード"
+
+#: ../../../models/importable/user.php:113
+msgid "Groups"
+msgstr "グループ"
+
+#: ../../../models/importable/user.php:114
+msgid "Avatar"
+msgstr "アバター"
+
+#: ../../../models/importable/user.php:117
+msgid "Memberships"
+msgstr "﻿メンバーシップ"
+
+#: ../../../models/importer.php:81
+msgid "A valid file with a CSV or XML extension was not uploaded"
+msgstr "﻿CSV または XML 拡張子を持つ有効なファイルはアップロードされませんでした。"
+
+#: ../../../models/importer.php:85
+msgid "At least one field is required"
+msgstr "少なくともひとつのフィールドは必須です"
+
+#: ../../../models/importer.php:102
+#, php-format
+msgid "Datasource type %s is not valid"
+msgstr "無効なデータソースタイプ %s"
+
+#: ../../../models/importer/user.php:95
+msgid "Duplicate detected -- updating user"
+msgstr "﻿重複が検出されました--ユーザーの更新"
+
+#: ../../../models/importer/user.php:146
+msgid "User created"
+msgstr "ユーザーを作成しました"
+
+#: ../../../models/importer/user.php:180
+msgid "Welcome Email Sent"
+msgstr "ようこそメールを送信済"
+
+#: ../../../models/record/collection/db.php:21
+#, php-format
+msgid "%s not found in database"
+msgstr "%s がデータベースに見つかりません"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:12
+msgid "Import Users - Complete"
+msgstr "ユーザー一括登録 - 完了"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:12
+msgid "Import Users - Preview"
+msgstr "ユーザー一括登録 - プレビュー"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:15
+msgid "Force Import"
+msgstr "強制インポート"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:15
+msgid "Import"
+msgstr "インポート"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:58
+#: ../../../single_pages/dashboard/users/limport/mapping.php:165
+#: ../../../single_pages/dashboard/users/limport/updates.php:152
+msgid "Patience..."
+msgstr "お待ちください..."
+
+#: ../../../single_pages/dashboard/users/limport/import.php:67
+msgid "Your file was imported."
+msgstr "﻿あなたのファイルがインポートされました。"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:70
+#: ../../../single_pages/dashboard/users/limport/import.php:87
+msgid "Total Rows"
+msgstr "行の総数"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:71
+#: ../../../single_pages/dashboard/users/limport/import.php:88
+msgid "Invalid Rows"
+msgstr "無効な行"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:71
+msgid "were not imported at all"
+msgstr "はすべてインポートされませんでした"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:72
+#: ../../../single_pages/dashboard/users/limport/import.php:89
+msgid "Successful Rows"
+msgstr "成功した行"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:72
+msgid "were imported, but attributes may not necessarily be imported correctly"
+msgstr "はインポートされましたが、属性は正しくインポートされていないようです"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:73
+#: ../../../single_pages/dashboard/users/limport/import.php:90
+msgid "Value Errors"
+msgstr "値のエラー"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:73
+msgid "such as group names or address fields -- did not prevent rest of row from being imported"
+msgstr "グループ名や住所フィールド -- 残りの行のインポートの停止はしていません"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:76
+#, php-format
+msgid "Imported users in %1$2.2d:%2$02.2d (%3$03.3f seconds per record)"
+msgstr "ユーザーインポート完了 %1$2.2d:%2$02.2d (%3$03.3f 秒／レコード)"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:78
+msgid "Import Log"
+msgstr "インポートログ"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:81
+msgid "Please review the errors below. You can choose to correct the errors or continue the import."
+msgstr "次のエラーを確認してください。エラーを解消するとインポートを継続できます。"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:85
+msgid "Your file was <strong>NOT</strong> imported."
+msgstr "ファイルがインポート<strong>されませんでした</strong>。"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:92
+#, php-format
+msgid "Evaluated import in %1$2.2d:%2$02.2d (%3$03.3f seconds per record). Your file should take about %4$s."
+msgstr "インポートが実行されました %1$2.2d:%2$02.2d (%3$03.3f 秒／レコード)。処理にかかった時間：%4$s"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:94
+msgid "Validation Log"
+msgstr "バリデーションログ"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:101
+msgid "Row #"
+msgstr "行 #"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:102
+msgid "Field"
+msgstr "フィールド"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:103
+msgid "Error"
+msgstr "エラー"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:104
+msgid "Value"
+msgstr "値"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:119
+msgid "No errors"
+msgstr "エラーなし"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:124
+msgid "We're importing the user file and this can take a long time."
+msgstr "ユーザーファイルをインポートしています。この処理には時間がかかります。"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:125
+#: ../../../single_pages/dashboard/users/limport/mapping.php:211
+#: ../../../single_pages/dashboard/users/limport/updates.php:124
+#, php-format
+msgid "Your file should take approximately %1$s."
+msgstr "処理にかかる時間：約 %1$s"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:127
+#: ../../../single_pages/dashboard/users/limport/mapping.php:213
+#: ../../../single_pages/dashboard/users/limport/updates.php:126
+msgid "You should grab a coffee..."
+msgstr "コーヒーでも飲んでお待ちください…"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:135
+msgid "Reupload File"
+msgstr "ファイルを再アップロード"
+
+#: ../../../single_pages/dashboard/users/limport/import.php:136
+msgid "Edit Mapping"
+msgstr "マッピングを編集"
+
+#: ../../../single_pages/dashboard/users/limport/mapping.php:171
+msgid "Import Users - Column Mapping"
+msgstr "ユーザー一括登録 - カラムマッピング"
+
+#: ../../../single_pages/dashboard/users/limport/mapping.php:171
+msgid "Map CSV Columns to concrete5 fields"
+msgstr "CSVカラムをconcrete5のフィールドにマッピング"
+
+#: ../../../single_pages/dashboard/users/limport/mapping.php:200
+msgid "CSV Columns"
+msgstr "CSVカラム"
+
+#: ../../../single_pages/dashboard/users/limport/mapping.php:210
+#: ../../../single_pages/dashboard/users/limport/updates.php:123
+msgid "We're evaluating the user import file; this can take a while."
+msgstr "ユーザーインポートファイルの処理中です。この処理には時間がかかります。"
+
+#: ../../../single_pages/dashboard/users/limport/mapping.php:222
+msgid "Configure Updates"
+msgstr "アップデートを設定"
+
+#: ../../../single_pages/dashboard/users/limport/mapping.php:222
+#: ../../../single_pages/dashboard/users/limport/updates.php:132
+msgid "Preview Import"
+msgstr "インポートをプレビュー"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:79
+msgid "Import Users - Duplicate Configuration"
+msgstr "ユーザー一括登録 - 設定を複製"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:79
+msgid "Configure how to handle duplicate records"
+msgstr "重複レコードの処理を指定"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:84
+msgid "Key Field"
+msgstr "キーフィールド"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:85
+msgid "How are duplicate users determined?"
+msgstr "重複ユーザーをどのように処理しますか？"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:87
+msgid "Don't detect duplicates"
+msgstr "重複を確認しない"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:90
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:99
+msgid "Actions"
+msgstr "操作"
+
+#: ../../../single_pages/dashboard/users/limport/updates.php:100
+msgid "For users being updated, how will each attribute be handled?"
+msgstr "ユーザーが更新された場合、属性はどのように処理しますか？"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:32
+msgid "Import Users - Upload"
+msgstr "ユーザー一括登録 - アップロード"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:32
+msgid "Upload CSV file"
+msgstr "CSVファイルをアップロード"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:38
+msgid "Some errors were encountered:"
+msgstr "﻿いくつかのエラーが発生しました："
+
+#: ../../../single_pages/dashboard/users/limport/view.php:49
+#, php-format
+msgid ""
+"Note that the execution time limit cannot be set! This will cause large imports to be stopped after %1$s seconds. "
+"Talk to your host."
+msgstr ""
+"実行時間制限の変更ができません。このため、%1$s秒以降に大きなインポートは停止します。ホスティング担当と相談してくださ"
+"い。"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:58
+msgid "Send welcome email to new users"
+msgstr "ウェルカムメールを新規ユーザーに送る"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:62
+msgid ""
+"Upload a CSV (comma separated values) file with rows of users and columns of values and attributes (including "
+"username, password, and custom site user attributes)."
+msgstr ""
+"CSVファイルをアップロードししてください。各行にユーザーを、各列に値と属性（ユーザーID、パスワード、カスタムユーザー属"
+"性）を登録してください"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:65
+msgid ""
+"Attributes of type \"address\" should be formatted in a single cell like: \"address line 1|address line 2|city|state "
+"or province|country code|postal code\"."
+msgstr ""
+"属性タイプ \"address\" はひとつのセルに次のフォーマットで入力してください： \"番地|建物|市区町村|都道府県|国コード|郵"
+"便番号\"."
+
+#: ../../../single_pages/dashboard/users/limport/view.php:66
+msgid "Group names should be separated by |s, such as \"Administrators|Other Group\""
+msgstr "グループ名は | で区切ってください。例：\"Administrators|Other Group\""
+
+#: ../../../single_pages/dashboard/users/limport/view.php:67
+msgid "Checkbox (boolean) attributes should be \"yes\" for checked, or no value (\"\") for unchecked"
+msgstr ""
+"チェックボックス（真偽値）属性は \"yes\" でチェックが入った状態、値なし（\"\"）でチェックが外れた状態になります"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:69
+msgid ""
+"<strong>Are you importing memberships?</strong> Remember that, unless disabled in its configuration, the membership "
+"addon will send receipt emails to each user."
+msgstr ""
+"<strong>メンバーシップをインポートしますか？</strong>ここで設定を無効にしていても、メンバーシップアドオンが各ユーザー"
+"にメールを送信する場合があります。"
+
+#: ../../../single_pages/dashboard/users/limport/view.php:72
+msgid "Upload"
+msgstr "﻿アップロード"
+
+# Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
+#~ msgid "Access Denied."
+#~ msgstr "アクセス拒否"

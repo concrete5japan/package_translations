@@ -1,0 +1,1459 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Mailing List 2.54\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-12-25 18:08+0900\n"
+"PO-Revision-Date: 2015-01-15 20:18+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: t;t2;tc\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+# Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
+#: ../../../blocks/tony_mailing_list/add.php:2 ../../../blocks/tony_mailing_list/controller.php:3
+#: ../../../blocks/tony_mailing_list/edit.php:2 ../../../blocks/tony_mailing_list/form_setup_html.php:2
+#: ../../../blocks/tony_mailing_list/view.php:2 ../../../controller.php:3
+#: ../../../controllers/dashboard/mailing_list/controller.php:3
+#: ../../../controllers/dashboard/mailing_list/mailings.php:3
+#: ../../../controllers/dashboard/mailing_list/responder.php:3 ../../../controllers/dashboard/mailing_list/send.php:3
+#: ../../../controllers/dashboard/mailing_list/settings.php:3
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:3 ../../../controllers/manage_subscriptions.php:3
+#: ../../../models/tony_mailing_list_mailing.php:3 ../../../models/tony_mailing_list_stats.php:3
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:2
+#: ../../../single_pages/dashboard/mailing_list/responder.php:2
+#: ../../../single_pages/dashboard/mailing_list/send.php:2 ../../../single_pages/dashboard/mailing_list/settings.php:2
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:2 ../../../single_pages/manage_subscriptions.php:2
+msgid "Access Denied."
+msgstr "アクセス拒否"
+
+#: ../../../blocks/tony_mailing_list/add.php:4 ../../../controller.php:47 ../../../controller.php:89
+#: ../../../controller.php:144
+msgid "Mailing List"
+msgstr "メールマガジン"
+
+#: ../../../blocks/tony_mailing_list/add.php:13
+msgid "Join Mailing List"
+msgstr "メールマガジンを購読"
+
+#: ../../../blocks/tony_mailing_list/add.php:14
+msgid "Subscribe to be updated on announcements, news, and info."
+msgstr "﻿お知らせ、ニュース、インフォメーションを購読します。"
+
+#: ../../../blocks/tony_mailing_list/add.php:15
+msgid "Thanks for subscribing!"
+msgstr "購読ありがとうございます！"
+
+#: ../../../blocks/tony_mailing_list/controller.php:23
+msgid "Allow people to subscribe/unsubscribe from mailing list"
+msgstr "メールマガジンの購読／解除を許可する"
+
+#: ../../../blocks/tony_mailing_list/controller.php:27
+msgid "Mailing Subscriptions"
+msgstr "メール購読"
+
+#: ../../../blocks/tony_mailing_list/controller.php:134
+msgid "Please login to subscribe"
+msgstr "購読するにはログインしてください"
+
+#: ../../../blocks/tony_mailing_list/controller.php:137
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:344 ../../../models/tony_mailing_list.php:585
+msgid "Invalid email address"
+msgstr "無効なメールアドレス"
+
+#: ../../../blocks/tony_mailing_list/controller.php:140
+msgid "Please complete all required fields."
+msgstr "必須欄にすべて記入してください。"
+
+#: ../../../blocks/tony_mailing_list/controller.php:177 ../../../blocks/tony_mailing_list/form_setup_html.php:92
+#: ../../../blocks/tony_mailing_list/view.php:101 ../../../controllers/manage_subscriptions.php:64
+#: ../../../controllers/manage_subscriptions.php:103 ../../../controllers/manage_subscriptions.php:191
+#: ../../../models/tony_mailing_list.php:95 ../../../single_pages/dashboard/mailing_list/settings.php:120
+#: ../../../single_pages/manage_subscriptions.php:107
+msgid "Administrators"
+msgstr "管理者"
+
+#: ../../../blocks/tony_mailing_list/controller.php:230
+msgid "Oops, no groups were selected."
+msgstr "グループが選択されていません。"
+
+#: ../../../blocks/tony_mailing_list/controller.php:241
+msgid "Invalid email address set for the global variable MAILING_LIST_SUBSCRIPTIONS_EMAIL: "
+msgstr "無効なメールアドレスがグローバル変数 MAILING_LIST_SUBSCRIPTIONS_EMAIL に設定されています:"
+
+#: ../../../blocks/tony_mailing_list/controller.php:250
+msgid "To subscribe to the groups \""
+msgstr "グループの購読方法"
+
+#: ../../../blocks/tony_mailing_list/controller.php:251 ../../../blocks/tony_mailing_list/controller.php:272
+msgid "visit the link:"
+msgstr "リンクに訪問："
+
+#: ../../../blocks/tony_mailing_list/controller.php:256
+msgid "Subscribe to mailing list"
+msgstr "メールマガジンを購読"
+
+#: ../../../blocks/tony_mailing_list/controller.php:271
+msgid "To unsubscribe from the groups \""
+msgstr "グループの購読解除方法"
+
+#: ../../../blocks/tony_mailing_list/controller.php:277
+msgid "Unsubscribe from mailing list"
+msgstr "メールマガジンの購読を解除"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:27 ../../../controller.php:116
+msgid "Settings"
+msgstr "設定"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:28
+msgid "User Attributes"
+msgstr "ユーザー属性"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:35
+msgid "Title"
+msgstr "タイトル"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:38
+msgid "Default"
+msgstr "デフォルト"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:39
+msgid "Bold"
+msgstr "太字"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:40
+msgid "H1"
+msgstr "H1"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:41
+msgid "H2"
+msgstr "H2"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:42
+msgid "H3"
+msgstr "H3"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:43
+msgid "H4"
+msgstr "H4"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:44
+msgid "H5"
+msgstr "H5"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:50
+msgid "Signup Text"
+msgstr "登録テキスト"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:56
+msgid "Successful Subscription Message"
+msgstr "登録成功メッセージ"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:64
+msgid "Choose Mailing List Group(s)"
+msgstr "メールマガジングループを選択"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:105
+msgid "No groups are enabled."
+msgstr "グループが有効化されていません。"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:109
+#, php-format
+msgid ""
+"These are the group(s) the user will enter/exit when subscribing/unsubscribing. Add more through the %sMailing List "
+"Settings%s page."
+msgstr ""
+"これらはユーザーが購読／解除する際に入る／出るグループです。追加するには %sメールマガジン設定%sから行なってください。"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:113
+msgid "Show mailing list group checkboxes"
+msgstr "メールマガジングループチェックボックスを表示"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:121
+msgid "Let Unregistered Users Subscribe"
+msgstr "未登録ユーザーに購読させる"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:123
+msgid "Yes"
+msgstr "はい"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:127
+msgid "Require email validation check for unregistered users"
+msgstr "未登録のユーザーにメールアドレスの確認を必須にする"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:137
+msgid "Do you want to collect any of these attributes from subscribers?"
+msgstr "購読者からこれらの属性の情報を収集しますか？"
+
+#: ../../../blocks/tony_mailing_list/form_setup_html.php:150
+msgid "Make attributes required fields"
+msgstr "属性を必須フィールドにする"
+
+#: ../../../blocks/tony_mailing_list/view.php:37
+msgid "To unsubscribe from the mailing lists you left unchecked, please check your email inbox."
+msgstr "購読解除を完了させるには、メール受信箱を確認してください。"
+
+#: ../../../blocks/tony_mailing_list/view.php:43
+msgid "To confirm your email address, please check your email inbox, and click the link you have been sent"
+msgstr "メールアドレスの確認を完了するには、メールの受信箱を確認し、メールのリンクをクリックしてください。"
+
+#: ../../../blocks/tony_mailing_list/view.php:52
+#, php-format
+msgid "Please <a href=\"%s\">login</a> first to subscribe"
+msgstr "購読するには<a href=\"%s\">ログイン</a>してください"
+
+#: ../../../blocks/tony_mailing_list/view.php:82
+msgid "Email:"
+msgstr "Email:"
+
+#: ../../../blocks/tony_mailing_list/view.php:82 ../../../blocks/tony_mailing_list/view.php:121
+#: ../../../blocks/tony_mailing_list/view.php:137
+msgid "*"
+msgstr "*"
+
+#: ../../../blocks/tony_mailing_list/view.php:133
+msgid "Sign-up &raquo;"
+msgstr "サインアップ &raquo;"
+
+#: ../../../blocks/tony_mailing_list/view.php:137
+msgid "Required Fields"
+msgstr "必須フィールド"
+
+#: ../../../controller.php:43
+msgid "Send mail to people in any group, and manage subscriptions"
+msgstr "グループのユーザーにメールを送信し、購読を管理します"
+
+#: ../../../controller.php:75
+msgid "Manage Subscriptions"
+msgstr "購読管理"
+
+#: ../../../controller.php:75
+msgid "Unsubscribe from mailing list groups"
+msgstr "メールマガジングループの登録を解除"
+
+#: ../../../controller.php:80
+msgid "Error: /manage_subscriptions page not created"
+msgstr "エラー: /manage_subscriptions ページが作成されていません"
+
+#: ../../../controller.php:89
+msgid "Send emails to groups & manage mailings"
+msgstr "グループにメールを送信＆購読を管理"
+
+#: ../../../controller.php:90
+msgid "Error: /dashboard/mailing_list page not created"
+msgstr "エラー: /dashboard/mailing_list ページが作成されていません"
+
+#: ../../../controller.php:98
+msgid "Create"
+msgstr "作成"
+
+#: ../../../controller.php:98
+msgid "Create & edit mailings"
+msgstr "メールマガジンを作成＆編集"
+
+#: ../../../controller.php:99
+msgid "Error: /dashboard/mailing_list/send page not created"
+msgstr "エラー: /dashboard/mailing_list/send ページが作成されていません"
+
+#: ../../../controller.php:107
+msgid "Mailings"
+msgstr "メールマガジン"
+
+#: ../../../controller.php:107
+msgid "View sent emails"
+msgstr "送信済みメールを見る"
+
+#: ../../../controller.php:108
+msgid "Error: /dashboard/mailing_list/mailings page not created"
+msgstr "エラー: /dashboard/mailing_list/mailings ページが作成されていません"
+
+#: ../../../controller.php:116
+msgid "Configure the mailings list and subscriptions"
+msgstr "メールマガジンと購読の設定"
+
+#: ../../../controller.php:117
+msgid "Error: /dashboard/mailing_list/settings page not created"
+msgstr "エラー: /dashboard/mailing_list/settings ページが作成されていません"
+
+#: ../../../controller.php:125 ../../../single_pages/dashboard/mailing_list/subscribers.php:45
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:47
+msgid "Manage Subscribers"
+msgstr "購読者管理"
+
+#: ../../../controller.php:125
+msgid "Manager users"
+msgstr "ユーザー管理"
+
+#: ../../../controller.php:126
+msgid "Error: /dashboard/mailing_list/subscribers page not created"
+msgstr "エラー: /dashboard/mailing_list/subscribers ページが作成されていません"
+
+#: ../../../controller.php:134
+msgid "Subcriptions Auto-Response"
+msgstr "登録に自動返信"
+
+#: ../../../controller.php:134
+msgid "Send new users a welcome email"
+msgstr "新規ユーザーにウェルカムメールを送信"
+
+#: ../../../controller.php:135
+msgid "Error: /dashboard/mailing_list/responder page not created"
+msgstr "エラー: /dashboard/mailing_list/responder ページが作成されていません"
+
+#: ../../../controller.php:147 ../../../controller.php:152 ../../../controller.php:157 ../../../controller.php:162
+msgid "Mailing List Group"
+msgstr "メールマガジングループ"
+
+#: ../../../controller.php:149
+msgid "Newsletter"
+msgstr "ニュースレター"
+
+#: ../../../controller.php:154
+msgid "Specials & Promotions"
+msgstr "特集＆プロモーション"
+
+#: ../../../controller.php:159
+msgid "Updates"
+msgstr "アップデート"
+
+#: ../../../controller.php:170
+msgid "Never send mailing list emails"
+msgstr "メールマガジンのメールを送信しない"
+
+#: ../../../controller.php:176
+msgid "Opt-Out of Group Mailings"
+msgstr "グループメール送信のオプトアウト設定"
+
+#: ../../../controller.php:182
+msgid "Last Mailing List Unsubscription Date"
+msgstr "最終メールマガジン購読解除日"
+
+#: ../../../controller.php:189
+msgid "Mailing List Unsubscribe Info"
+msgstr "メールマガジン購読解除情報"
+
+#: ../../../controller.php:229
+msgid "Thanks for subscribing to "
+msgstr "登録ありがとうございます"
+
+#: ../../../controllers/dashboard/mailing_list/mailings.php:32
+#: ../../../controllers/dashboard/mailing_list/mailings.php:50
+msgid "A mailing with that id was not found"
+msgstr "そのIDのメールマガジンが見つかりません"
+
+#: ../../../controllers/dashboard/mailing_list/mailings.php:104
+#: ../../../controllers/dashboard/mailing_list/send.php:52
+msgid ""
+"You don't have permission to edit this mailing. You must either be in the administrators group or be the sender."
+msgstr "このメールマガジンを編集する権限がありません。管理者グループか、送信者グループに属している必要があります。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:43
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:203
+msgid "Mailing not found."
+msgstr "メールマガジンが見つかりません"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:64
+msgid "Sorry, but you can't edit mailings that are no longer pending and are not drafts."
+msgstr "すみませんが、メールマガジンを編集することができません。下書きではありません。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:74
+msgid "No preview for this mailing was found"
+msgstr "メールマガジンのプレビューが見つかりません"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:103
+msgid "You must select at least one group, or select the \"Registered Users\" option"
+msgstr "少なくともひとつのグループを選択するか、「登録済みユーザー」オプションを選択してください"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:110 ../../../controllers/dashboard/mailing_list/send.php:238
+#: ../../../controllers/dashboard/mailing_list/send.php:390
+msgid "Invalid Recipient Setting"
+msgstr "無効な受け取り設定"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:122
+msgid "Please specify who this mailing is from"
+msgstr "このメールマガジンに送り主を指定してください"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:125
+msgid "Invalid sender email address"
+msgstr "無効な送信者メールアドレス"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:143
+msgid "You must include a subject"
+msgstr "件名を指定してください"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:148
+msgid "You must include some body text"
+msgstr "本文を入力してください"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:152
+msgid "A mailing with same subject and body has already been created!"
+msgstr "同じタイトルと本文のメールマガジンがすでに送信されています！"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:229 ../../../controllers/dashboard/mailing_list/send.php:382
+msgid "You must select at least one group"
+msgstr "少なくとも1つのグループを選択してください"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:235
+msgid "Mailings to all users is currently disabled."
+msgstr "全てのユーザーへのメール配信は現在無効になっています。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:245
+msgid "No users found."
+msgstr "ユーザーが見つかりません。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:343 ../../../controllers/dashboard/mailing_list/send.php:436
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:435
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:264
+msgid "Email"
+msgstr "Email"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:343
+msgid "User ID"
+msgstr "ユーザーID"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:343
+msgid "Unregistered User ID"
+msgstr "未登録のユーザーID"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:411
+msgid "Close Window [X]"
+msgstr "ウィンドウを閉じる [X]"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:411
+msgid "Changes Saved!"
+msgstr "変更を保存しました！"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:414
+msgid ""
+"To insert user attributes (first name, last name, etc) into your mailings, type the attribute handle between two "
+"percentage signs (shown below) into the body of your mailing. "
+msgstr ""
+"ユーザー属性（氏名など）をメールマガジンに挿入するには、本文中に属性ハンドルを下記のように２つの%記号で囲んで入力して"
+"ください。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:415
+msgid "You can also enter default values to use if there is no value for a particular user. "
+msgstr "ユーザーに値が存在しない場合に使われるデフォルト値を指定することもできます。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:416
+#, php-format
+msgid "To add new user attributes, visit the %susers section%s of the dashboard."
+msgstr "新しいユーザー属性を追加するには、管理画面の%sユーザーセクション%sにアクセスしてください。"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:443
+msgid "User Name"
+msgstr "ユーザー名"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:450
+msgid "Date Stamp"
+msgstr "日時"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:462
+msgid "Save"
+msgstr "保存"
+
+#: ../../../controllers/dashboard/mailing_list/send.php:463
+msgid "Close"
+msgstr "閉じる"
+
+#: ../../../controllers/dashboard/mailing_list/settings.php:53
+msgid "The max execution time must be larger than the pause time."
+msgstr "最大実行時間は、ポーズ時間よりも大きい必要があります。"
+
+#: ../../../controllers/dashboard/mailing_list/settings.php:57
+msgid "Invalid bounce-back email address"
+msgstr "無効な返答メールアドレス"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:106
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:331
+msgid "You must agree that you're not using this for spam."
+msgstr "スパム目的で使用しないことに同意する必要があります。"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:109
+msgid "Error: Each of your columns must be unique or ignored."
+msgstr "エラー: 列のそれぞれは一意であるか、または無視する必要があります。"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:112
+msgid "Please select a group"
+msgstr "グループを選択してください"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:115
+msgid "Error: File not found. Please try again"
+msgstr "エラー: ファイルが見つかりません。もう一度やりなおしてください"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:187
+msgid "Error: Your file must be in .csv format."
+msgstr "﻿エラー: ファイルは .csv 形式である必要があります。"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:327
+msgid "Are you subscribing or unsubscribing this user?"
+msgstr "このユーザーを登録または解除しますか？"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:342
+msgid "Invalid mailing list group"
+msgstr "無効なメールマガジングループ"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:410
+msgid "Subscriber not found"
+msgstr "購読者が見つかりません"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:437
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:357
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:466
+msgid "Created"
+msgstr "作成"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:437
+msgid "F j, Y, g:i a T"
+msgstr "Y年n月j日 g:i A"
+
+#: ../../../controllers/dashboard/mailing_list/subscribers.php:441
+msgid "Groups"
+msgstr "グループ"
+
+#: ../../../models/tony_mailing_list.php:407 ../../../models/tony_mailing_list_mailing.php:656
+msgid "You may unsubscribe from this mailing list by visiting this link:\r\n"
+msgstr "このリンクからこのメールマガジンから退会できます: \r\n"
+
+#: ../../../models/tony_mailing_list.php:408 ../../../models/tony_mailing_list_mailing.php:657
+#, php-format
+msgid "You may %sunsubscribe%s from this mailing list at any time.\r\n"
+msgstr "このメールマガジンからは、いつでも%s退会%sできます。\r\n"
+
+#: ../../../models/tony_mailing_list.php:459 ../../../models/tony_mailing_list_mailing.php:748
+msgid "EMAILS ARE ENABLED. THIS EMAIL WAS SENT TO mail()"
+msgstr "メール機能は有効。このメールはmail()もしくはmb_send_mail()に送られました。"
+
+#: ../../../models/tony_mailing_list.php:461 ../../../models/tony_mailing_list_mailing.php:750
+msgid "EMAILS ARE DISABLED. THIS EMAIL WAS LOGGED BUT NOT SENT"
+msgstr "メール機能は無効。このメールはログに記録されましたが、送信されませんでした"
+
+#: ../../../models/tony_mailing_list.php:463 ../../../models/tony_mailing_list.php:484
+#: ../../../models/tony_mailing_list_mailing.php:718 ../../../models/tony_mailing_list_mailing.php:752
+msgid "Template Used"
+msgstr "使用テンプレート"
+
+#: ../../../models/tony_mailing_list.php:464 ../../../models/tony_mailing_list.php:485
+#: ../../../models/tony_mailing_list_mailing.php:719 ../../../models/tony_mailing_list_mailing.php:753
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:328
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:462
+msgid "To"
+msgstr "宛先"
+
+#: ../../../models/tony_mailing_list.php:465 ../../../models/tony_mailing_list.php:486
+#: ../../../models/tony_mailing_list_mailing.php:720 ../../../models/tony_mailing_list_mailing.php:754
+msgid "From"
+msgstr "From"
+
+#: ../../../models/tony_mailing_list.php:466 ../../../models/tony_mailing_list.php:488
+#: ../../../models/tony_mailing_list_mailing.php:722 ../../../models/tony_mailing_list_mailing.php:755
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:369
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:461
+msgid "Subject"
+msgstr "件名"
+
+#: ../../../models/tony_mailing_list.php:467 ../../../models/tony_mailing_list.php:489
+#: ../../../models/tony_mailing_list_mailing.php:723 ../../../models/tony_mailing_list_mailing.php:756
+msgid "Body"
+msgstr "本文"
+
+#: ../../../models/tony_mailing_list.php:476 ../../../models/tony_mailing_list_mailing.php:710
+msgid "Unknown php mail() error.  Please try switching your concrete site to use SMTP mail."
+msgstr "不明なphpのmail()のエラーです。concrete5サイトの設定をSMTPメールに切り替えてみてください。"
+
+#: ../../../models/tony_mailing_list.php:480
+msgid "Mail Exception Occurred. Unable to send auto responder mail: "
+msgstr "メール例外が発生しました。自動応答メールが送信できませんでした: "
+
+#: ../../../models/tony_mailing_list.php:593
+msgid "Email already exists"
+msgstr "メールアドレスはすでに存在しています"
+
+#: ../../../models/tony_mailing_list_mailing.php:249
+msgid "Image"
+msgstr "画像"
+
+#: ../../../models/tony_mailing_list_mailing.php:491 ../../../models/tony_mailing_list_mailing.php:545
+msgid "Send process is running"
+msgstr "送信処理の実行中"
+
+#: ../../../models/tony_mailing_list_mailing.php:569
+msgid "Send process ran into max execution time limit."
+msgstr "送信プロセスは、最大実行時間制限の中で実行されます。"
+
+#: ../../../models/tony_mailing_list_mailing.php:653
+msgid "(Unsubscribe disabled when sending to site administrators)"
+msgstr "（サイト管理者によって購読解除は無効化されています）"
+
+#: ../../../models/tony_mailing_list_mailing.php:663
+msgid "You may unsubscribe from future mailings from this site by visiting this link:\r\n"
+msgstr "次のリンクから、このサイトのメールマガジンの登録解除ができます: \r\n"
+
+#: ../../../models/tony_mailing_list_mailing.php:664
+#, php-format
+msgid "You may %sunsubscribe%s from future mailings from this site at any time.\r\n"
+msgstr "このサイトのメールマガジンからは、いつでも%s退会%sできます。\r\n"
+
+#: ../../../models/tony_mailing_list_mailing.php:714
+msgid "Mail Exception Occurred. Unable to send mail: "
+msgstr "エラーが発生し、メール送信ができませんでした: "
+
+#: ../../../models/tony_mailing_list_mailing.php:802
+msgid "Send process crashed. Unknown error."
+msgstr "﻿送信プロセスがクラッシュしました。不明なエラー。"
+
+#: ../../../models/tony_mailing_list_mailing.php:808
+msgid "Invalid mailing-list mailing status code, in TonyMailingListMailing::updateStatus()"
+msgstr "TonyMailingListMailing::updateStatus() 内で無効なメールマガジン送信コードが検出されました"
+
+#: ../../../models/tony_mailing_list_stats.php:58 ../../../models/tony_mailing_list_stats.php:148
+msgid "mailing not found"
+msgstr "メールマガジンが見つかりません"
+
+#: ../../../models/tony_mailing_list_stats.php:141
+msgid "Invalid mailing or user ids"
+msgstr "無効なメールマガジンまたはユーサーIDです"
+
+#: ../../../models/tony_mailing_list_stats.php:158
+msgid "unsubscribed user already tracked"
+msgstr "退会したユーザーはすでに記録済みです"
+
+#: ../../../models/tony_mailing_list_stats.php:161
+msgid "unsubscribed non-registered user already tracked"
+msgstr "退会した未登録ユーザーはすでに記録済みです"
+
+#: ../../../models/tony_mailing_list_stats.php:183
+msgid "user not in mailing"
+msgstr "ユーザーがメールマガジンに見つかりません"
+
+#: ../../../models/tony_mailing_list_stats.php:195
+msgid "unregistered user not in mailing"
+msgstr "未登録のユーザーがメールマガジンに見つかりません"
+
+#: ../../../models/tony_mailing_list_stats.php:204
+msgid "user not found"
+msgstr "ユーザーが見つかりません"
+
+#: ../../../models/tony_mailing_list_stats.php:217
+msgid "Viewed Only"
+msgstr "表示のみ"
+
+#: ../../../models/tony_mailing_list_stats.php:217 ../../../single_pages/dashboard/mailing_list/mailings.php:465
+msgid "Click-Thrus"
+msgstr "クリックスルー"
+
+#: ../../../models/tony_mailing_list_stats.php:217 ../../../single_pages/dashboard/mailing_list/subscribers.php:169
+msgid "Unsubscribed"
+msgstr "登録解除済み"
+
+#: ../../../models/tony_mailing_list_stats.php:217
+msgid "Unopened*"
+msgstr "未開封*"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:80
+msgid "Running"
+msgstr "実行中"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:127
+msgid "Are you sure you want to permanently delete this mailing?"
+msgstr "このメールマガジンを完全に削除してもよろしいですか？"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:183
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:185
+msgid "Review Your Mailings"
+msgstr "メールマガジンをレビュー"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:207
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:426
+msgid "&laquo; View All Mailings"
+msgstr "&laquo; 全てのメールマガジンを見る"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:219
+#, php-format
+msgid "Your mailing was successfully saved, and the send process has been started for %s users."
+msgstr "﻿あなたのメールマガジンが正常に保存され、%s ユーザーの送信プロセスが開始されました。"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:221
+msgid "Your mailing was successfully saved, but the send process has not been started!"
+msgstr "﻿あなたのメールマガジンは正常に保存されましたが、送信プロセスが開始されていません！"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:222
+msgid "Initiate the send process, click the \"Start\" button below"
+msgstr "送信プロセスを開始するには、下の\"スタート\"ボタンをクリック"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:224
+#: ../../../single_pages/dashboard/mailing_list/responder.php:64
+#: ../../../single_pages/dashboard/mailing_list/send.php:104
+#: ../../../single_pages/dashboard/mailing_list/settings.php:77
+msgid "Changes Saved"
+msgstr "変更を保存しました"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:232
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:463
+msgid "Status"
+msgstr "ステータス"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:238
+msgid "Resume &raquo;"
+msgstr "続ける &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:240
+msgid "Start &raquo;"
+msgstr "開始 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:245
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:415
+msgid "Edit"
+msgstr "編集"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:257
+msgid ""
+"Warning: since cURL is not installed on your server the send process may take a very long time if you are sending "
+"thousands of emails."
+msgstr ""
+"警告：cURLがお使いのサーバーにインストールされていないため、数千以上のメールを送ろうとしている場合は、送信プロセスに"
+"非常に時間がかかります。"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:339
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:488
+msgid "Registered users"
+msgstr "登録ユーザー"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:342
+#, php-format
+msgid "(%s recipients, %s sent, %s <a href=\"%s\">failed</a>)"
+msgstr "(%s 受信者, %s 送信済, %s <a href=\"%s\">失敗</a>)"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:349
+msgid "Sender's Email"
+msgstr "送信者のメールアドレス"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:353
+msgid "Sender's Name"
+msgstr "送信者の名前"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:362
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:517
+msgid "M d, Y g:ia"
+msgstr "Y-m-d G:i"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:364
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:519
+msgid "by"
+msgstr "by"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:373
+msgid "HTML Version"
+msgstr "HTMLバージョン"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:379
+msgid "Plain Text Version"
+msgstr "プレーンテキストバージョン"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:393
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:412
+msgid "Use As Template"
+msgstr "テンプレートとして使用する"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:421
+msgid "Delete"
+msgstr "削除"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:433
+msgid ""
+"* Note that the viewed/unopened statistics are estimates, and are intended primarily to be used in making "
+"comparisons between your mailings."
+msgstr "* 閲覧/未開封の統計は目安であり、メール同士で比較を行うのが主な目的であること注意してください。"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:434
+msgid ""
+"This is because some mail clients render in plain text, or require user consent before images are displayed in "
+"mailing."
+msgstr ""
+"これは、一部のメールクライアントがテキスト形式でレンダリングする、またはメール中の画像を表示する前にユーザーの同意が"
+"必要であることが原因です。"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:435
+msgid ""
+"Therefore your mailing's tracking pixel may not fire for every viewed email, and in most cases the percentage of "
+"actual opened emails will be higher."
+msgstr ""
+"そのため、メールのトラッキングピクセルは全ての閲覧されたメールでは作動せず、多くの場合、実際に開封されたメールは数値"
+"より多くなります。"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:445
+msgid "Create New Mailing"
+msgstr "新規メールマガジンを追加"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:454
+msgid "No mailings have yet been created."
+msgstr "メールマガジンがまだ作成されていません。"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:464
+msgid "Opened"
+msgstr "開封済み"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:494
+msgid "Draft"
+msgstr "下書き"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:503
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:510
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:277
+msgid "-"
+msgstr "-"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:530
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:192
+msgid "&laquo; Previous"
+msgstr "&laquo; 前"
+
+#: ../../../single_pages/dashboard/mailing_list/mailings.php:532
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:191
+msgid "Next &raquo;"
+msgstr "次 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:52
+#: ../../../single_pages/dashboard/mailing_list/responder.php:54
+msgid "Subscription Auto-Responder"
+msgstr "購読への自動応答"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:75
+msgid "Send a welcome email to new subscribers"
+msgstr "﻿ウェルカムメールを新規ユーザーに送る"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:82
+#: ../../../single_pages/dashboard/mailing_list/send.php:213
+msgid "Sender's Name (Optional):"
+msgstr "送信者の名前（オプション）:"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:90
+#: ../../../single_pages/dashboard/mailing_list/send.php:231 ../../../single_pages/dashboard/mailing_list/send.php:267
+msgid "Subject:"
+msgstr "件名:"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:98
+msgid "Email Body:"
+msgstr "メール本文:"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:103
+#: ../../../single_pages/dashboard/mailing_list/settings.php:272
+#, php-format
+msgid "Note that you can't use a lot of standard HTML and CSS with HTML emails (%smore info%s)."
+msgstr "HTMLメールでは通常のHTML/CSSの全てが使えないことに注意してください（%s詳細%s）"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:104
+#: ../../../single_pages/dashboard/mailing_list/settings.php:273
+msgid "Make sure you test in multiple email clients before doing a full mailing."
+msgstr "全てのメールを送信する前に、複数のメールクライアントでテストを行ないましょう。"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:111
+#: ../../../single_pages/dashboard/mailing_list/settings.php:242
+msgid "Template:"
+msgstr "テンプレート:"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:113
+msgid "Global"
+msgstr "グローバル"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:114
+msgid "Use the same email template that is defined on your settings page."
+msgstr "﻿あなたの設定ページで定義されている同じ電子メール テンプレートを使用します。"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:117
+msgid "None"
+msgstr "なし"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:118
+msgid "Use only the html entered above."
+msgstr "﻿上記で入力した html のみを使用します。"
+
+#: ../../../single_pages/dashboard/mailing_list/responder.php:133
+#: ../../../single_pages/dashboard/mailing_list/settings.php:285
+msgid "Save Changes &raquo;"
+msgstr "変更を保存 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:60
+msgid "Please select at least one group"
+msgstr "少なくともひとつのグループを選択してください"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:61
+msgid "Are you sure this email is ready to send?"
+msgstr "﻿このメールは送信する準備ができていますか？"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:62
+msgid ""
+"This will only show subscribed registered users, not unregistered subscribers. Use the export feature to see all "
+"subscribers. Continue?"
+msgstr ""
+"﻿購読登録ユーザー、ない未登録の加入者のみ表示されます。エクスポート機能を使用して、すべてのサブスクライバーを参照して"
+"ください。続行しますか。"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:63
+#, php-format
+msgid "(%s recipients)"
+msgstr "(%s 受信者)"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:74
+msgid "Edit Mailing"
+msgstr "メールマガジンを編集"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:74
+msgid "Create Mailing"
+msgstr "メールマガジンを作成"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:89
+msgid "There were some problems with your info: "
+msgstr "あなたの情報に問題がありました: "
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:98
+msgid "Please confirm that the body of email is formatted correctly, and resubmit."
+msgstr "﻿メールの本文が正しくフォーマットされていることを確認して再送信してください。"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:106
+msgid "Please notify an administrator to review your mailing and to start the send process."
+msgstr "送信プロセスを開始するために、管理者にあなたのメールマガジンを確認してもらってください。"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:108
+#, php-format
+msgid "View the %smailing detail page &raquo;%s"
+msgstr "%sメールマガジン詳細ページを見る&raquo%s"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:120
+msgid "Recipients:"
+msgstr "宛先:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:124
+msgid "Export Emails:"
+msgstr "Eメールをエクスポート:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:125
+msgid "Excel"
+msgstr "MSエクセル"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:126
+msgid "CSV"
+msgstr "CSV"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:130
+#, php-format
+msgid "%sGroups%s"
+msgstr "%sGroups%s"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:131
+msgid "Registered Users Only"
+msgstr "登録済みユーザーのみ"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:134
+msgid "Add Groups &raquo;"
+msgstr "グループを追加 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:173
+msgid "Only send to users with the following attribute enabled:"
+msgstr "次の属性が有効なユーザーにのみ送信する:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:175
+msgid "------"
+msgstr "------"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:190
+msgid "Boolean/checkbox user-attributes only.  This will limit this mailing to only registered users."
+msgstr "真偽値/チェックボックスのユーザー属性のみ。これは、このメールマガジンを登録ユーザーのみに制限します。"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:198
+msgid "Sender's Email:"
+msgstr "送信者のメールアドレス:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:202
+msgid "Other"
+msgstr "その他"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:242
+msgid "HTML Version:"
+msgstr "HTMLバージョン:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:250
+msgid "Plain Text Version:"
+msgstr "プレーンテキストバージョン:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:275
+msgid "Body:"
+msgstr "本文:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:293
+msgid "Attachments (Optional):"
+msgstr "添付ファイル（オプション）:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:310
+msgid "Add File"
+msgstr "ファイルを追加"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:311
+msgid "Note: You should keep your total attachment size under 2MB."
+msgstr "﻿注： 添付ファイルサイズは合計 2 MB 以下にする必要があります。"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:324
+msgid "Preview &raquo;"
+msgstr "プレビュー &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:326
+msgid "Send &raquo;"
+msgstr "送信 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:328
+msgid "Save As Pending &raquo;"
+msgstr "ペンディングとして保存 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:334
+msgid "Save As Draft"
+msgstr "下書きとして保存"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:337 ../../../single_pages/manage_subscriptions.php:136
+msgid "&laquo; Cancel"
+msgstr "&laquo; キャンセル"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:339
+msgid "&laquo; Edit"
+msgstr "&laquo; 編集"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:341
+msgid "Rich Text:"
+msgstr "リッチテキスト:"
+
+#: ../../../single_pages/dashboard/mailing_list/send.php:341
+msgid "On/Off"
+msgstr "有効/無効"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:65
+#: ../../../single_pages/dashboard/mailing_list/settings.php:67
+msgid "Mailing List Settings"
+msgstr "メールマガジン設定"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:90
+msgid "Allow mailings to all registered users"
+msgstr "全ての登録済みユーザーにメールマガジンを許可"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:93
+msgid "Group Access"
+msgstr "グループアクセス"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:98
+msgid "Group Name"
+msgstr "グループ名"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:99
+msgid "Allow Subscriptions"
+msgstr "購読を許可"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:100
+msgid "Enable Mailings"
+msgstr "メールマガジンを有効"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:138
+#, php-format
+msgid "Subscribing and unsubscribing provides an easy way for users to enter & exit selected %sgroups%s."
+msgstr "購読と購読解除で、ユーザーを選択された%sグループ%sに入れたり出したりすることができます。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:139
+msgid "For this reason you only want to enable subscriptions for groups directly related to your mailing lists."
+msgstr "﻿このような理由だけするメーリングリストに直接関連するグループのサブスクリプションを有効にします。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:140
+msgid "Groups that have subscriptions disabled will still allow for opting-out of future mailings."
+msgstr "購読が無効になっているグループでも将来のメールマガジンのオプトアウトを許可します。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:141
+#, php-format
+msgid "You can restrict access to this settings page by using the page privledges in the %ssitemap%s"
+msgstr "%sサイトマップ%sのページ権限を使用して、この設定ページへのアクセスを制限できます"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:148
+msgid ""
+"When unsubscribing, display \"blacklist\" option, which allows people to unsubscribe permanently from all future "
+"mailings."
+msgstr ""
+"購読解除の際に、「ブラックリスト」オプションを表示し、ユーザーに将来のメールマガジンの購読を拒否することを許可しま"
+"す。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:156
+msgid "Send Process Configuration"
+msgstr "送信プロセス設定"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:159
+msgid "Auto-Send:"
+msgstr "自動送信:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:162
+msgid "Start sending emails directly after their creation."
+msgstr "メールの作成後、直接メールの送信を開始します。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:164
+msgid "Warning: since cURL is not installed on your server this option will not work."
+msgstr "警告: お使いのサーバーでcURLがインストールされていないため、このオプションは無効です。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:170
+msgid "Logging:"
+msgstr "ログ:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:172
+msgid "Log Sent Emails:"
+msgstr "メール送信ログ:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:173
+msgid "Off"
+msgstr "無効"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:174
+#, php-format
+msgid "First %s Only"
+msgstr "最初の %s のみ"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:175
+msgid "All"
+msgstr "すべて"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:177
+#, php-format
+msgid "It is not recommend to log \"All\" sent emails when sending to large groups of recipients. %sView Log%s &raquo;"
+msgstr "多くの購読者がいるグループに送信する際は、「全て」のログを取得することは推奨しません。%sログを見る%s &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:183
+msgid "Send Throttling:"
+msgstr "送信絞込み:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:186
+msgid "Slow down sending of emails (if your server is being overloaded)."
+msgstr "サーバーに負荷がかかっている場合、メール送信が遅延します。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:193
+msgid "Maximum Run Time:"
+msgstr "最大実行時間:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:196
+#: ../../../single_pages/dashboard/mailing_list/settings.php:218
+msgid "minutes"
+msgstr "分"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:198
+#, php-format
+msgid "Disabled, since php Safe Mode is on. It is currently fixed at %s seconds"
+msgstr "PHPのセーフモードが有効のため、無効です。現在 %s 秒に固定されています。"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:204
+msgid "Send Rate:"
+msgstr "送信レート:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:205
+msgid "After sending"
+msgstr "送信後"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:207
+msgid "emails, pause for "
+msgstr "メール、一時停止"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:209
+msgid "seconds"
+msgstr "秒"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:215
+msgid "Auto-Restart:"
+msgstr "自動再スタート:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:216
+msgid "If idle or interrupted, restart after "
+msgstr "処理待ちまたは処理が中断された場合に再スタート "
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:227
+msgid "If you would like to set up a cronjob for sending out mailings, you can have your server call this url:"
+msgstr "メール送信のためにcronjobを使用する場合は次のURLでサーバーを呼び出すことができます:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:236
+msgid "Email Design"
+msgstr "メールデザイン"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:245
+msgid "Basic"
+msgstr "基本"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:246
+msgid "Custom"
+msgstr "カスタム"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:256
+msgid "Header HTML:"
+msgstr "ヘッダーHTML:"
+
+#: ../../../single_pages/dashboard/mailing_list/settings.php:265
+msgid "Footer HTML:"
+msgstr "フッターHTML:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:39
+msgid "Non-Registered User Details"
+msgstr "登録されていないユーザーの詳細"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:52
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:109
+msgid "Unsubscribers"
+msgstr "非購読者"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:52
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:111
+msgid "Subscribers"
+msgstr "購読者"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:58
+msgid "You must first select the subscribers that you wish to delete."
+msgstr "先に削除したい購読者を選択してください。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:59
+#, php-format
+msgid "Are you sure you want to remove these %subscribers_length% subscribers?"
+msgstr "Are you sure you want to remove these %subscribers_length% subscribers?"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:66
+msgid "Page Size:"
+msgstr "ページサイズ:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:75
+msgid "All Mailing List Groups"
+msgstr "全てのメールマガジングループ"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:86
+msgid "Unsubscribers Only"
+msgstr "未登録者のみ"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:90
+msgid "Filter"
+msgstr "絞込む"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:97
+msgid "subscriber has been removed from all mailing lists."
+msgstr "購読者は全てのメールマガジンから削除されました。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:97
+msgid "subscribers have been removed from all mailing lists."
+msgstr "購読者は全てのメールマガジンから削除されました。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:103
+msgid "No unsubscribers found."
+msgstr "未登録者が見つかりません。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:103
+msgid "No subscribers found."
+msgstr "登録者が見つかりません。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:109
+msgid "Unsubscriber"
+msgstr "非購読者"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:111
+msgid "Subscriber"
+msgstr "購読者"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:121
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:333
+msgid "Email: "
+msgstr "Email:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:122
+msgid "User Type: "
+msgstr "ユーザー種別:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:123
+msgid "Subscriptions: "
+msgstr "購読: "
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:123
+msgid "Subscribed To: "
+msgstr "購読: "
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:144
+msgid "Registered"
+msgstr "登録済み"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:144
+msgid "Unregistered"
+msgstr "未登録"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:151
+msgid "Blacklisted on "
+msgstr "ブラックリスト登録"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:180
+msgid "Remove"
+msgstr "削除"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:201
+msgid "Import Subscribers"
+msgstr "購読者をインポート"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:211
+msgid "users successfully subscribed."
+msgstr "ユーザーが購読を完了しました。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:220
+msgid "Upload a .csv or .txt file containing email addresses:"
+msgstr "電子メールアドレスを含む .csv ファイルまたは .txt ファイルをアップロード:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:225
+msgid "Select a subscription group for these users to be placed into:"
+msgstr "これらのユーザーを登録する購読グループを選択してください:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:241
+msgid "Import Mode: "
+msgstr "インポートモード:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:242
+msgid "Emails Only"
+msgstr "メールのみ"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:243
+msgid "Emails & Attributes"
+msgstr "メールと属性"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:247
+msgid "Assign Columns: "
+msgstr "カラム割り当て:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:258
+#, php-format
+msgid "Column %s:"
+msgstr "カラム %s:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:283
+msgid "Add Another Column"
+msgstr "他のカラムを追加"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:285
+msgid "Only the following attribute types are available for import: text, textarea, number, boolean, &amp; date_time"
+msgstr "次の属性タイプのみインポートできます: テキスト、テキストエリア、番号、真偽値、日付"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:291
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:358
+msgid "I confirm that i will not send unsolicited mailings."
+msgstr "迷惑メールを送信しないことを確認します。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:293
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:360
+msgid "Submit &raquo;"
+msgstr "送信 &raquo;"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:305
+msgid "Subscribe / Unsubscribe Users"
+msgstr "購読 / 未購読ユーザー"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:317
+#, php-format
+msgid "The email address %s has been subscribed."
+msgstr "メールアドレス %s が購読されしました。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:323
+#, php-format
+msgid "The email address %s has been unsubscribed."
+msgstr "メールアドレス %s が購読解除されました。"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:336
+msgid "Subscribe"
+msgstr "購読"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:337
+msgid "Unsubscribe"
+msgstr "購読解除"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:341
+msgid "Group: "
+msgstr "グループ:"
+
+#: ../../../single_pages/dashboard/mailing_list/subscribers.php:351
+msgid "Blacklist from All"
+msgstr "全てからブラックリスト"
+
+#: ../../../single_pages/manage_subscriptions.php:8
+msgid "Are you sure you want to permanently unsubscribe from all future mailings from this site?"
+msgstr "今後このサイトからのメールマガジンの購読を完全に拒否しますか？"
+
+#: ../../../single_pages/manage_subscriptions.php:36
+msgid "Subscribe to Mailing List"
+msgstr "メールマガジンを購読"
+
+#: ../../../single_pages/manage_subscriptions.php:36
+msgid "Unsubscribe from Mailing List"
+msgstr "メールマガジンの購読を解除"
+
+#: ../../../single_pages/manage_subscriptions.php:43
+msgid "You have been subscribed to this mailing list. "
+msgstr "﻿メールマガジンの購読手続きが完了しました。"
+
+#: ../../../single_pages/manage_subscriptions.php:46 ../../../single_pages/manage_subscriptions.php:56
+msgid "Return to Homepage"
+msgstr "ホームページに戻る"
+
+#: ../../../single_pages/manage_subscriptions.php:53
+msgid "You have been unsubscribed. "
+msgstr "購読を解除しました。"
+
+#: ../../../single_pages/manage_subscriptions.php:64
+msgid "To unsubscribe, please click the unsubscribe link from the bottom of a mailing list email."
+msgstr "購読解除するには、メールマガジンの下部の購読解除リンクをクリックしてください。"
+
+#: ../../../single_pages/manage_subscriptions.php:68
+msgid "You must select at least one mailing list group."
+msgstr "少なくとも1つのメールマガジングループを選択してください。"
+
+#: ../../../single_pages/manage_subscriptions.php:72
+msgid "Have you already unsubscribed? The validation token is invalid. "
+msgstr "すでに購読を解除しましたか？認証トークンが無効です。"
+
+#: ../../../single_pages/manage_subscriptions.php:92
+msgid "To subscribe to this mailing list, just click the subscribe button below."
+msgstr "このメールマガジンを購読するには、下の購読ボタンをクリックしてください。"
+
+#: ../../../single_pages/manage_subscriptions.php:100
+msgid "Click the checkbox next to each mailing list you want to unsubscribe from: "
+msgstr "購読解除を希望するメールマガジンの横のチェックボックスをクリックしてください: "
+
+#: ../../../single_pages/manage_subscriptions.php:114
+msgid "Unsubscribe from"
+msgstr "購読を解除"
+
+#: ../../../single_pages/manage_subscriptions.php:116
+msgid "Opt-out of mailings from "
+msgstr "メールマガジンの解除"
+
+#: ../../../single_pages/manage_subscriptions.php:118
+msgid "\""
+msgstr "﻿\""
+
+#: ../../../single_pages/manage_subscriptions.php:126
+msgid "Unsubscribe me permanently from all future mailings from this site."
+msgstr "今後このサイトからのメールマガジンを受け取りません。"
+
+#: ../../../single_pages/manage_subscriptions.php:137
+msgid "Subscribe &raquo;"
+msgstr "購読 &raquo;"
+
+#: ../../../single_pages/manage_subscriptions.php:137
+msgid "Unsubscribe &raquo;"
+msgstr "購読を解除 &raquo;"
+
+#: ../../../tools/services.php:16
+msgid "sending mailing"
+msgstr "メールマガジンを送信"
+
+#: ../../../tools/services.php:24
+msgid "sending all mailings"
+msgstr "全てのメールマガジンを送信"
+
+#: ../../../tools/services.php:32
+msgid "Invalid Auth Key"
+msgstr "無効な認証キー"
