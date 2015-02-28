@@ -1,0 +1,1206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Page List+ 5.6.0.0.0.5.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-28 19:14+0900\n"
+"PO-Revision-Date: 2015-02-28 21:40+0900\n"
+"Last-Translator: Takuro Hishikawa <hishikawa@concrete5.co.jp>\n"
+"Language-Team: \n"
+"Language: ja_JP\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: t;t2:1,2;tc:1c,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../blocks/page_list_plus/controller.php:21
+msgid "List pages based on type, area and page attributes."
+msgstr "タイプ、エリア、ページ属性を元にページを一覧表示します。"
+
+#: ../../../blocks/page_list_plus/controller.php:25
+#: ../../../models/skybluesofa_page_list_plus_installer.php:41
+msgid "Page List+"
+msgstr "ページリスト+"
+
+#: ../../../blocks/page_list_plus/controller.php:30
+msgid "Please give your RSS Feed a name."
+msgstr "RSSフィードの名前を入力してください。"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/associated_page.php:10
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:3
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:3
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:3
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:3
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:185
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:381
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:472
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:492
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:516
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:547
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:575
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:611
+msgid "is not empty"
+msgstr "空ではない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/associated_page.php:11
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:4
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:4
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:4
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:4
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:186
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:382
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:473
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:493
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:517
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:548
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:576
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:612
+msgid "is empty"
+msgstr "空である"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/associated_page.php:12
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:11
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:324
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:415
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:456
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:549
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:665
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:713
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:744
+msgid "is"
+msgstr "一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/associated_page.php:13
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:12
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:325
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:416
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:457
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:550
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:666
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:714
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:745
+msgid "is not"
+msgstr "一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/associated_page.php:14
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:551
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:577
+msgid "matches the current page"
+msgstr "現在のページと一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/associated_page.php:15
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:552
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:578
+msgid "does not match the current page"
+msgstr "現在のページと一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/boolean.php:5
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:21
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:25
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:21
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:10
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:192
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:243
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:294
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:326
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:388
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:403
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:436
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:501
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:525
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:649
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:689
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:737
+msgid "matches current page"
+msgstr "現在のページと一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/boolean.php:6
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:28
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:26
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:14
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:22
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:11
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:14
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:389
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:404
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:443
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:461
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:503
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:527
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:650
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:690
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:738
+msgid "matches search value"
+msgstr "検索された値と一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/boolean.php:7
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:22
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:27
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:16
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:23
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:12
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:16
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:193
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:244
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:295
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:327
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:390
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:405
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:437
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:504
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:528
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:651
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:691
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:739
+msgid "does not match current page"
+msgstr "現在のページと一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/boolean.php:8
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:29
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:28
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:17
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:24
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:13
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:17
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:391
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:406
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:444
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:462
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:506
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:530
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:652
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:692
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:740
+msgid "does not match search value"
+msgstr "検索された値と一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:3
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:222
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:273
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:413
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:454
+msgid "has a date"
+msgstr "日付を持つ"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:4
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:223
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:274
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:414
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:455
+msgid "does not have a date"
+msgstr "日付を持たない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:5
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:227
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:278
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:420
+msgid "is today or after"
+msgstr "今日以降"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:6
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:228
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:279
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:421
+msgid "is today or before"
+msgstr "今日以前"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:7
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:229
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:280
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:422
+msgid "is after today"
+msgstr "明日以降"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:8
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:230
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:281
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:423
+msgid "is before today"
+msgstr "昨日以前"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:9
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:231
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:282
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:424
+msgid "is on or after"
+msgstr "以降"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:10
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:232
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:283
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:425
+msgid "is on or before"
+msgstr "当日を含む過去"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:11
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:233
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:284
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:426
+msgid "is after"
+msgstr "より後"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:12
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:234
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:285
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:427
+msgid "is before"
+msgstr "当日を含まない過去"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:13
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:235
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:286
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:428
+msgid "is on or after current page"
+msgstr "現在のページを含む未来"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:14
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:236
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:287
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:429
+msgid "is on or before current page"
+msgstr "現在のページを含む過去"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:15
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:237
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:288
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:430
+msgid "is after current page"
+msgstr "現在のページより未来"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:16
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:238
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:289
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:431
+msgid "is before current page"
+msgstr "現在のページより過去"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:17
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:17
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:17
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:239
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:290
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:432
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:640
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:680
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:728
+msgid "is between (inclusive)"
+msgstr "期間中（含む）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:18
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:19
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:18
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:240
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:291
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:433
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:642
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:682
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:730
+msgid "is between (exclusive)"
+msgstr "期間中（除く）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:19
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:21
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:19
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:241
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:292
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:434
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:644
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:684
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:732
+msgid "is not between (inclusive)"
+msgstr "期間外（含む）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:20
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:23
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:20
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:242
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:293
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:435
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:646
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:686
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:734
+msgid "is not between (exclusive)"
+msgstr "期間外（除く）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:24
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:439
+msgid "is before search value"
+msgstr "検索された値より過去"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:25
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:440
+msgid "is after search value"
+msgstr "検索された値より未来"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:26
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:441
+msgid "is on or before search value"
+msgstr "検索された値を含む過去"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:27
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:442
+msgid "is on or after search value"
+msgstr "検索された値を含む未来"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/date_time.php:32
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:31
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:27
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:247
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:298
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:447
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:465
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:655
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:659
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:695
+msgid "and"
+msgstr "かつ"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:5
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:474
+msgid "file ID is"
+msgstr "ファイルIDは"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:6
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:475
+msgid "file ID is not"
+msgstr "ファイルIDが一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:7
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:476
+msgid "filename contains"
+msgstr "ファイル名に含む"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:8
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:477
+msgid "filename does not contain"
+msgstr "ファイル名に含まない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:9
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:478
+msgid "filename is exactly"
+msgstr "ファイル名と一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:10
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:479
+msgid "filename starts with"
+msgstr "ファイル名が次で開始する"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:11
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:480
+msgid "filename ends with"
+msgstr "ファイル名が次で終わる"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:12
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:481
+msgid "filename matches current page"
+msgstr "ファイル名が現在のページと一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/image_file.php:13
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:482
+msgid "filename does not match current page"
+msgstr "ファイル名が現在のページと一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:3
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:625
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:711
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:742
+msgid "has a value"
+msgstr "値がある"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:4
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:626
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:712
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:743
+msgid "does not have a value"
+msgstr "値を持たない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:5
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:5
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:627
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:667
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:715
+msgid "is less than"
+msgstr "少ない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:6
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:6
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:628
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:668
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:716
+msgid "is less than current page"
+msgstr "現在のページより少ない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:7
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:7
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:629
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:669
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:717
+msgid "is less than search value"
+msgstr "検索された値より少ない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:8
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:8
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:630
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:670
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:718
+msgid "is less than or equal to"
+msgstr "同じか少ない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:9
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:9
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:631
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:671
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:719
+msgid "is less than or equal to current page"
+msgstr "現在のページと同じか少ない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:10
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:10
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:632
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:672
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:720
+msgid "is less than or equal to search value"
+msgstr "検索された値と同じか少ない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:11
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:11
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:633
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:673
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:721
+msgid "is more than"
+msgstr "より多い"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:12
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:12
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:634
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:674
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:722
+msgid "is more than current page"
+msgstr "現在のページより多い"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:13
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:13
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:635
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:675
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:723
+msgid "is more than search value"
+msgstr "検索された値より多い"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:14
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:14
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:636
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:676
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:724
+msgid "is more than or equal to"
+msgstr "同じか多い"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:15
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:15
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:637
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:677
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:725
+msgid "is more than or equal to current page"
+msgstr "現在のページと同じか多い"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:16
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:16
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:638
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:678
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:726
+msgid "is more than or equal to search value"
+msgstr "検索された値と同じか多い"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:18
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:641
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:681
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:729
+msgid "is between (inclusive) the search values"
+msgstr "検索された値の範囲内（含む）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:20
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:643
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:683
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:731
+msgid "is between (exclusive) the search values"
+msgstr "検索された値の範囲内（除く）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:22
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:645
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:685
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:733
+msgid "is not between (inclusive) the search values"
+msgstr "検索された値の範囲外（含む）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/number.php:24
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:647
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:687
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:735
+msgid "is not between (exclusive) the search values"
+msgstr "検索された値の範囲外（除く）"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:5
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:5
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:494
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:518
+msgid "selected page ID is"
+msgstr "選択されたページIDが一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:6
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:6
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:495
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:519
+msgid "selected page ID is not"
+msgstr "選択されたページが一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:7
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:7
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:496
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:520
+msgid "selected page name contains"
+msgstr "選択されたページ名が含む"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:8
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:8
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:497
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:521
+msgid "selected page name does not contain"
+msgstr "選択されたページ名に含まない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:9
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:9
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:498
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:522
+msgid "selected page name is exactly"
+msgstr "選択されたページ名が一致する"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:10
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:10
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:499
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:523
+msgid "selected page name starts with"
+msgstr "選択されたページ名が次で開始する"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:11
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:11
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:500
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:524
+msgid "selected page name ends with"
+msgstr "選択されたページ名が次で終わる"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:12
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:12
+msgid "matches current page ID"
+msgstr "現在のページIDと一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:13
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:13
+msgid "matches current selected page attribute"
+msgstr "現在の選択されたページ属性と一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/page_selector.php:15
+#: ../../../blocks/page_list_plus/elements/form/filters/user_selector.php:15
+msgid "does not match current page ID"
+msgstr "現在のページIDと一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:3
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:663
+msgid "is rated"
+msgstr "評価されている"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/rating.php:4
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:664
+msgid "is not rated"
+msgstr "評価されていない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:9
+msgid "has a selection"
+msgstr "選択されている"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:10
+msgid "does not have a selection"
+msgstr "選択されていない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:13
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:747
+msgid "matches any from current page"
+msgstr "現在のページといずれかが一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:14
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:748
+msgid "matches any from search value"
+msgstr "検索された値といずれかが一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:15
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:749
+msgid "matches all from current page"
+msgstr "現在のページとすべてが一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:16
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:750
+msgid "matches all from search value"
+msgstr "検索された値とすべてが一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:17
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:751
+msgid "does not match any from current page"
+msgstr "現在のページのいずれにも一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/select.php:18
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:752
+msgid "does not match any from search value"
+msgstr "検索された値のいずれにも一致しない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:5
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:187
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:383
+msgid "contains"
+msgstr "含む"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:6
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:188
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:384
+msgid "does not contain"
+msgstr "含まない"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:7
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:189
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:385
+msgid "is exactly"
+msgstr "完全に一致"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:8
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:190
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:386
+msgid "starts with"
+msgstr "開始する"
+
+#: ../../../blocks/page_list_plus/elements/form/filters/text_1.php:9
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:191
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:387
+msgid "ends with"
+msgstr "次で終わる"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:4
+msgid "Page Selection"
+msgstr "ページ選択"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:5
+msgid "Search"
+msgstr "検索"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:6
+msgid "Filters"
+msgstr "フィルター"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:7
+msgid "Sort"
+msgstr "並び替え"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:8
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1189
+msgid "Display"
+msgstr "表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:10
+msgid "Mapping"
+msgstr "マッピング"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:12
+msgid "Copy"
+msgstr "コピー"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:13
+msgid "Preview"
+msgstr "プレビュー"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:19
+msgid "Types of Pages"
+msgstr "ページのタイプ"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:22
+msgid "All Page Types"
+msgstr "すべてのページタイプ"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:57
+msgid "Viewing Permissions"
+msgstr "閲覧権限"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:60
+msgid "Display pages to users even when those users cannot access those pages"
+msgstr "閲覧を許可していないユーザーに対してもページを表示させる。"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:64
+msgid "Location in Website"
+msgstr "サイト中の場所"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:65
+msgid "Display pages that are located"
+msgstr "ページを表示する場所"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:82
+msgid "Include all child pages"
+msgstr "すべての子ページを含む"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:89
+msgid "Keywords"
+msgstr "キーワード"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:95
+msgid "Relate to Content from Area"
+msgstr "エリアからのコンテンツに関連"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:99
+msgid "Entire Page"
+msgstr "全ページ"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:111
+msgid "Display page aliases."
+msgstr "転載（エイリアス）ページを表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:120
+msgid "Don't show current page in results."
+msgstr "結果に現在のページを表示しない"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:129
+msgid "Use values from the querystring as filters."
+msgstr "クエリー文字列からの値をフィルター条件として使用します。"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:138
+msgid "Use MySQL fulltext search."
+msgstr "MySQL フルテキスト検索を使用します。"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:147
+msgid "Use search field as a phrase instead of single words in MySQL fulltext search."
+msgstr "MySQL フルテキスト検索で、検索フィールドを文章ではなく個別の単語として扱います。"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:156
+msgid "Use Boolean mode in MySQL fulltext search."
+msgstr "MySQL フルテキスト検索でBoolean Modeを使用します。"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:162
+msgid "Standard Properties"
+msgstr "基本プロパティー"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:180
+msgid "Page Name"
+msgstr "ページ名"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:217
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:948
+msgid "Public Date/Time"
+msgstr "公開日時"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:224
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:275
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:417
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:458
+msgid "is yesterday"
+msgstr "昨日"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:225
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:276
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:418
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:459
+msgid "is today"
+msgstr "今日"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:226
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:277
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:419
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:460
+msgid "is tomorrow"
+msgstr "明日"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:268
+msgid "Date/Time Last Updated"
+msgstr "最後に更新された日時"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:319
+msgid "Page Owner"
+msgstr "ページ所有者"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:343
+msgid "Custom Page Attributes"
+msgstr "カスタムページ属性"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:372
+msgid " or Page Description"
+msgstr "またはページの説明"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:374
+msgid " or Page Title"
+msgstr "またはページタイトル"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:502
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:526
+msgid "matches attribute on this page"
+msgstr "このページと属性が一致"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:505
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:529
+msgid "does not match attribute on this page"
+msgstr "このページの属性と一致しない"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:579
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:613
+msgid "within distance of the current page"
+msgstr "現在のページ以内の距離"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:580
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:614
+msgid "not within distance of the current page"
+msgstr "現在のページ以内の距離ではない"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:581
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:615
+msgid "within distance of the search value"
+msgstr "検索値以内の距離"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:582
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:616
+msgid "not within distance of the search value"
+msgstr "検索値以内の距離ではない"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:585
+msgid "A comma-separated list of distance values from which the visitor can choose"
+msgstr "訪問者が選択できるカンマ区切りの距離値のリスト"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:589
+msgid "miles"
+msgstr "マイル"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:592
+msgid "kilometers"
+msgstr "キロメートル"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:603
+msgid "current page"
+msgstr "現在のページ"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:604
+msgid "current location"
+msgstr "現在の位置"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:605
+msgid "zip code"
+msgstr "郵便番号"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:607
+msgid "Zip Code"
+msgstr "郵便番号"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:620
+msgid "is less than 100%"
+msgstr "100%未満"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:621
+msgid "is 100%"
+msgstr "100%"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:806
+msgid "Use for Search"
+msgstr "検索に使用"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:814
+msgid "Show Search Box"
+msgstr "検索ボックスを表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:822
+msgid "Search Button Text"
+msgstr "検索ボタンテキスト"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:828
+msgid "Search Target URL"
+msgstr "検索ターゲットURL"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:837
+msgid "Show Results"
+msgstr "結果を表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:846
+msgid "Show all pages in results on page load"
+msgstr "ページが読み込まれた際にすべてのページを表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:854
+msgid "Get results for Ajax form submissions"
+msgstr "Ajaxによるフォームの送信で検索結果を取得"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:863
+msgid "Show Search Filters"
+msgstr "検索フィルターを表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:872
+msgid "Submit form as soon as a filter is changed"
+msgstr "フィルターが変更された直後にフォームを送信"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:880
+msgid "Submit form without reloading the page using Ajax"
+msgstr "Ajaxを使ってページを再読み込みせずにフォームを送信"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:888
+msgid "Show select values as checkboxes"
+msgstr "選択肢をチェックボックスで表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:915
+msgid "Show select values in alphabetical order"
+msgstr "選択肢をアルファベット順で表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:921
+msgid "Search Filter 'All' Text"
+msgstr "検索フィルターの「すべて」のテキスト"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:929
+msgid "Show the filter name as the 'empty' option"
+msgstr "フィルター名を「空」のオプション名として使用"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:937
+msgid "Hide the filter title"
+msgstr "フィルタータイトルを隠す"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:955
+msgid "Date/Time Last Modified"
+msgstr "最後に編集された日時"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1028
+msgid "First sort pages"
+msgstr "最初の並び替え条件"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1031
+msgid "in the order selected by the user"
+msgstr "ユーザーが選択した並び順で"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1032
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1055
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1078
+#: ../../../elements/form/sorting.php:21
+msgid "in their sitemap order"
+msgstr "サイトマップ順"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1033
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1056
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1079
+#: ../../../elements/form/sorting.php:24
+msgid "with the most recent first"
+msgstr "新しい順"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1034
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1057
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1080
+#: ../../../elements/form/sorting.php:25
+msgid "with the earliest first"
+msgstr "古い順"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1035
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1058
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1081
+msgid "with the most recently changed first"
+msgstr "最近変更されたものを先に"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1036
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1059
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1082
+msgid "with the most recently changed last"
+msgstr "最近変更されたものを後に"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1037
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1060
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1083
+#: ../../../elements/form/sorting.php:28
+msgid "in alphabetical order"
+msgstr "アルファベット順"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1038
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1061
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1084
+#: ../../../elements/form/sorting.php:29
+msgid "in reverse alphabetical order"
+msgstr "逆アルファベット順"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1039
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1062
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1085
+#: ../../../elements/form/sorting.php:32
+msgid "by keyword relevance"
+msgstr "キーワードの関連性で"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1040
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1063
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1086
+#: ../../../elements/form/sorting.php:33
+msgid "by reverse keyword relevance"
+msgstr "キーワードの関連性の逆順で"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1041
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1064
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1087
+#: ../../../elements/form/sorting.php:36
+msgid "in random order"
+msgstr "ランダム順で"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1044
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1045
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1067
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1068
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1090
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1091
+#: ../../../elements/form/sorting.php:42 ../../../elements/form/sorting.php:43
+msgid "by "
+msgstr ""
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1044
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1045
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1067
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1068
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1090
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1091
+#: ../../../elements/form/sorting.php:42 ../../../elements/form/sorting.php:43
+msgid " ("
+msgstr ""
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1052
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1075
+msgid "Then sort pages"
+msgstr "次に、ページを並べ替える"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1101
+msgid "Hide sortbox title"
+msgstr "並び替えボックスのタイトルを隠す"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1110
+msgid "Show User Sort"
+msgstr "ユーザーに並び替えを表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1182
+msgid "List Title"
+msgstr "一覧タイトル"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1197
+msgid "Skip first "
+msgstr "スキップ"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1205
+msgid "'No Results' text"
+msgstr "「該当なし」テキスト"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1212
+msgid "'No Results' text on Search Page Load"
+msgstr "検索ページが読み込まれた際の「該当なし」テキスト"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1230
+msgid "Truncate descriptions after"
+msgstr "説明の最大文字数"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1232
+msgid "characters"
+msgstr "文字"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1242
+msgid "Show 'See All' link"
+msgstr "「すべてを表示」リンクを表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1262
+msgid "Display pagination interface if more items are available than are displayed"
+msgstr "表示数よりもアイテムが多い場合、ページ付けインターフェースを表示します。"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1271
+msgid "Provide RSS Feed"
+msgstr "RSSフィードを出力"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1290
+msgid "Show Debugging information for this block"
+msgstr "デバッグ情報を表示"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1311
+msgid "add"
+msgstr "追加"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1311
+msgid "save"
+msgstr "保存"
+
+#: ../../../blocks/page_list_plus/page_list_plus_form_5-6.php:1333
+msgid "Preview Pane"
+msgstr "プレビュー枠"
+
+#: ../../../blocks/page_list_plus/templates/blog_index.php:21
+msgid "Comment"
+msgstr "コメント"
+
+#: ../../../blocks/page_list_plus/templates/blog_index.php:21
+msgid "Comments"
+msgstr "コメント"
+
+#: ../../../blocks/page_list_plus/templates/blog_index.php:62
+msgid "Subscribe to RSS Feed"
+msgstr "RSSフィード購読"
+
+#: ../../../blocks/page_list_plus/templates/blog_index.php:63
+#: ../../../blocks/page_list_plus/templates/bullet_list.php:42
+#: ../../../elements/rss.php:7
+msgid "RSS Icon"
+msgstr "RSSアイコン"
+
+#: ../../../blocks/page_list_plus/templates/blog_index.php:63
+#: ../../../blocks/page_list_plus/templates/bullet_list.php:42
+#: ../../../elements/rss.php:7
+msgid "RSS Feed"
+msgstr "RSSフィード"
+
+#: ../../../blocks/page_list_plus/templates/bullet_list.php:61
+#: ../../../elements/pagination.php:16
+msgid "Previous"
+msgstr "前"
+
+#: ../../../blocks/page_list_plus/templates/bullet_list.php:63
+#: ../../../elements/pagination.php:18
+msgid "Next"
+msgstr "次"
+
+#: ../../../blocks/page_list_plus/tools/blog_rss.php:59
+#: ../../../blocks/page_list_plus/tools/rss.php:61
+msgid "Permission Denied"
+msgstr "権限がありません"
+
+#: ../../../blocks/page_list_plus/tools/blog_rss.php:59
+msgid "This page list doesn't use the custom blog template, or you don't have permission to access this RSS feed"
+msgstr "このページリストは、ブログ用ページタイプを使用していないか、RSSフィードにアクセスできる権限がありません。け"
+
+#: ../../../blocks/page_list_plus/tools/blog_rss.php:64
+#: ../../../blocks/page_list_plus/tools/rss.php:61
+#: ../../../blocks/page_list_plus/tools/rss.php:66
+msgid "You don't have permission to access this RSS feed"
+msgstr "このRSSフィードにアクセスする権限がありません"
+
+# Don't change this, please use same words with concrete5 core translation. see www.transifex.com/projects/p/concrete5/
+#: ../../../controller.php:3
+#: ../../../models/skybluesofa_page_list_plus_installer.php:3
+msgid "Access Denied."
+msgstr "アクセス拒否"
+
+#: ../../../elements/form/filters/coordinates.php:39
+msgid "Everywhere"
+msgstr "すべての場所"
+
+#: ../../../elements/form/filters/coordinates.php:41
+msgid "Within"
+msgstr ""
+
+#: ../../../elements/form/filters/coordinates.php:41
+msgid "of"
+msgstr ""
+
+#: ../../../elements/form/sorting.php:18
+msgid "Sort Results"
+msgstr "結果を並び替え"
+
+#: ../../../single_pages/dashboard/page_list_plus/attribute_blacklist.php:19
+msgid "Page List+ Attribute Blacklist"
+msgstr "ページリスト+ 属性ブラックリスト"
+
+#: ../../../single_pages/dashboard/page_list_plus/attribute_blacklist.php:19
+msgid "Exclude page attributes from Page List+"
+msgstr "ページリスト+ から除外するページ属性"
